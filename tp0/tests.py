@@ -1,6 +1,6 @@
 # -*- coding: utf8 -*-
 import unittest
-from tp0 import dfs, create_graph, parse_input, main
+from tp0 import dfs, create_graph, parse_input, main, parse_instances
 
 
 class DFSTest(unittest.TestCase):
@@ -44,7 +44,7 @@ class CreateGraphTest(unittest.TestCase):
         self.assertEqual(sorted(graph[5]), [1, 2, 3, 4])
 
 
-class ParseInputTest(unittest.TestCase):
+class ParseInputTest(object):
     def test_tp0_given_example(self):
         """
         Testa o exemplo dado no enunciado do tp0
@@ -93,6 +93,62 @@ class ParseInputTest(unittest.TestCase):
         self.assertEqual(t, tests)
 
 
+class TestParseInstances(unittest.TestCase):
+    def test_tp0_given_example(self):
+        """
+        Testa o exemplo dado no enunciado do tp0
+        """
+        input_data = [
+        '1',
+        '12 11',
+        '1 2',
+        '1 7',
+        '1 8',
+        '2 3',
+        '3 4',
+        '3 5',
+        '2 6',
+        '8 9',
+        '8 12',
+        '10 9',
+        '11 9',
+        '3',
+        '1 12',
+        '2 7',
+        '4 9']
+
+        r = parse_instances(input_data)
+        self.assertEqual(r[0], ['12 11', '1 2', '1 7','1 8', '2 3', '3 4',
+                                '3 5', '2 6', '8 9', '8 12',
+                                '10 9', '11 9', '3', '1 12',
+                                '2 7', '4 9'])
+
+    def test_multiple_instances(self):
+        ex1 = [
+            '2',
+            '3 2',
+            '1 3',
+            '1 2',
+            '3',
+            '1 3',
+            '2 3',
+            '1 2',
+            '5 4',
+            '3 2',
+            '1 3',
+            '2 4',
+            '4 5',
+            '4',
+            '1 5',
+            '2 5',
+            '5 1',
+            '1 3'
+        ]
+        r = parse_instances(ex1)
+        self.assertEqual(len(r), 2)
+        self.assertEqual(r[0], ['3 2', '1 3', '1 2', '3', '1 3', '2 3', '1 2'])
+        self.assertEqual(r[1], ['5 4', '3 2', '1 3', '2 4', '4 5', '4', '1 5',
+                                '2 5', '5 1', '1 3'])
 
 class MainTest(unittest.TestCase):
     def test_tp0_given_example(self):

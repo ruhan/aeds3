@@ -6,22 +6,43 @@ def _split_edge(edge):
     u, v = edge.split(' ')
     return int(u), int(v)
 
+def parse_instances(lines):
+    """
+    Apanha e separa as instancias de problema (grafo + testes) existentes no
+    arquivo, retornando uma lista de instancias.
+    """
+    now = 1
+
+    instances = []
+
+    while now < len(lines):
+        n_graph = int(lines[now].split(' ')[1])
+        n_tests = int(lines[now+n_graph+1])
+        instances.append(lines[now:now+n_graph+n_tests+2])
+        now += n_graph+n_tests+2
+
+    return instances
+
 def main(finput, foutput):
     """
     Executa o programa como um todo a partir de dois arquivos: um de entrada e
     outro de saida.
     """
-    output = []
-    edges, tests = parse_input([ i.strip() for i in open(finput)])
-
-    graph = create_graph(edges)
-
-    for test in tests:
-        u, v = _split_edge(test)
-        output.append(" ".join(map(lambda x: str(x), dfs(graph, u, v))))
-
     out = open(foutput, 'w')
-    out.write("\n".join(output))
+
+    for instance in parse_instances([ i.strip() for i in open(finput)]):
+        output = []
+        edges, tests = parse_input(instance)
+
+        graph = create_graph(edges)
+
+        for test in tests:
+            u, v = _split_edge(test)
+            output.append(" ".join(map(lambda x: str(x), dfs(graph, u, v))))
+
+        out.write("\n".join(output))
+        out.write("\n")
+
     out.close()
 
 def parse_input(input_data):
@@ -32,12 +53,12 @@ def parse_input(input_data):
     edges = []
     tests = []
 
-    n_edges = int(input_data[1].split(' ')[1])
+    n_edges = int(input_data[0].split(' ')[1])
 
-    for edge in input_data[2:2+n_edges]:
+    for edge in input_data[1:1+n_edges]:
         edges.append(edge)
 
-    for test in input_data[2+n_edges+1:]:
+    for test in input_data[1+n_edges+1:]:
         tests.append(test)
 
     return edges, tests
