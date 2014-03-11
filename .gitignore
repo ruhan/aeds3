@@ -1,0 +1,17 @@
+*~
+*.pyc
+*.rej
+__minitage__*
+bin/*
+develop-eggs
+downloads
+eggs
+log
+parts
+tmp
+.DS_Store
+*.swp
+*.out
+venv
+*.db*
+out.txt
