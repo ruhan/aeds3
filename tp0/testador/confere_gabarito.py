@@ -1,12 +1,15 @@
 # -*- coding: utf8 -*-
 import os;
 import subprocess;
+import numpy;
 
 def main():
 	dir_gabarito = "exemplos/";
 	
 	instancias_teste = ["small_input", "medium_input", "big_input"];
 	
+	pesos_instancias = [];
+	resultados_instancias = [];
 	for nome_instancia in instancias_teste:
 		nome_gabarito = dir_gabarito + nome_instancia + ".sol";
 		nome_entrada = dir_gabarito + nome_instancia + ".in";
@@ -24,6 +27,8 @@ def main():
 		linhas_gabarito.reverse()
 	
 		print "Testando instância %s (%d consultas)" % (nome_instancia, num_linhas_gabarito);
+		
+		pesos_instancias.append(num_linhas_gabarito);
 		
 		args_subp = ['/usr/bin/time', '-v', './tp0', nome_entrada, nome_saida_teste];
 		output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT).split("\n");
@@ -45,10 +50,17 @@ def main():
 		if num_linhas_teste != num_linhas_gabarito:
 			print "Número de consultas diferente do gabarito (%d/%d)" % (num_linhas_teste, num_linhas_gabarito);
 			
-		print "Porcentagem de acertos: %d" % (float(num_acertos / num_linhas_gabarito) * 100);
+		porcentagem_acertos = float(num_acertos / num_linhas_gabarito) * 100;
+		resultados_instancias.append(porcentagem_acertos);
+			
+		print "Porcentagem de acertos: %d" % porcentagem_acertos;
 		print "Gasto máximo de memória: %.2f MB" % memoria_max;
 		print "Tempo de execução: %.2f s" % tempo_exec;
 		print "\n"
+	
+	print "Média ponderada dos acertos: %.2f (porcentagem)" % numpy.average(resultados_instancias, weights=pesos_instancias);
+	
+	
 
 if __name__ == '__main__':
 	import sys;
