@@ -6,43 +6,24 @@ def _split_edge(edge):
     u, v = edge.split(' ')
     return int(u), int(v)
 
-def parse_instances(lines):
-    """
-    Apanha e separa as instancias de problema (grafo + testes) existentes no
-    arquivo, retornando uma lista de instancias.
-    """
-    now = 1
-
-    instances = []
-
-    while now < len(lines):
-        n_graph = int(lines[now].split(' ')[1])
-        n_tests = int(lines[now+n_graph+1])
-        instances.append(lines[now:now+n_graph+n_tests+2])
-        now += n_graph+n_tests+2
-
-    return instances
-
 def main(finput, foutput):
     """
     Executa o programa como um todo a partir de dois arquivos: um de entrada e
     outro de saida.
     """
+    output = []
+    instances = parse_input([ i.strip() for i in open(finput)]);
+    
+    for edges, tests in instances:
+
+		graph = create_graph(edges)
+
+		for test in tests:
+		    u, v = _split_edge(test)
+		    output.append(" ".join(map(lambda x: str(x), dfs(graph, u, v))))
+
     out = open(foutput, 'w')
-
-    for instance in parse_instances([ i.strip() for i in open(finput)]):
-        output = []
-        edges, tests = parse_input(instance)
-
-        graph = create_graph(edges)
-
-        for test in tests:
-            u, v = _split_edge(test)
-            output.append(" ".join(map(lambda x: str(x), dfs(graph, u, v))))
-
-        out.write("\n".join(output))
-        out.write("\n")
-
+    out.write("\n\n".join(output))
     out.close()
 
 def parse_input(input_data):
@@ -50,18 +31,32 @@ def parse_input(input_data):
     Dado uma entrada (list [for testability]) retorna a saida conforme
     solicitado pelo enunciado.
     """
-    edges = []
-    tests = []
+    instances = []
+    
+    n_instances = int(input_data[0].strip());
+    input_data = input_data[1:];
+    
+    for _ in xrange(n_instances):
+		edges = []
+		tests = []
 
-    n_edges = int(input_data[0].split(' ')[1])
+		n_edges = int(input_data[0].split(' ')[1])
+		input_data = input_data[1:];
 
-    for edge in input_data[1:1+n_edges]:
-        edges.append(edge)
+		for edge in input_data[:n_edges]:
+			edges.append(edge)
+		input_data = input_data[n_edges:]
 
-    for test in input_data[1+n_edges+1:]:
-        tests.append(test)
+		n_tests = int(input_data[0].strip())
+		input_data = input_data[1:];
 
-    return edges, tests
+		for test in input_data[:n_tests]:
+			tests.append(test)
+		input_data = input_data[n_tests:];
+		
+		instances.append((edges, tests));
+
+    return instances;
 
 def create_graph(edges):
     """
