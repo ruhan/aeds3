@@ -172,6 +172,7 @@ def shortest_path(graph, start_node, end_node):
     Executa um tra entre start_node e end_node.
     @Return: lista com o caminho menor caminho possivel entre os vertices, nesta
     lista start_node e end_node estao inclusos.
+    http://code.activestate.com/recipes/119466-dtras-algorithm-for-shortest-paths/
     """
     import heapq
 
