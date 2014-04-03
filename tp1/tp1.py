@@ -143,18 +143,20 @@ def bfs(graph, start_node, end_node):
     end_node estao inclusos.
     """
     q = [[start_node]]
-    visited = set()
-    visited.add(start_node)
+    visited = []
+    visited.append(start_node)
 
     while q:
         tmp_path = q.pop(0)
         last_node = tmp_path[-1]
-        visited.add(last_node)
+
+        if last_node not in visited:
+            visited.append(last_node)
 
         # Path encontrado
         if last_node == end_node:
             # FIXME: If you want bfs short path, return tmp_path
-            return list(visited)
+            return visited
 
         # XXX: esse sorted possui uma performance ruim, por ser executado
         # varias vezes. Como essa é uma implementação "toy" isso pode não
