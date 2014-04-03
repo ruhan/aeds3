@@ -125,7 +125,10 @@ def dfs(graph, start_node, end_node, path=[]):
             # esse sort apenas uma vez na geração do grafo, apenas perderíamos
             # a qualidade de essa função (dfs) ser standalone nesse sentido
             # NOTE: Utilizando o indice 0 ffazemos por ordem Lexicografica!
-            q = sorted([ g[0] for g in graph[v]]) + q
+            try:
+                q = sorted([ g[0] for g in graph.get(v, [])]) + q
+            except:
+                import pdb;pdb.set_trace()
 
         if v == end_node:
             return path
@@ -159,7 +162,7 @@ def bfs(graph, start_node, end_node):
         # esse sort apenas uma vez na geração do grafo, apenas perderíamos
         # a qualidade de essa função (bfs) ser standalone nesse sentido
         # NOTE: Utilizando o indice 0 fazemos por ordem Lexicografica funcionar!
-        for link_node in sorted([ i[0] for i in graph[last_node] ]):
+        for link_node in sorted([ i[0] for i in graph.get(last_node, [])]):
             if link_node not in tmp_path:
                 new_path = []
                 new_path = tmp_path + [link_node]
@@ -181,13 +184,14 @@ def shortest_path(graph, start_node, end_node):
 
     while True:
         (cost, v, path) = heapq.heappop(queue)
+
         if v not in seen:
             path = path + [v]
             seen.add(v)
             if v == end_node:
                 #return cost, path
                 return path
-            for next, c in graph[v]:
+            for next, c in graph.get(v, []):
                 heapq.heappush(queue, (cost + c, next, path))
 
 if __name__ == '__main__':
