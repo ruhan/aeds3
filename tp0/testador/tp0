@@ -1,3 +1,0 @@
-#!/bin/sh
-
-python ../tp0.py $1 $2

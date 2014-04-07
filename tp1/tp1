@@ -1,0 +1,3 @@
+#!/bin/sh
+
+python ../tp1.py $1 $2
