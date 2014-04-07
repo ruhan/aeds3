@@ -6,7 +6,7 @@ import numpy;
 def main():
     dir_gabarito = "exemplos/";
 
-    instancias_teste = ["small_input", "medium_input", "big_input"];
+    instancias_teste = ["small", "big"];
 
     pesos_instancias = [];
     resultados_instancias = [];
@@ -30,7 +30,7 @@ def main():
 
         pesos_instancias.append(num_linhas_gabarito);
 
-        args_subp = ['/usr/bin/time', '-v', './tp0', nome_entrada, nome_saida_teste];
+        args_subp = ['/usr/bin/time', '-v', './tp1', nome_entrada, nome_saida_teste];
 
         try:
             output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
