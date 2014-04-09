@@ -49,6 +49,10 @@ def main():
             for linha in arq_teste:
                 if linha == "\n":
                     continue;
+                
+                if len(linhas_gabarito) <= 0:
+                	print "Número de consultas no arquivo de teste maior que o número de consultas no gabarito!";
+                	break;
 
                 if linha.strip() == linhas_gabarito.pop():
                     num_acertos += 1;
@@ -56,7 +60,7 @@ def main():
                 num_linhas_teste += 1;
 
         if num_linhas_teste != num_linhas_gabarito:
-            print "Número de consultas diferente do gabarito (%d/%d)" % (num_linhas_teste, num_linhas_gabarito);
+            print "Número de consultas do arquivo de teste diferente do gabarito! (%d/%d)" % (num_linhas_teste, num_linhas_gabarito);
 
         porcentagem_acertos = num_acertos / float(num_linhas_gabarito) * 100;
         resultados_instancias.append(porcentagem_acertos);
