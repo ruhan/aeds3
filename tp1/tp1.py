@@ -183,6 +183,8 @@ def shortest_path(graph, start_node, end_node):
 
     queue = [(0, start_node, [])]
     seen = set()
+    aux_dict = dict();
+    aux_dict[start_node] = 0;
 
     while True:
         (cost, v, path) = heapq.heappop(queue)
@@ -194,7 +196,11 @@ def shortest_path(graph, start_node, end_node):
                 #return cost, path
                 return path
             for next, c in graph.get(v, []):
-                heapq.heappush(queue, (cost + c, next, path))
+            	custo_acumulado = aux_dict.get(next, float("inf"));
+            	if custo_acumulado > cost + c:
+            		custo_acumulado = cost + c;
+            		aux_dict[next] = custo_acumulado;
+                	heapq.heappush(queue, (custo_acumulado, next, path))
 
 if __name__ == '__main__':
     import sys
