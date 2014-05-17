@@ -1,13 +1,6 @@
 # -*- coding: utf8 -*-
 import networkx
 
-def _split_edge(edge):
-    """
-    Apenas transforma uma string de aresta em dois nos inteiros
-    """
-    u, v, w = edge.split(' ')
-    return int(u), int(v), int(w)
-
 def parse_instances(lines):
     """
     Apanha e separa as instancias de problema (grafo + testes) existentes no
