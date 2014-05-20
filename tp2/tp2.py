@@ -71,7 +71,11 @@ def mis(graph):
     cgraph = networkx.complement(graph)
     cliques = [ len(c) for c in networkx.find_cliques(cgraph) ]
 
-    return max(cliques)
+    if len(cliques) == 0:
+        resp = 1
+    if len(cliques) > 0:
+         resp = max(cliques)
+    return resp
 
 def main(finput, foutput):
     """
