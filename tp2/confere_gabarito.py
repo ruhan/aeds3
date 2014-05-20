@@ -99,8 +99,8 @@ def main():
 
     output = output.split("\n");
 
-    memoria_max = int(output[-15].split(" ")[-1])/1024.
-    tempo_exec = float(output[-22].split(" ")[-1])+float(output[-23].split(" ")[-1])
+    memoria_maxh = int(output[-15].split(" ")[-1])/1024.
+    tempo_exech = float(output[-22].split(" ")[-1])+float(output[-23].split(" ")[-1])
 
     linhas_saida = [];
     num_acertos = 0;
@@ -118,8 +118,8 @@ def main():
 
     if
     print "Nota na execução da heurística (0 a 10): %d" % nota;
-    print "Gasto máximo de memória: %.2f MB" % memoria_max;
-    print "Tempo de execução: %.2f s" % tempo_exec;
+    print "Gasto máximo de memória: %.2f MB" % memoria_maxh;
+    print "Tempo de execução: %.2f s" % tempo_exech;
     print "\n"
 
 
