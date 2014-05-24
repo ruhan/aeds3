@@ -12,7 +12,8 @@ def create_index(path):
 
         for word in linewords:
             if word in words:
-                words[word].append(student)
+                if not student in words[word]:
+                    words[word].append(student)
             else:
                 words[word] = [student]
 
