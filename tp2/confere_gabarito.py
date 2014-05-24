@@ -6,19 +6,19 @@ import sys;
 from math import sqrt;
 
 def main():
-    dir_gabarito = "exemplos/";
+	dir_gabarito = "exemplos/";
 
 	instancias_teste = ["exato"];
-	
-    pesos_instancias = [];
-    instancias_exato = [];
-    instancias_heuristica = [];
-    resultados_exato = [];
-    resultados_heuristica = [];
-    resultados_gabarito = [];
-    
+
+	pesos_instancias = [];
+	instancias_exato = [];
+	instancias_heuristica = [];
+	resultados_exato = [];
+	resultados_heuristica = [];
+	resultados_gabarito = [];
+
 	for nome_instancia in instancias_teste:
-	
+
 		#Confere acertos do alg. exato
 	  	
 	  	#nomes dos arquivos utilizados
@@ -31,12 +31,12 @@ def main():
 		aux_gabarito = [];
 		with open(nome_gabarito, 'r') as arq_gabarito:
 		   for linha in arq_gabarito:
-		        if linha != '\n':
-		            aux_gabarito.append(int(linha.strip()));
+			    if linha != '\n':
+			        aux_gabarito.append(int(linha.strip()));
 
 		num_linhas_gabarito = len(aux_gabarito);
 		resultados_gabarito.extend(aux_gabarito);
-		
+	
 		pesos_instancias.append(num_linhas_gabarito);
 
 		print "Testando instância", nome_instancia;
@@ -46,9 +46,9 @@ def main():
 		args_subp = ['/usr/bin/time', '-v', './tp2e', nome_entrada, nome_saida_exato];
 
 		try:
-		    output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
+			output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
 		except Exception, e:
-		    output = e.output
+			output = e.output
 
 		output = output.split("\n");
 
@@ -58,25 +58,25 @@ def main():
 
 		aux_resultados_exato = []
 		with open(nome_saida_exato, 'r') as arq_teste:
-		    for linha_teste in arq_teste:
-		        if linha == "\n":
-		            continue;
+			for linha_teste in arq_teste:
+			    if linha_teste == "\n":
+			        continue;
 
-		        aux_resultados_exato.append(int(linha.strip()));
-		
-	    if len(aux_resultados_exato) != num_linhas_gabarito:
-	    	print "ERRO: Número de consultas do arquivo de teste diferente do gabarito! (%d/%d)" % (len(aux_resultados_exato), num_linhas_gabarito);
-	    	#Se o arquivo de testes não é capaz de produzir uma saída qualquer, é melhor abortar o script, pois os resultados não farão muito sentido
-	    	sys.exit(1);
-	    else:
-	    	#simplesmente junta os resultados de cada teste em uma mesma lista
-	    	resultados_exato.extend(aux_resultados_exato);
-		
+			    aux_resultados_exato.append(int(linha_teste.strip()));
+	
+		if len(aux_resultados_exato) != num_linhas_gabarito:
+			print "ERRO: Número de consultas do arquivo de teste diferente do gabarito! (%d/%d)" % (len(aux_resultados_exato), num_linhas_gabarito);
+			#Se o arquivo de testes não é capaz de produzir uma saída qualquer, é melhor abortar o script, pois os resultados não farão muito sentido
+			sys.exit(1);
+		else:
+			#simplesmente junta os resultados de cada teste em uma mesma lista
+			resultados_exato.extend(aux_resultados_exato);
+	
 		#Para cada arquivo informa apenas os dados da execução em si
 		print "Gasto máximo de memória: %.2f MB" % memoria_max;
 		print "Tempo de execução: %.2f s" % tempo_exec;
 		print "\n"
-		
+	
 		instancias_exato.append((memoria_max, tempo_exec));
 
 
@@ -89,9 +89,9 @@ def main():
 		args_subp = ['/usr/bin/time', '-v', './tp2h', nome_entrada, nome_saida_heuristica];
 
 		try:
-		    output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
+			output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
 		except Exception, e:
-		    output = e.output
+			output = e.output
 
 		output = output.split("\n");
 
@@ -99,48 +99,48 @@ def main():
 		tempo_exec = float(output[-22].split(" ")[-1])+float(output[-23].split(" ")[-1])
 
 		aux_resultados_heuristica = [];
-		with open(nome_saida_heuristica, 'r') as arq_teste:
-		    for linha_teste in arq_teste:
-		        if linha == "\n":
-		            continue;
+		with open(nome_saida_heuristica, 'r') as arq_heur:
+			for linha_teste in arq_heur:
+				if linha_teste == "\n":
+					continue;
 				
-				aux_resultados_heuristica.append(int(linha.strip()));
-		
+				aux_resultados_heuristica.append(int(linha_teste.strip()));
+	
 		#Trata os valores lidos na heurística de forma análoga ao que foi feito para o algoritmo exato mais acima
-    	if len(aux_resultados_heuristica) != num_linhas_gabarito:
-    		print "Número de consultas do arquivo de teste diferente do gabarito! (%d/%d)" % (len(aux_resultados_heuristica), num_linhas_gabarito);
-    		sys.exit(1);
-    	else:
-    		resultados_heuristica.extend(aux_resultados_heuristica);
+		if len(aux_resultados_heuristica) != num_linhas_gabarito:
+			print "Número de consultas do arquivo de teste diferente do gabarito! (%d/%d)" % (len(aux_resultados_heuristica), num_linhas_gabarito);
+			sys.exit(1);
+		else:
+			resultados_heuristica.extend(aux_resultados_heuristica);
 
 
 		print "Gasto máximo de memória: %.2f MB" % memoria_max;
 		print "Tempo de execução: %.2f s" % tempo_exec;
 		print "\n"
-		
+	
 		instancias_heuristica.append((memoria_max, tempo_exec));
-		
 	
+
 	print "\n===Resultados finais===\n"
-	
+
 	#calcula as estatísticas para o algoritmo exato
 	memorias_exato, tempos_exato = zip(*instancias_exato);
 	media_memoria_exato = np.mean(memorias_exato);
 	media_tempos_exato = np.mean(tempos_exato);
-	
+
 	aux_gab_exat = zip(resultados_gabarito, resultados_exato);
 	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_exat))/len(resultados_gabarito)*100;
-	
+
 	print "Algoritmo exato:";
 	print "Gasto médio de memória(alocação máxima): %.2f MB" % (media_memoria_exato);
 	print "Tempo médio de execução: %.2f" % (media_tempos_exato);
 	print "porcentagem de acertos: %.2f" % (porcentagem_acertos);
-	
+
 	#Calcula as estatísticas para a heurística
 	memorias_heuristica, tempos_heuristica = zip(*instancias_heuristica);
-	media_memoria_heuristica = np.mean(memorias_exato);
-	media_tempos_heuristica = np.mean(tempos_exato);
-	
+	media_memoria_heuristica = np.mean(memorias_heuristica);
+	media_tempos_heuristica = np.mean(tempos_heuristica);
+
 	aux_gab_heur = zip(resultados_gabarito, resultados_heuristica);
 	#porcentagem das respostas totalmente corretas:
 	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_heur))/len(resultados_gabarito)*100;
@@ -157,7 +157,7 @@ def main():
 	variancia_gabarito = sum(map(lambda x:x**2, gabarito_menos_media));
 	variancia_heuristica = sum(map(lambda x:x**2, heuristica_menos_media));
 	pearson = covariancia / sqrt(variancia_gabarito*variancia_heuristica);
-	
+
 	print "\nHeurística:";
 	print "Gasto médio de memória(alocação máxima): %.2f MB" % (media_memoria_heuristica);
 	print "Tempo médio de execução: %.2f" % (media_tempos_heuristica);
