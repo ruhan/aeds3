@@ -8,16 +8,18 @@ from math import sqrt;
 def main():
 	dir_gabarito = "exemplos/";
 
-	instancias_teste = ["exato"];
+	instancias_teste_exato = ["exato"];
+	instancias_teste_heuristica = ["heuristica"]
 
-	pesos_instancias = [];
+	pesos_instancias_exato = [];
+	pesos_instancias_heuristica = [];
 	instancias_exato = [];
 	instancias_heuristica = [];
 	resultados_exato = [];
 	resultados_heuristica = [];
 	resultados_gabarito = [];
 
-	for nome_instancia in instancias_teste:
+	for nome_instancia in instancias_teste_exato:
 
 		#Confere acertos do alg. exato
 	  	
@@ -25,7 +27,6 @@ def main():
 		nome_gabarito = dir_gabarito + nome_instancia + ".sol";
 		nome_entrada = dir_gabarito + nome_instancia + ".in";
 		nome_saida_exato = nome_instancia + "_exato.out";
-		nome_saida_heuristica = nome_instancia + "_heur.out";
 
 
 		aux_gabarito = [];
@@ -37,7 +38,7 @@ def main():
 		num_linhas_gabarito = len(aux_gabarito);
 		resultados_gabarito.extend(aux_gabarito);
 	
-		pesos_instancias.append(num_linhas_gabarito);
+		pesos_instancias_exato.append(num_linhas_gabarito);
 
 		print "Testando instância", nome_instancia;
 		print "Testando algoritmo exato (%d consultas)" % (num_linhas_gabarito);
@@ -80,10 +81,28 @@ def main():
 		instancias_exato.append((memoria_max, tempo_exec));
 
 
+	resultados_gabarito = [];
 
+	for nome_instancia in instancias_teste_heuristica:
+	
+		#nomes dos arquivos utilizados
+		nome_gabarito = dir_gabarito + nome_instancia + ".sol";
+		nome_entrada = dir_gabarito + nome_instancia + ".in";
+		nome_saida_heuristica = nome_instancia + "_heur.out";
+	
+		aux_gabarito = [];
+		with open(nome_gabarito, 'r') as arq_gabarito:
+		   for linha in arq_gabarito:
+			    if linha != '\n':
+			        aux_gabarito.append(int(linha.strip()));
+
+		num_linhas_gabarito = len(aux_gabarito);
+		resultados_gabarito.extend(aux_gabarito);
+	
+		pesos_instancias_heuristica.append(num_linhas_gabarito);
 
 		#Confere a heurística
-
+		print "Testando instância", nome_instancia;
 		print "Testando heuristica";
 
 		args_subp = ['/usr/bin/time', '-v', './tp2h', nome_entrada, nome_saida_heuristica];
