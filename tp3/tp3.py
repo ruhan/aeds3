@@ -26,7 +26,7 @@ def write_file(path, data):
     result = []
 
     for word in sorted(data.keys()):
-        result.append('%s %s\n' % (word, " ".join(data[word])))
+        result.append('%s %s\n' % (word, " ".join(sorted(data[word]))))
 
     output = open(path, 'w')
     output.write("".join(result))
