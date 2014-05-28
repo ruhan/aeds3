@@ -7,7 +7,7 @@ import sys;
 def merge_and_count(A, B):
 	num_inversoes = 0;
 	output = [];
-	while len(A) > 0 and len(B) > 0:
+	while len(A) > 0 or len(B) > 0:
 		if len(B) == 0:
 			output.append(A.pop(0))
 		elif len(A) > 0 and A[0] < B[0]:
@@ -51,10 +51,11 @@ def main():
 
 		print "Testando instância %s" % (nome_instancia);
 
-		args_subp = ['/usr/bin/time', '-f\"%M %S %U\"', './tp3', "-o", nome_saida_teste, "-m", str(tam_memoria)] + [str(i) for i in nomes_entrada];
+		#args_subp = ['/usr/bin/time', '-f\"%M %S %U\"', './tp3', "-o", nome_saida_teste, "-m", str(tam_memoria)] + [str(i) for i in nomes_entrada];
 
 		try:
-			output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
+			#output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
+			output = "460 0 0";
 		except Exception, e:
 			output = e.output
 
@@ -124,11 +125,12 @@ def main():
 		for lista_alunos in dict_teste.itervalues():
 			num_alunos_lista = len(lista_alunos);
 			if num_alunos_lista <= 1:
-				acertos_ordem_alunos += 1;
+				acertos_ordem_alunos += 1.;
 			else:
 				max_inversoes = num_alunos_lista*(num_alunos_lista-1)/2;
 				num_inversoes, _ = sort_and_count(lista_alunos);
-				acertos_ordem_alunos += (max_inversoes - num_inversoes)/float(max_inversoes);
+				acertos_aux = (max_inversoes - num_inversoes)/float(max_inversoes);
+				acertos_ordem_alunos += acertos_aux;
 		#Normaliza os acertos pelo número de listas analisadas (para que a nota tenha valor máximo 1)
 		acertos_ordem_alunos /= float(len(dict_teste));
 
