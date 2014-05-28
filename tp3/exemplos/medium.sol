@@ -1,20 +1,20 @@
-a 1 11 2 15 3 20 12 13 4 5 9 18 17 8 19 14 6 7 16 10
+a 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 abandon 3
-abandoned 11 3 1
+abandoned 1 3 11
 abandonment 3
 abernathy 18
 abilities 3
-ability 10 3
-able 5 1 16 17 12 15 10 6 4
+ability 3 10
+able 1 4 5 6 10 12 15 16 17
 aboard 4
 abounds 11
-about 20 11 4 9 2 17 18 8 19 12 5 1 3 16 10 15 13 6 7 14
-above 6 9 1 15 14 10 11 8
+about 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+above 1 6 8 9 10 11 14 15
 absence 3
 absent 13
 absolutely 16
-accent 12 11 17
-accident 19 12 10
+accent 11 12 17
+accident 10 12 19
 accidentally 20
 accompanying 13
 accomplished 16
@@ -24,28 +24,28 @@ accurately 13
 accusingly 16
 ace 4
 aches 13
-aching 17 12
-acknowledge 12 10
+aching 12 17
+acknowledge 10 12
 acknowledging 19
 acquisition 13
-across 11 19 12 20 8 18
-act 12 10 20 6
-acted 6 16 4
-action 19 16 5
-actions 12 11 6 3
+across 8 11 12 18 19 20
+act 6 10 12 20
+acted 4 6 16
+action 5 16 19
+actions 3 6 11 12
 activities 4
 actual 10
-actually 14 19 11 7 1 10 5
-add 15 2 20 9 7 3
+actually 1 5 7 10 11 14 19
+add 2 3 7 9 15 20
 added 15
 adding 18
 addressing 14
-adds 13 12
+adds 12 13
 adjacent 2
-adjusts 8 11 10
+adjusts 8 10 11
 admiration 19
 admire 7
-admit 17 10 6
+admit 6 10 17
 adorns 5
 adrenaline 15
 advantage 9
@@ -53,139 +53,139 @@ affect 5
 affected 11
 affection 17
 affectionate 18
-afford 11 4 5 3
-afraid 20 8 10 3
-after 11 6 3 10 13 17 7 16 20 15 14 9 1 8 4
-afternoon 6 12 7
-again 4 8 19 7 1 20 13 16 11 10 6 15 12 17
-against 4 20 18 5 7 15 3 10 9 1 12 8 16
-age 15 5
+afford 3 4 5 11
+afraid 3 8 10 20
+after 1 3 4 6 7 8 9 10 11 13 14 15 16 17 20
+afternoon 6 7 12
+again 1 4 6 7 8 10 11 12 13 15 16 17 19 20
+against 1 3 4 5 7 8 9 10 12 15 16 18 20
+age 5 15
 aged 17
 ages 2
-ago 11 8 19 5 20 16 3 7 17
+ago 3 5 7 8 11 16 17 19 20
 agoni 1
-agony 12 10
-agree 9 2 19 11 6
+agony 10 12
+agree 2 6 9 11 19
 agreed 10
 ah 16
-ahead 6 5
+ahead 5 6
 aid 17
 aim 15
-air 2 17 12 9 13 7 1 15 8 10 3
+air 1 2 3 7 8 9 10 12 13 15 17
 airing 2
-alarm 19 13 7 14
+alarm 7 13 14 19
 alarmed 1
 alert 7 10
 alien 13
 alike 2 16
-alive 18 3 5 19 16 6 20 12 14 13 11 4
-all 2 12 13 4 11 15 18 17 8 19 5 6 3 9 16 20 10 7 1
+alive 3 4 5 6 11 12 13 14 16 18 19 20
+all 1 2 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 19 20
 allies 10
 allotted 5
-allow 4 13 6 15 8
-allowed 3 20 13 12
-allowing 8 6
+allow 4 6 8 13 15
+allowed 3 12 13 20
+allowing 6 8
 ally 12 15
-almost 2 15 20 11 19 3 16 12 13 7 6 17 1
-alone 6 19 16 13 12 3 7 8
-along 3 6 5 16 13 14
+almost 1 2 3 6 7 11 12 13 15 16 17 19 20
+alone 3 6 7 8 12 13 16 19
+along 3 5 6 13 14 16
 alongside 13
-aloud 19 10
-already 4 3 16 12 14 5 11 6
-also 15 5 10 20 4
+aloud 10 19
+already 3 4 5 6 11 12 14 16
+also 4 5 10 15 20
 alter 3
 altered 10
 alternate 1
-alternative 11 1
-although 4 9 17 19 6 2 11 7 3 13 10 1 15 18
-always 15 3 11 4 17 8 6 5 20 10
-am 20 17 8 19 12 5 1 13 7 16 6 14 11 18 3 4
+alternative 1 11
+although 1 2 3 4 6 7 9 10 11 13 15 17 18 19
+always 3 4 5 6 8 10 11 15 17 20
+am 1 3 4 5 6 7 8 11 12 13 14 16 17 18 19 20
 ama 20
 amber 19
 america 20
-among 3 9 2
-amount 11 5 3 17 1
-an 20 11 4 2 17 19 5 7 12 10 3 16 13 6 15 14 9 8 18
+among 2 3 9
+amount 1 3 5 11 17
+an 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 analy 5
-and 1 11 2 15 3 20 12 13 4 9 18 17 8 19 14 5 6 7 16 10
-anger 9 3 19 6
+and 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+anger 3 6 9 19
 angles 3
-angry 4 5 13 17 10 3
+angry 3 4 5 10 13 17
 anguish 4
-animal 9 6
-animals 15 11 10 3 14
+animal 6 9
+animals 3 10 11 14 15
 ankle 9
 announced 1
 announcement 1
-another 11 9 18 8 19 3 5 20 16 17 7 10 6 12 14 1
+another 1 3 5 6 7 8 9 10 11 12 14 16 17 18 19 20
 anothers 2
-answer 11 5 9 16 10 1 20 12 15 14 3 13
-answers 20 14 3 5
-anthem 12 4 20 8 6
+answer 1 3 5 9 10 11 12 13 14 15 16 20
+answers 3 5 14 20
+anthem 4 6 8 12 20
 anthems 1
 anti 9
 anticipated 15
 antiseptic 8
 anxious 13
-any 4 11 6 12 5 9 19 10 16 3 1 15 7 8 13
+any 1 3 4 5 6 7 8 9 10 11 12 13 15 16 19
 anybody 3
 anymore 12 17
-anyone 19 20 16 11
-anything 11 4 9 20 17 5 10 13 6 3 19 2 15 7 14 1 12
-anyway 4 2 6 3 11 17 10 12
+anyone 11 16 19 20
+anything 1 2 3 4 5 6 7 9 10 11 12 13 14 15 17 19 20
+anyway 2 3 4 6 10 11 12 17
 anywhere 10 20
-apart 2 15 5
+apart 2 5 15
 apologi 20
 apothecaries 11
-apothecary 11 4 5
+apothecary 4 5 11
 appalachia 20
 apparently 7 14
 appear 16
 appearance 15 16
 appearances 17
-appears 17 1 7 12 13 18
+appears 1 7 12 13 17 18
 appetite 4
 appetites 2
 applaud 20
-applause 17 19 11
-apple 7 10 6 12
-apples 3 10 1
+applause 11 17 19
+apple 6 7 10 12
+apples 1 3 10
 applesauce 17
 apprehensively 8
 approach 17
 arbitrary 3
-arc 11 8
-are 2 15 3 11 13 4 9 20 18 17 8 19 5 6 12 1 10 16 7 14
-area 10 3 16 15
+arc 8 11
+are 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+area 3 10 15 16
 areas 2 19
-arena 20 12 5 9 16 10 13 1 14 17 18 11 6 4
-arent 19 1
+arena 1 4 5 6 9 10 11 12 13 14 16 17 18 20
+arent 1 19
 argue 14
 argument 20
 arises 3
-arm 17 8 19 1 3 13 7 14 15 9 5 16
+arm 1 3 5 7 8 9 13 14 15 16 17 19
 armed 9
 arming 3
-armor 14 15 9 12
-arms 8 19 7 5 9 17 10 16 6 15 13 18 11 1
-around 20 11 4 2 17 8 19 5 3 10 12 9 15 6 16 13 1 14 18 7
-arranging 17 10
+armor 9 12 14 15
+arms 1 5 6 7 8 9 10 11 13 15 16 17 18 19
+around 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+arranging 10 17
 arrested 17
 arrival 16
 arrive 2
 arrived 10
 arrives 12 17
-arrow 20 12 15 16 13 10 6 7 14 19 9 1
-arrows 15 3 19 10
-as 1 2 15 3 20 12 11 4 9 18 17 8 19 14 5 7 6 10 16 13
+arrow 1 6 7 9 10 12 13 14 15 16 19 20
+arrows 3 10 15 19
+as 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 ashen 19
 ashes 20
 ashy 19
 aside 3 13 14 16
-ask 13 11 4 5 20 3 6 16 19 7 10 15 1 8 18
-asked 7 10 6
+ask 1 3 4 5 6 7 8 10 11 13 15 16 18 19 20
+asked 6 7 10
 asking 4 8
-asks 19 3 5 2 12 6 20 10 15 1 13
+asks 1 2 3 5 6 10 12 13 15 19 20
 asleep 13 15
 asphyxiation 9
 assault 8
@@ -194,72 +194,72 @@ assemblies 4
 assembly 7
 assume 11
 assumed 10
-assumes 20 15
-at 11 2 15 20 12 13 4 9 18 17 8 19 5 6 7 3 16 10 1 14
-ate 19 12 3 1
+assumes 15 20
+at 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+ate 1 3 12 19
 attached 10 20
 attack 9
 attacked 4
-attempt 12 14 1
+attempt 1 12 14
 attempting 8
 attempts 19
 attend 20
 attendance 4
 attendant 12
-attention 2 17 19 5 7 16 1
+attention 1 2 5 7 16 17 19
 attributes 14
-audience 14 19 16 15 13 7 9 3 11 1 8 10 5
+audience 1 3 5 7 8 9 10 11 13 14 15 16 19
 authenticity 13
 automatically 16
 avenging 19
 average 20
-avoid 20 16
+avoid 16 20
 avoided 7
 avoiding 13
-avox 8 17 13
+avox 8 13 17
 awaiting 10
 awaits 15
-awake 17 1
-aware 13 2 19 12 6
-away 17 8 19 5 11 7 12 2 20 9 16 13 10 6 3 1
-awful 9 20 7 13 1
+awake 1 17
+aware 2 6 12 13 19
+away 1 2 3 5 6 7 8 9 10 11 12 13 16 17 19 20
+awful 1 7 9 13 20
 awhile 10
 awkwardly 8
 baby 6
-back 3 13 4 2 18 17 8 19 14 5 6 11 7 12 16 10 9 1 15
+back 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
 backed 11
 background 3
 backpack 13 19
 backpacks 16
-backs 19 20 3
-backward 20 9 19 5
+backs 3 19 20
+backward 5 9 19 20
 backyards 6
-bad 1 20 2 9 7 13
-badly 15 13 1
-bag 2 11 6 17 10 13 7
-baker 3 8 7
-bakers 11 5 20 3
-bakery 20 12 4 19 7 10
+bad 1 2 7 9 13 20
+badly 1 13 15
+bag 2 6 7 10 11 13 17
+baker 3 7 8
+bakers 3 5 11 20
+bakery 4 7 10 12 19 20
 baking 3 20
-balance 16 4
+balance 4 16
 balances 14
 balding 20
-ball 2 17 8 19
-balls 2 9 6 14
+ball 2 8 17 19
+balls 2 6 9 14
 band 8 17
-bandage 13 1 12
+bandage 1 12 13
 bandaged 13
 bands 6
-bank 6 1
+bank 1 6
 banks 3 13
 banners 2
-banquet 17 8
+banquet 8 17
 banter 3 5
 barbed 2
 bare 11 13
 bared 19
 barefoot 10
-barely 20 17 10 19 18 13
+barely 10 13 17 18 19 20
 bark 20
 barrier 12
 base 7
@@ -271,87 +271,87 @@ basket 10
 bathe 12
 bathed 19
 bathroom 10
-battle 18 15
-be 2 3 20 11 13 4 5 15 18 17 19 14 6 12 1 9 16 10 7 8
+battle 15 18
+be 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 beaming 8
-bear 17 3
+bear 3 17
 bears 2 14
 beast 9
 beat 13
 beaten 1 15
-beating 12 5 7
-beautiful 1 4 3 13 16
+beating 5 7 12
+beautiful 1 3 4 13 16
 beautifully 5
 beauty 14
 became 20
-because 3 20 11 4 15 17 8 19 14 5 6 7 12 9 16 10 1 13 18
-become 4 5 15 8 19 20 6 10
-becoming 17 16 8
-bed 1 2 4 5 12 13 10 8 17 18
+because 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+become 4 5 6 8 10 15 19 20
+becoming 8 16 17
+bed 1 2 4 5 8 10 12 13 17 18
 bedclothes 8
-bedroom 1 10 8
+bedroom 1 8 10
 beds 6
 bedtime 11
 beef 4 18
 beeline 14
-been 15 3 12 4 11 18 8 19 6 7 5 9 2 16 20 13 1 17 14 10
-before 15 2 5 19 4 3 10 6 16 20 13 1 7 12 17
-began 7 16 8
+been 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+before 1 2 3 4 5 6 7 10 12 13 15 16 17 19 20
+began 7 8 16
 begged 11
-begging 16 1
-begin 20 4 8 3 1 11 6 13
-beginning 20 7 1
-begins 20 19 3 15 14 1 11 5 13
-begun 20 15 7 19 6
+begging 1 16
+begin 1 3 4 6 8 11 13 20
+beginning 1 7 20
+begins 1 3 5 11 13 14 15 19 20
+begun 6 7 15 19 20
 behavior 20
-behind 8 14 6 7 19 20 5 12 13 11
-being 4 15 17 18 12 3 10 20 7 16 6 8 11 1 5
+behind 5 6 7 8 11 12 13 14 19 20
+being 1 3 4 5 6 7 8 10 11 12 15 16 17 18 20
 believably 19
-believe 8 3 6 7 19 1
+believe 1 3 6 7 8 19
 believes 6
 bell 7 12
-belly 11 15 10
+belly 10 11 15
 belonged 20
-below 13 19 8
-belt 3 20 12
+below 8 13 19
+belt 3 12 20
 bending 7
 bends 16
-beneath 8 13 3 11
+beneath 3 8 11 13
 benign 3
 bent 5
-berries 13 5 6 1 20 7 11 16 4 3
-berry 20 11
+berries 1 3 4 5 6 7 11 13 16 20
+berry 11 20
 berserk 16
-beside 5 16 10 6 15
-besides 11 4 6 3 10 16 14
-best 3 11 5 9 16 17 10 1
-bet 19 13 3 10 7 15 11
+beside 5 6 10 15 16
+besides 3 4 6 10 11 14 16
+best 1 3 5 9 10 11 16 17
+bet 3 7 10 11 13 15 19
 bets 2 7
-better 11 9 17 7 3 16 13 10 1 20
+better 1 3 7 9 10 11 13 16 17 20
 betting 19
-between 4 9 2 12 5 20 3 13 1 14 17
+between 1 2 3 4 5 9 12 13 14 17 20
 beverage 12
-beyond 19 3 6 13 10 1
+beyond 1 3 6 10 13 19
 bids 8
-big 4 17 19 8 9 13 12 10 3
+big 3 4 8 9 10 12 13 17 19
 bin 11
 bins 6
-bird 5 10 3 7 6
-birds 10 3 7 15
+bird 3 5 6 7 10
+birds 3 7 10 15
 birthdays 16
-bit 9 4 17 3 20 16 10 12 1
-bite 12 10 3 4
+bit 1 3 4 9 10 12 16 17 20
+bite 3 4 10 12
 bites 6
 biting 1
 bits 15
 bitten 3
 bitterest 19
 bla 20
-black 2 20 11 7 19 5 16
+black 2 5 7 11 16 19 20
 blackberries 11
 blackboard 19
-blackened 12 3
-blade 12 9
+blackened 3 12
+blade 9 12
 blame 3 4
 blank 13
 blankets 5 13
@@ -359,7 +359,7 @@ blanks 2
 blare 11
 blather 10
 bled 3
-bleeding 15 11 13 1
+bleeding 1 11 13 15
 blew 15 20
 blind 3 17
 blinding 16
@@ -368,61 +368,61 @@ blister 14
 bloated 14
 blob 6
 block 3 12
-blocking 19 1
-blond 19 7
+blocking 1 19
+blond 7 19
 blonde 4 19
-blood 8 12 16 13 15 9 1 10 5
+blood 1 5 8 9 10 12 13 15 16
 bloodbath 1
 bloodless 9 10
-bloody 13 12
+bloody 12 13
 blouse 4 8
 blow 7 12 15 20
-blowing 8 1
-blown 15 7
+blowing 1 8
+blown 7 15
 blows 3
 bludgeon 5
-blue 11 13 4 19 10 20 9
-blurt 20 19 13
+blue 4 9 10 11 13 19 20
+blurt 13 19 20
 blush 10
 boards 11
 bobbing 11
-body 1 19 6 5 12 10 7 14 8 15 9 18 3
+body 1 3 5 6 7 8 9 10 12 14 15 18 19
 bodys 11
 boil 10
 boiled 6
 bold 3
 boldest 19
 bone 6 12
-bones 13 11 12
+bones 11 12 13
 bony 11
-book 12 3
-booms 12 11
+book 3 12
+booms 11 12
 boost 15
 boot 15
-boots 2 13 6 10 16
-bored 16 7
+boots 2 6 10 13 16
+bored 7 16
 born 11 14
-both 4 18 3 16 19 2 17 10 20 15 9 12 5 7
-bother 4 1
-bothered 18 16
+both 2 3 4 5 7 9 10 12 15 16 17 18 19 20
+bother 1 4
+bothered 16 18
 bothering 12
-bottle 13 1
-bottles 15 12
+bottle 1 13
+bottles 12 15
 bottom 3
 bought 5 12
 boulders 3 13
 bounced 12
 bounces 17
-bouncing 14 11
+bouncing 11 14
 bound 10
-bow 15 3 5 10 6 12 11
+bow 3 5 6 10 11 12 15
 bowing 8
-bowl 2 20 8 10
+bowl 2 8 10 20
 bowls 11
-bows 5 3 11
-box 13 7
-boy 20 17 8 19 11 7 12 13 6 15 1 3
-boys 2 17 8 19 3 18
+bows 3 5 11
+box 7 13
+boy 1 3 6 7 8 11 12 13 15 17 19 20
+boys 2 3 8 17 18 19
 brace 12 14
 braid 2 4 12 13
 braids 7
@@ -434,45 +434,45 @@ brand 3
 brats 11
 brave 3
 bravo 19
-bread 20 12 11 13 5 9 4 7 19 3 8 16 6
-break 11 2 3 17 13 15
+bread 3 4 5 6 7 8 9 11 12 13 16 19 20
+break 2 3 11 13 15 17
 breakable 3
 breakfast 12 17
-breaking 16 9
+breaking 9 16
 breaks 3 11
 breasts 18
-breath 17 19 20 14 1 13
-breathe 17 15
+breath 1 13 14 17 19 20
+breathe 15 17
 breathing 15
 breathy 5
 bred 10
 bree 13
 breeze 15
 brewed 11
-brief 16 1 13
+brief 1 13 16
 briefly 17
-bright 11 2 17 7
+bright 2 7 11 17
 brightens 12
 brightly 3 14
 brilliance 14
 brilliant 16
-bring 5 3 13 7 12
+bring 3 5 7 12 13
 bringing 6
-brings 20 8 9 15 16 7
+brings 7 8 9 15 16 20
 broad 8 20
-broadcast 20 5
+broadcast 5 20
 broke 6
 broken 2 16
-broth 16 19 20 17
+broth 16 17 19 20
 brother 11
 brothers 4 19
-brought 11 20 6 7 12
+brought 6 7 11 12 20
 brow 4
-brown 20 15 19
+brown 15 19 20
 brows 12
 brush 6 20
 brushed 5
-brutal 20 13
+brutal 13 20
 bu 2
 bubbly 17
 bucket 11
@@ -482,68 +482,68 @@ bug 5
 build 19
 building 2 6 10
 buildings 2 20
-built 20 6 16
+built 6 16 20
 bullet 2
 bumped 17
-bunch 15 13
+bunch 13 15
 bundle 6
 buried 16
 burn 8 17
-burned 7 19 12 8 1
-burning 20 11 15 12
-burns 8 5
-burrow 10 7
+burned 1 7 8 12 19
+burning 11 12 15 20
+burns 5 8
+burrow 7 10
 burst 12
 bursting 13
 bury 3 10 11
 bush 3
-bushes 15 20 11 13 3
-business 4 5 19 1 18
-businesses 11 6
+bushes 3 11 13 15 20
+business 1 4 5 18 19
+businesses 6 11
 busy 11
-but 1 11 2 15 3 20 13 4 9 17 8 19 14 5 6 7 12 10 16 18
+but 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 butchers 6
 buttercup 11
 buttons 19
 buy 4 7
-by 15 3 13 4 11 9 2 20 17 5 6 19 12 1 10 16 14 8 7
-bye 19 10 12 20 13
+by 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20
+bye 10 12 13 19 20
 cadences 17
-caesar 10 11 16 7 8 5 3
+caesar 3 5 7 8 10 11 16
 cake 3 15
 caked 12
 calculated 3
-calf 15 1 17
-call 4 11 7 9 13 3 6 20 16
-called 2 20 13 5 10
+calf 1 15 17
+call 3 4 6 7 9 11 13 16 20
+called 2 5 10 13 20
 callously 19
 calls 3
-calm 4 6 1
-calms 13 8
-came 11 20 18
-camera 2 14 5
+calm 1 4 6
+calms 8 13
+came 11 18 20
+camera 2 5 14
 cameraman 5
-cameras 5 2 20 10 13 1 4 3
+cameras 1 2 3 4 5 10 13 20
 camouflaged 13
 camp 10 15
-can 2 3 20 11 13 4 5 15 9 18 17 8 19 14 12 16 6 7 10 1
+can 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 candlelight 3
 cane 16
 canine 19
-cannon 13 20 1 9 8 10
+cannon 1 8 9 10 13 20
 cannot 5
 canopy 6
-cant 4 18 19 5 6 1 3 20 16 17 7 13 15 14 9 12 11 8 10
+cant 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 canvas 1
 cap 2
-capitol 20 12 11 4 5 9 2 18 14 10 3 16 13 15 17 6 7 1 8
-capitols 9 18 10 11 16 13
+capitol 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 20
+capitols 9 10 11 13 16 18
 car 2 3
-care 2 5 3 12 6 10 1 15 20 13 18
-cared 6 5
-careers 15 1
-careful 2 5 10 20 15
-carefully 2 15 3 13 11 14 12
+care 1 2 3 5 6 10 12 13 15 18 20
+cared 5 6
+careers 1 15
+careful 2 5 10 15 20
+carefully 2 3 11 12 13 14 15
 carelessly 12
 cares 19
 caring 19
@@ -552,69 +552,69 @@ carried 7 15
 carries 3 19
 carrot 3
 carry 3
-carrying 8 1 4
+carrying 1 4 8
 carve 12
-case 4 13 6 12 14
+case 4 6 12 13 14
 cat 11 17
-catch 11 15 2 6 10 14 12 8 4
-catches 11 2
+catch 2 4 6 8 10 11 12 14 15
+catches 2 11
 catching 9
 caters 11
-catnip 20 19
-cato 9 16 13 6 3 20 10 15 7 14 17 8 1 12
-catos 9 16 13 3 10 1 20 15 12
+catnip 19 20
+cato 1 3 6 7 8 9 10 12 13 14 15 16 17 20
+catos 1 3 9 10 12 13 15 16 20
 cats 2
 cattle 20
-caught 18 12
-cause 9 6 8
-causes 20 13
-cave 13 17 10 3 15 12 14 16 5
-ceiling 6 16 8
+caught 12 18
+cause 6 8 9
+causes 13 20
+cave 3 5 10 12 13 14 15 16 17
+ceiling 6 8 16
 celebrate 11
 celebration 8
 celebrations 17
 cell 10
-center 17 12 13 8
+center 8 12 13 17
 centers 10
 ceremonies 13
 ceremony 13
-certain 4 3 10 16
-certainly 9 3
+certain 3 4 10 16
+certainly 3 9
 chain 2
-chair 17 11 3 16
-chairs 2 20 6 8
+chair 3 11 16 17
+chairs 2 6 8 20
 challenge 10
 challenged 3
 chamber 13
 chambers 10
-chance 15 18 5 1 20 14 6 3
+chance 1 3 5 6 14 15 18 20
 chances 18
-change 9 6 1 20 3 13
+change 1 3 6 9 13 20
 changed 5
 chaos 17
 charge 2
 charged 2
-chariot 3 1
+chariot 1 3
 charming 20
 chasing 10 20
 chatter 10 18
 chattering 1
-check 4 3 12 14 8
+check 3 4 8 12 14
 checking 19
 checks 20
-cheek 12 5 13 8 10
+cheek 5 8 10 12 13
 cheekbone 19
 cheeks 1 6 12
 cheering 8
 cheers 16
-cheese 2 12 13 5 3 10 20 6 1
+cheese 1 2 3 5 6 10 12 13 20
 cheeses 3
-chest 4 5 15 11 14 18
+chest 4 5 11 14 15 18
 chestnut 17
 chests 7
 chew 3
-child 8 16 6 12
-children 13 11 18 5 6 4
+child 6 8 12 16
+children 4 5 6 11 13 18
 childrens 6
 childs 3
 chilled 6
@@ -622,89 +622,89 @@ chilly 13
 chin 6 13
 chitchat 10
 chocolate 3
-choice 5 6 15 12 16 8
-choke 19 11
-choked 14 5
-choose 2 19 16 1
+choice 5 6 8 12 15 16
+choke 11 19
+choked 5 14
+choose 1 2 16 19
 chooses 19
 choosier 4
 chops 3
 chore 10
-chosen 18 8
+chosen 8 18
 chunk 19
-chunks 11 7
+chunks 7 11
 churn 13
 cinder 2
-cinna 16 17 13 18 3 11 10
+cinna 3 10 11 13 16 17 18
 cinnas 3 16
-circle 3 14 11
+circle 3 11 14
 circular 5
 circulation 10
 citi 15 20
-city 20 8
+city 8 20
 claim 2
 claimed 7
 clammy 11
 clamp 12
 clamps 20
-clap 6 1
+clap 1 6
 claps 19
 clasp 13
 clasping 3
 class 11
 clatter 7
-claudius 12 11
+claudius 11 12
 claustrophobic 2
 clawing 15
 claws 14 19
-clean 11 2 3 12 8 16
+clean 2 3 8 11 12 16
 cleaner 12
-clear 13 18 17 19 5 3 16 2
+clear 2 3 5 13 16 17 18 19
 cleared 10
-clearly 19 17 6 14 8
+clearly 6 8 14 17 19
 clenched 8 9
 clever 20
 climactic 9
 climax 9
-climb 20 19 1 15 14
-climbed 1 14 6 4
+climb 1 14 15 19 20
+climbed 1 4 6 14
 climbing 14
-climbs 19 5
+climbs 5 19
 cling 13 16
-clinging 19 2
-clock 20 1
-close 15 3 20 12 7 16 10 14 17 5
-closed 2 11 5 6 19
-closely 11 8
-closer 12 10 20 1 4
-closes 15 3 10 5 8
+clinging 2 19
+clock 1 20
+close 3 5 7 10 12 14 15 16 17 20
+closed 2 5 6 11 19
+closely 8 11
+closer 1 4 10 12 20
+closes 3 5 8 10 15
 closest 2 15
-closing 19 14
+closing 14 19
 clothed 15
-clothes 4 6 12 10 9
+clothes 4 6 9 10 12
 clouds 12
-clove 12 9 16 13 6
-cloves 15 6
+clove 6 9 12 13 16
+cloves 6 15
 clueless 11
-clump 15 2
+clump 2 15
 clunk 10
 clutched 19
 co 16
 coaching 4
-coal 2 11 5 6 20 10 7
+coal 2 5 6 7 10 11 20
 coals 10 20
 coast 19
-coat 11 7 19
+coat 7 11 19
 coats 3
 coax 3
 coaxing 20
 cocoon 13
 cocooned 1
 coffin 12
-cold 1 9 10 11 3 7 12 17
-collapse 5 1 11
-collar 6 19 12
-collect 11 3 10
+cold 1 3 7 9 10 11 12 17
+collapse 1 5 11
+collar 6 12 19
+collect 3 10 11
 collected 12
 collecting 1
 collective 17
@@ -713,31 +713,31 @@ color 11
 colored 14 15
 colors 3 7 19
 combat 8
-come 2 4 11 8 19 5 12 3 16 13 10 6 20 15 17
-comes 8 10 3 6 1 14 18
+come 2 3 4 5 6 8 10 11 12 13 15 16 17 19 20
+comes 1 3 6 8 10 14 18
 comforted 10
 comforting 3 17
 comically 20
-coming 7 1 3 14 15 8 12 18
-comment 9 3 12
+coming 1 3 7 8 12 14 15 18
+comment 3 9 12
 commentators 20
 common 10
-communicate 16 6 19
+communicate 6 16 19
 community 5 7
 companions 14
 company 20
 compared 15 17
 comparing 3
-comparison 3 1
+comparison 1 3
 compartment 20
-compensation 11 5
-competition 3 16 20 7 10 9 17
+compensation 5 11
+competition 3 7 9 10 16 17 20
 competitors 18
 complete 1
 completed 13
-completely 3 16 7 1 15 11
-complicated 8 3 6
-compliment 4 14 11
+completely 1 3 7 11 15 16
+complicated 3 6 8
+compliment 4 11 14
 compose 14
 compromise 3
 conceal 10
@@ -746,7 +746,7 @@ concealing 11
 conceivably 20
 concentrate 1
 concentration 12
-concern 20 16
+concern 16 20
 concerns 15
 conclusion 20
 concoction 20
@@ -759,16 +759,16 @@ confirm 12
 confirms 15
 conflicted 12
 conflicting 16
-confused 5 17 6 15 4
+confused 4 5 6 15 17
 confusing 5
-confusion 8 7 4
+confusion 4 7 8
 congratulate 19
 congratulations 10
 connect 16
 connected 10
 connection 12
 conscious 13
-consciousness 13 12 17
+consciousness 12 13 17
 consider 7
 considerably 15
 considered 9
@@ -781,20 +781,20 @@ consumed 13
 consumes 1
 contain 19
 containers 14
-containing 13 8
+containing 8 13
 contains 19
 contents 13
-contestants 3 20 12
+contestants 3 12 20
 continual 17
-continue 14 3 1 16 13
+continue 1 3 13 14 16
 continues 17
 continuously 18
 contraption 16
 contrast 11
 contrived 3
-control 16 7 1 6
+control 1 6 7 16
 controlled 18
-conversation 4 20 5
+conversation 4 5 20
 conversations 10
 convince 19 20
 convincing 6 16
@@ -807,8 +807,8 @@ cool 12
 cooled 19
 coolly 5
 copying 3
-corner 7 4
-cornucopia 10 14 8 1
+corner 4 7
+cornucopia 1 8 10 14
 corpse 8
 corrected 20
 corridor 3
@@ -818,26 +818,26 @@ costumes 3
 couch 6 16
 cougars 2
 coughs 5 14
-could 3 20 11 13 4 5 2 17 19 9 7 10 15 14 8 1 6 16
-couldnt 6 19 12 1 5 10 3 4
+could 1 2 3 4 5 6 7 8 9 10 11 13 14 15 16 17 19 20
+couldnt 1 3 4 5 6 10 12 19
 couldve 7
-count 9 3 10 20 18
+count 3 9 10 18 20
 counted 4
 counting 20
-country 20 15 5 3
+country 3 5 15 20
 counts 5
-couple 11 9 12 1 3 19 10
-course 1 4 15 11 20 10 3 6 16 7 8 13
+couple 1 3 9 10 11 12 19
+course 1 3 4 6 7 8 10 11 13 15 16 20
 courses 3
 coursing 11
-cover 1 11 16 13 3 12 14 8
+cover 1 3 8 11 12 13 14 16
 coverage 1
-covered 12 1
+covered 1 12
 covering 11
 covers 3 6
 coward 3
 cowardly 16
-cra 6 1 3
+cra 1 3 6
 crack 12 20
 cracked 4 6 12
 cracks 6
@@ -849,36 +849,36 @@ crashing 15
 crave 13
 crawl 10
 crawled 12
-crawling 11 2
+crawling 2 11
 crazy 20
 creamy 10
 creased 12
 create 3
 creating 3 17
-creature 7 13 17 14
+creature 7 13 14 17
 creatures 15 19
 credit 19
 creeps 12
 crews 2
-cried 11 5
+cried 5 11
 cries 9
 crime 10
 crippled 20
-cross 16 10 14 18
+cross 10 14 16 18
 crossed 6
-crosses 17 19 6
-crowd 2 17 8 19 12 5 11 16 10
-crowds 20 4
+crosses 6 17 19
+crowd 2 5 8 10 11 12 16 17 19
+crowds 4 20
 crown 4
-crucial 11 3
+crucial 3 11
 crunchy 10
 crush 5 17
 crust 12
 crusts 7
-cry 8 19 2 3 12 20 14
-crying 19 5 16 3
+cry 2 3 8 12 14 19 20
+crying 3 5 16 19
 crystal 12
-cue 20 10
+cue 10 20
 cumulative 15
 cup 10
 cupboard 6
@@ -889,7 +889,7 @@ curl 5
 curled 1 5 16
 curls 17
 curly 7
-current 13 10 5
+current 5 10 13
 cursing 2
 curve 13
 curved 15
@@ -897,53 +897,53 @@ curves 18
 cushion 4
 custody 4
 customary 3
-customer 11 7
+customer 7 11
 customers 3
 customs 20
-cut 20 12 9 13 6 11 14 1
+cut 1 6 9 11 12 13 14 20
 cutting 15
 cycle 13
 da 16
 dabs 3
-daily 4 2 13 12
+daily 2 4 12 13
 damage 15
-damp 6 11 20 12
+damp 6 11 12 20
 dandelion 12
-danger 19 6 16
-dangerous 7 11 6
+danger 6 16 19
+dangerous 6 7 11
 dangling 9
 dappled 13
 dare 1
-dark 2 20 5 10 3 14 19
+dark 2 3 5 10 14 19 20
 darkened 18
 darkens 17
 darkness 14
 daughter 4 8
-dawn 12 10
+dawn 10 12
 dawns 15
-day 1 2 13 11 15 9 19 5 12 20 3 17 7 14 18 10
-days 9 4 2 20 6 3 13 15 17 5
-dead 5 6 20 10 1 13 12 15 14 8
+day 1 2 3 5 7 9 10 11 12 13 14 15 17 18 19 20
+days 2 3 4 5 6 9 13 15 17 20
+dead 1 5 6 8 10 12 13 14 15 20
 deadly 20
 deafening 16
 deal 5
 dealing 2
-death 3 20 18 11 5 6 12 9 16 7 1
-deaths 4 9 3 10 19 15 1
+death 1 3 5 6 7 9 11 12 16 18 20
+deaths 1 3 4 9 10 15 19
 debt 6
 debut 16
 decades 8
-decent 20 7 3 14 6
-decide 4 20 13 6 8
+decent 3 6 7 14 20
+decide 4 6 8 13 20
 decided 14
 deciding 12
 decision 11
 decrepit 20
-deep 9 17 6 10 3
+deep 3 6 9 10 17
 defeat 6
-defeated 20 6
+defeated 6 20
 defend 10 15
-defense 11 1
+defense 1 11
 defiance 12
 definitely 1
 deflect 16
@@ -969,21 +969,21 @@ depressing 13
 descends 10
 describe 5 7
 desert 18
-deserted 13 8
+deserted 8 13
 design 3
-designed 14 12
+designed 12 14
 designs 3
 desperate 6
-desperately 17 13 12 20 6
+desperately 6 12 13 17 20
 desperation 20
-despite 2 13 16 7 8
+despite 2 7 8 13 16
 destination 15
-destroy 18 6 7
+destroy 6 7 18
 destroyed 3
 detail 8
 detailed 1
 details 7
-determined 20 8
+determined 8 20
 deterrent 2
 device 3
 devised 12
@@ -991,37 +991,37 @@ devoted 4
 devotion 19
 di 11 13 16
 dials 12
-did 1 12 4 18 19 11 5 8 3 15 13 6 7 20 10
-didnt 13 4 11 6 7 12 3 16 10 1 20 5
-die 7 3 12 16 19 20 1 9 11
-died 9 16 13 17 10 7 19
-dies 14 15 12
+did 1 3 4 5 6 7 8 10 11 12 13 15 18 19 20
+didnt 1 3 4 5 6 7 10 11 12 13 16 20
+die 1 3 7 9 11 12 16 19 20
+died 7 9 10 13 16 17 19
+dies 12 14 15
 diet 6
-different 3 9 2 8
+different 2 3 8 9
 differently 16
 difficult 18
-dig 13 15 10 6
+dig 6 10 13 15
 digestion 3
 dignity 12
 digs 17
-dim 13 6 10 7
+dim 6 7 10 13
 diminish 13
 dining 3 18
-dinner 15 17 13
+dinner 13 15 17
 dip 16
 directed 2
-direction 19 15
-directly 11 14 19 2 8
+direction 15 19
+directly 2 8 11 14 19
 dirt 4 12
 disadvantage 16
 disappear 7
 disappeared 7 15
-disappearing 15 10 17
-disappears 18 11
+disappearing 10 15 17
+disappears 11 18
 disappiared 4
 disasters 20
 disastrous 1
-disbelief 19 6 10 12
+disbelief 6 10 12 19
 discarding 12
 disclosed 12
 discomfort 13
@@ -1043,37 +1043,37 @@ dissatisfied 17
 dissent 19
 dissolves 15
 dissonant 14
-distance 14 5 6 10 12
+distance 5 6 10 12 14
 distinctly 1
 distorted 10
 distracted 11
 distraction 7
 distractions 15
 distressed 17
-district 2 15 3 20 11 13 9 18 17 8 19 5 6 16 10 14 1 4
-districts 15 9 20 18 8 3 10 13
+district 1 2 3 4 5 6 8 9 10 11 13 14 15 16 17 18 19 20
+districts 3 8 9 10 13 15 18 20
 distrusts 11
 disturbing 16
 disturbingly 7
 ditch 9
-dive 16 9
-divide 9 3
+dive 9 16
+divide 3 9
 divided 9
 dividing 3
-do 20 13 4 11 15 9 18 17 8 19 5 3 2 10 16 6 7 1 12 14
-doctors 11 5 12
+do 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+doctors 5 11 12
 dodging 1
-does 5 9 17 8 19 16 12 7 14 1 11
-doesnt 9 8 19 5 3 13 17 6 1 20 15 14 4
+does 1 5 7 8 9 11 12 14 16 17 19
+doesnt 1 3 4 5 6 8 9 13 14 15 17 19 20
 dog 4 6 19
 dogs 2
-doing 9 19 6 18
+doing 6 9 18 19
 doll 9
-done 4 18 12 1 3
-dont 12 13 4 5 15 9 8 19 1 3 2 10 16 6 11 7 20 14 18
+done 1 3 4 12 18
+dont 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 19 20
 doomed 12
-door 4 15 11 19 6 3 2 5 12 8 13 1 10
-doors 11 20 8 13 18
+door 1 2 3 4 5 6 8 10 11 12 13 15 19
+doors 8 11 13 18 20
 doorway 20
 double 1 6
 doubled 14
@@ -1081,22 +1081,22 @@ doubling 19
 doubly 15
 doubt 15
 doubted 13
-down 1 2 11 7 3 10 20 12 15 13 17 6 14 5
-downpour 16 13
+down 1 2 3 5 6 7 10 11 12 13 14 15 17 20
+downpour 13 16
 downstream 13
 downward 15
 drab 4
 drag 15
 dragged 16
-dragging 15 8
+dragging 8 15
 drags 17
 drained 8 12
 draining 5
-dramatic 12 3
+dramatic 3 12
 draw 4 7
 drawers 10
-drawing 17 7 1
-drawn 15 2 20 7
+drawing 1 7 17
+drawn 2 7 15 20
 draws 17
 dread 11
 dreading 3
@@ -1104,100 +1104,100 @@ dream 16
 dreamless 12
 dreams 1
 dreary 12
-dress 4 5 6 10 7 18 3 16 13
+dress 3 4 5 6 7 10 13 16 18
 dressed 13
 dresses 4 10
 dressing 10
-dried 6 3 15
-drift 17 6
+dried 3 6 15
+drift 6 17
 drifts 1
-drink 4 13 6 10
-drinking 16 12
+drink 4 6 10 13
+drinking 12 16
 dripping 9
 drippings 13
 drips 6 16 17
-drive 7 3
+drive 3 7
 driven 6
 driving 12
-drop 17 13 20 1 12 5
-dropped 6 19 12 15
-dropping 2 1
-drops 13 14 9 4
+drop 1 5 12 13 17 20
+dropped 6 12 15 19
+dropping 1 2
+drops 4 9 13 14
 droughts 20
 drove 7
 drown 11
 drugging 13
 drugs 13
 drumming 13
-drunk 17 14 20 6
+drunk 6 14 17 20
 drunks 17
-dry 4 12 11 17 13
+dry 4 11 12 13 17
 duck 4
 ducktail 8
 dull 19
-dump 13 10
-during 19 10 2 20 13 7
+dump 10 13
+during 2 7 10 13 19 20
 dust 2 5 15
 dusty 12
 duties 20
 duty 18
 dwindling 19
 dyed 18
-dying 2 16 6 1 12 18
-each 13 4 15 9 20 5 3 10 6 16 14 7 1
-eager 8 3
+dying 1 2 6 12 16 18
+each 1 3 4 5 6 7 9 10 13 14 15 16 20
+eager 3 8
 eagerly 4
 eagerness 13
-ear 11 6 7 10 3 9 8 13
-earlier 19 5 16 12 7 1
+ear 3 6 7 8 9 10 11 13
+earlier 1 5 7 12 16 19
 early 14
 earn 3
-ears 9 11 5 4
-earth 16 10 12
-ease 18 16
-easier 11 10 12
-easily 11 17 7 14 18 16
-easy 19 5 3 15 11
-eat 4 6 20 3 10 15 12 8 13
-eaten 20 4
+ears 4 5 9 11
+earth 10 12 16
+ease 16 18
+easier 10 11 12
+easily 7 11 14 16 17 18
+easy 3 5 11 15 19
+eat 3 4 6 8 10 12 13 15 20
+eaten 4 20
 eaters 15
-eating 4 5 3 17
+eating 3 4 5 17
 eats 20
 echo 18
 ecstatically 18
-edge 2 6 8 16 3 14 10
+edge 2 3 6 8 10 14 16
 edible 6
 eerie 10
 eerily 7
 effect 2 15
 effectively 18
 efficient 11
-effie 12 20 17 8 19 10 3 13 16
-effies 13 11
-effort 4 16 10 9 12 17
+effie 3 8 10 12 13 16 17 19 20
+effies 11 13
+effort 4 9 10 12 16 17
 efforts 16
 egg 10
 ego 10
 eight 2
-eighteen 15 2
-either 15 13 3 19 17 14 16 4
+eighteen 2 15
+either 3 4 13 14 15 16 17 19
 elbow 1 8
 elbows 10
 electric 5
 electricity 15
 electrified 2 15
 electrify 6
-elevator 13 18 3
-eleven 3 5 7 6
+elevator 3 13 18
+eleven 3 5 6 7
 eligibility 15
-eligible 15 8
-eliminating 12 3
-else 19 4 3 5 16 13 1 7 15 10 18
-elses 17 6
+eligible 8 15
+eliminating 3 12
+else 1 3 4 5 7 10 13 15 16 18 19
+elses 6 17
 elsewhere 11
 emaciated 1
 embarrassed 12
-embrace 15 11
+embrace 11 15
 emerges 13
 emotion 10
 emotionally 2
@@ -1205,80 +1205,80 @@ emotionless 19
 emotions 2 16
 emptied 11
 emptiness 18
-empty 2 20 6 3 15 14 10 8
+empty 2 3 6 8 10 14 15 20
 enclosing 2
-encounter 17 6 10
+encounter 6 10 17
 encountered 19
 encounters 19
 encroaching 20
-end 4 16 17 6 15 8 1 11 13 18 3
-ended 7 6
+end 1 3 4 6 8 11 13 15 16 17 18
+ended 6 7
 endless 10
-ends 4 20 13 15
+ends 4 13 15 20
 enemies 10
 enemy 10
 engine 4
 engulf 18
 engulfs 10
-enjoy 16 11
+enjoy 11 16
 enormous 12 13
-enough 1 3 4 2 14 11 6 5 16 20 12 17 10 15 7
+enough 1 2 3 4 5 6 7 10 11 12 14 15 16 17 20
 enraged 7
 ensure 9
 enter 15
-entered 15 4
+entered 4 15
 enters 3
-entertainment 17 9 1
-entire 15 17 19 8 1 5
-entirely 18 7
+entertainment 1 9 17
+entire 1 5 8 15 17 19
+entirely 7 18
 entrails 11 20
 entries 5 15
 entwining 19
 enunciate 3
 enviously 18
-equal 11 3
+equal 3 11
 equally 16
 equals 19
 equipment 8
 erased 13
 erasing 1
-escape 6 10 12 14 15 8 17 1
+escape 1 6 8 10 12 14 15 17
 escapes 19
 escaping 15
-escort 20 3
+escort 3 20
 escorts 8
-especially 2 15 13 7
+especially 2 7 13 15
 essential 7
 essentially 6
 established 5
 evasive 5
 evasively 2
-even 11 15 3 20 12 4 9 18 19 5 7 2 10 16 13 6 17 1 14 8
-evening 4 13 16 17 14 8
-evenings 15 4
-event 2 18 6 10
+even 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+evening 4 8 13 14 16 17
+evenings 4 15
+event 2 6 10 18
 events 1
-eventually 20 6 9 1 5
-ever 2 20 11 17 6 19 10 3 15 7 1 12
-everdeen 2 17 19 11 13
+eventually 1 5 6 9 20
+ever 1 2 3 6 7 10 11 12 15 17 19 20
+everdeen 2 11 13 17 19
 everlasting 19
-every 4 15 20 18 17 19 14 3 7 10 5 6 11 1 13
-everybody 19 3 16
-everyone 11 2 17 19 3 6 20 12 13 1 4
+every 1 3 4 5 6 7 10 11 13 14 15 17 18 19 20
+everybody 3 16 19
+everyone 1 2 3 4 6 11 12 13 17 19 20
 everyones 3
-everything 13 18 5 10 3 17 7 1
+everything 1 3 5 7 10 13 17 18
 evils 15
-exactly 18 12 3 19 17 9 1 16 7
+exactly 1 3 7 9 12 16 17 18 19
 examination 12
-examine 20 19
+examine 19 20
 exasperated 10
 exasperation 3
 excellent 19
-except 20 19 10 12 14
-exchange 11 15 2
+except 10 12 14 19 20
+exchange 2 11 15
 exchanged 6
-excitement 19 11 5
-exciting 19 17
+excitement 5 11 19
+exciting 17 19
 exclaim 7
 exclusively 10
 excuse 13
@@ -1288,154 +1288,154 @@ exhale 17
 exhausted 15
 exhausting 3
 exorbitant 17
-expect 4 19 6
+expect 4 6 19
 expected 11
 expecting 1
 expects 9
 expense 16
-expensive 4 10 8
-explain 12 6 7 20 4
+expensive 4 8 10
+explain 4 6 7 12 20
 explanation 4
 explodes 11
 explosion 3 6 12
-exposure 6 1
-expression 12 9 8
+exposure 1 6
+expression 8 9 12
 expressionless 4
 exquisitely 13
-extend 8 4
+extend 4 8
 extended 12
 extent 3
 extinct 8
 extra 10 18
 extricating 3
-eye 3 12 5 13 6 4
+eye 3 4 5 6 12 13
 eyebrow 8
-eyebrows 19 1 12 18
-eyes 11 20 12 5 19 6 1 15 16 13 17 7 14 10 3 4
-fabric 6 3 5
+eyebrows 1 12 18 19
+eyes 1 3 4 5 6 7 10 11 12 13 14 15 16 17 19 20
+fabric 3 5 6
 fabricated 19
 fabulous 10
-face 1 20 5 9 17 8 19 12 3 2 10 16 13 6 14 15 4
-faced 20 7
-faces 2 5 20 19 12 18
-fact 2 3 15 9 6 7 14 19 4
+face 1 2 3 4 5 6 8 9 10 12 13 14 15 16 17 19 20
+faced 7 20
+faces 2 5 12 18 19 20
+fact 2 3 4 6 7 9 14 15 19
 factor 17
 fading 10
-failed 20 1
-faint 8 5
+failed 1 20
+faint 5 8
 fainted 18
-fair 9 8 6 20 7 4
-fairly 11 12 17 13
-fall 3 18 15 10 8 5
+fair 4 6 7 8 9 20
+fairly 11 12 13 17
+fall 3 5 8 10 15 18
 fallen 7 10
 falling 6
-falls 12 17 19 20 14 15 8 3
+falls 3 8 12 14 15 17 19 20
 fame 13
 familiar 5
 familiarity 8
 families 11
-family 4 5 15 9 2 19 6 10
-famished 16 12
+family 2 4 5 6 9 10 15 19
+famished 12 16
 fancier 10
-far 20 8 19 7 3 9 13 6
+far 3 6 7 8 9 13 19 20
 fare 20
 faring 10
 farther 6 13
 fashioned 10
-fast 3 16 14 11
+fast 3 11 14 16
 fasten 3
 fastens 1
 fat 6
 fate 5
-father 15 3 11 20 8 19 5 6 12 17 7 14
-fathers 13 5 6 3 7 1
+father 3 5 6 7 8 11 12 14 15 17 19 20
+fathers 1 3 5 6 7 13
 fatigue 7
 fatty 10
-fault 5 20 3
-favor 11 17 8 19 12
+fault 3 5 20
+favor 8 11 12 17 19
 favorite 16
 favors 19
-fear 6 3 16 13 12 1 8
-feast 12 13 6 10 3 15 1
+fear 1 3 6 8 12 13 16
+feast 1 3 6 10 12 13 15
 feat 7
-features 20 9
-fed 10 3
-feed 11 5 7
+features 9 20
+fed 3 10
+feed 5 7 11
 feeding 15 17
 feeds 6
-feel 20 12 4 2 17 19 3 5 16 13 6 11 10 7 15 14 8 9 1 18
-feeling 12 17 3 19 10 7 15 13 11
-feelings 6 5 4
-feels 4 14 17 8 13
-feet 2 17 6 7 19 16 13 3 10 15 12 14 5
-fell 17 12 7
+feel 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+feeling 3 7 10 11 12 13 15 17 19
+feelings 4 5 6
+feels 4 8 13 14 17
+feet 2 3 5 6 7 10 12 13 14 15 16 17 19
+fell 7 12 17
 fellow 7
-felt 11 3 7 18
+felt 3 7 11 18
 female 3
-fence 2 15 3 6
+fence 2 3 6 15
 fences 10
 fend 17
 feral 12
 festivity 18
 fever 11
 feverishly 12
-few 2 3 11 4 5 16 20 13 10 1 15 14 12 8 17 7
+few 1 2 3 4 5 7 8 10 11 12 13 14 15 16 17 20
 fidgeting 13
 field 2 3
 fifteen 14
 fifty 15
-fight 18 12 3 16 13 10 15 14
-fighting 19 16 20 1 15
-figure 11 3
+fight 3 10 12 13 14 15 16 18
+fighting 1 15 16 19 20
+figure 3 11
 file 2
 filed 8
-fill 4 9 20 2 15 14 7
-filled 12 10 3
+fill 2 4 7 9 14 15 20
+filled 3 10 12
 fills 3
 film 16
 filmmakers 1
 filthy 12
-final 15 1 10 12 17 8
+final 1 8 10 12 15 17
 finality 12
-finally 20 19 7 5 13 10 15 1 17 3 16 8
-find 15 11 4 2 1 5 13 17 20 6 12 14 19 10 3 8
+finally 1 3 5 7 8 10 13 15 16 17 19 20
+find 1 2 3 4 5 6 8 10 11 12 13 14 15 17 19 20
 finding 1 4 7
-fine 12 4 19 10 16 6 17 13
-finger 18 3 19
-fingers 1 19 11 6 3 14 9 10 20 5 8
-finish 11 4 3 10 14 9 8 17
+fine 4 6 10 12 13 16 17 19
+finger 3 18 19
+fingers 1 3 5 6 8 9 10 11 14 19 20
+finish 3 4 8 9 10 11 14 17
 finished 3
 finishes 12
 finishing 3
-fire 6 7 12 16 20 15 19 18 3
+fire 3 6 7 12 15 16 18 19 20
 fireballs 1
-fired 20 10
-fires 20 9 1 10
-first 20 4 17 19 12 5 10 15 6 2 11 7 13 9 14 1 8 3 16
-fish 13 11 9 4 10 6 15
+fired 10 20
+fires 1 9 10 20
+first 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20
+fish 4 6 9 10 11 13 15
 fistful 5
-fists 8 7
+fists 7 8
 fit 7
 fitted 8
-five 3 5 15 8 7 10 16
+five 3 5 7 8 10 15 16
 fixed 5
 fixes 5
 flames 12
 flash 18
 flashes 8
-flat 20 3
+flat 3 20
 flatly 4
 flatten 15
 flaunted 16
-flavius 18 11
+flavius 11 18
 flaw 18
 fleas 11
 fled 1
 fleeing 13
-flesh 15 3
+flesh 3 15
 flicker 10
 flickering 3
-flickerman 10 11 16 7 8 5
+flickerman 5 7 8 10 11 16
 flight 5
 flimsy 16
 flinch 17
@@ -1448,100 +1448,100 @@ flit 12
 flitting 14
 flood 12
 flooded 13
-floor 1 17 9 5 12 18 8
+floor 1 5 8 9 12 17 18
 flops 19
 flounder 13
-flow 13 1 12
+flow 1 12 13
 flower 11
-flowers 16 1 13 4
+flowers 1 4 13 16
 flu 6 13
 fluffy 12
 flush 5
 flushes 12
 fly 10 14
 flying 3 7 10
-focus 2 13 7
+focus 2 7 13
 focuses 1
 foliage 6
-follow 15 3 12 20 14 10
-followed 19 15 3 1
-following 20 14
+follow 3 10 12 14 15 20
+followed 1 3 15 19
+following 14 20
 follows 8
-fond 5 3
+fond 3 5
 fondness 4 5
-food 15 20 18 5 10 3 19 17 13 6 1
+food 1 3 5 6 10 13 15 17 18 19 20
 foods 13 15
-fool 16 20 12
+fool 12 16 20
 fooled 20
 foolishly 7
 fools 6
-foot 15 2 20 9 10 5 17
+foot 2 5 9 10 15 17 20
 footfalls 15
 footing 9
 footsteps 18
-for 1 15 3 20 12 13 4 11 5 9 2 18 17 8 19 14 6 16 10 7
+for 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 forage 2
-forbidden 6 20 10
+forbidden 6 10 20
 force 4 6 12
 forced 19
-forcing 18 11 12
+forcing 11 12 18
 forefinger 9
-forehead 19 13 17 11 5
+forehead 5 11 13 17 19
 forest 9
 forethought 17
 forever 7
-forget 4 9 10 5 3
+forget 3 4 5 9 10
 forgetting 10
-forgive 13 1
+forgive 1 13
 forgiving 13
 forgot 11
-forgotten 19 7
+forgotten 7 19
 fork 3
-form 19 12 15
+form 12 15 19
 formally 5
 forming 8 14
 forms 6
 forth 8 14
-forthcoming 17 4
-fortunately 19 6
+forthcoming 4 17
+fortunately 6 19
 forty 15 17
-forward 8 19 5 20 14 9
-fought 6 1
-found 3 11 6 12 13 20
-four 2 15 20 18 12 17 13 14
+forward 5 8 9 14 19 20
+fought 1 6
+found 3 6 11 12 13 20
+four 2 12 13 14 15 17 18 20
 fours 9
 fourteen 3
-fourth 12 11
+fourth 11 12
 fox 20
-foxface 15 6 10 20 7 14 19
+foxface 6 7 10 14 15 19 20
 foxfaces 1
 fragrance 12
 frame 13
 frantic 9 11
-free 9 13 10 1 5 8 17
+free 1 5 8 9 10 13 17
 freedom 13
 freeing 20
 freely 15
-fresh 1 3 20 11 9 10 13
-friend 5 16 7
-friends 4 19 12 6
+fresh 1 3 9 10 11 13 20
+friend 5 7 16
+friends 4 6 12 19
 friendship 8
 frightened 6 16
 frilly 12
-fro 18 11 10
-from 2 15 20 12 11 13 4 18 17 8 19 5 6 7 3 16 10 1 14 9
-front 2 17 14 7 6 13 3
-frown 14 3
+fro 10 11 18
+from 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+front 2 3 6 7 13 14 17
+frown 3 14
 fruit 3
 fu 12
 fuel 1 13
-full 6 3 10 13 12 14 18 1
+full 1 3 6 10 12 13 14 18
 fuller 5
 fully 2
 fumble 19 20
 fun 3 9 16
 funerals 19
-funny 11 10 16 15 18 6
+funny 6 10 11 15 16 18
 fur 7 19
 furious 11
 furiously 12
@@ -1551,12 +1551,12 @@ futile 16
 ga 12 20
 gags 14
 gained 9
-gale 20 12 11 13 4 5 15 9 2 17 19 14 3 10 6
-gales 4 5 9 19 3 13
+gale 2 3 4 5 6 9 10 11 12 13 14 15 17 19 20
+gales 3 4 5 9 13 19
 gallon 11
-game 20 4 9 17 6 5 10
-gamemakers 12 17 13 7 15 1 20 3 6 16
-games 20 11 18 17 19 9 16 3 15 8 12 5 6 1 13 4
+game 4 5 6 9 10 17 20
+gamemakers 1 3 6 7 12 13 15 16 17 20
+games 1 3 4 5 6 8 9 11 12 13 15 16 17 18 19 20
 gaping 12 15
 garden 6
 garish 3
@@ -1564,52 +1564,52 @@ gashes 14
 gasp 8 9 19
 gasping 14
 gates 2
-gather 13 11 3 10 20
-gathered 10 20 3
-gathering 10 20 13
+gather 3 10 11 13 20
+gathered 3 10 20
+gathering 10 13 20
 gathers 20
 gau 10
-gave 20 12 5 3
+gave 3 5 12 20
 gear 12
-general 16 3
+general 3 16
 generally 9
-generous 3 19 8
+generous 3 8 19
 generously 10
 genetically 10
-gentle 13 9
+gentle 9 13
 gentlemen 11
 gentleness 3
-gently 13 20 3
+gently 3 13 20
 genuine 4
 genuinely 5
-gesture 19 13
-get 15 11 4 17 19 5 1 10 12 6 3 16 20 7 14 13 18 8
-gets 2 8 3 18
-getting 15 5 16 3 19 17 13
+gesture 13 19
+get 1 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20
+gets 2 3 8 18
+getting 3 5 13 15 16 17 19
 ghost 17
 gift 2 6
-gifts 18 5 16 20
+gifts 5 16 18 20
 giggles 4
 gingerly 13
-girl 9 20 8 5 16 7 10 17 13 18 3 6 4
+girl 3 4 5 6 7 8 9 10 13 16 17 18 20
 girlish 16
-girls 4 2 17 8 3 10 18
-give 17 19 6 16 3 7 10 13 20 15 12 14 11 5
-given 2 11 3 10 7 14 19 17 18 16 13
-gives 4 17 12 3 5 10 7 8 16
-giving 13 7 10
-glad 13 5 18 1
+girls 2 3 4 8 10 17 18
+give 3 5 6 7 10 11 12 13 14 15 16 17 19 20
+given 2 3 7 10 11 13 14 16 17 18 19
+gives 3 4 5 7 8 10 12 16 17
+giving 7 10 13
+glad 1 5 13 18
 glance 3 9
 glanced 7
 glancing 16
 glare 15
-glass 2 17 12 1
-glasses 17 13 14
+glass 1 2 12 17
+glasses 13 14 17
 gleams 7
 gleefully 14
 glimmer 19
 glimmers 14
-glimpse 2 10 12 8
+glimpse 2 8 10 12
 glint 1
 glisten 20
 gloom 11
@@ -1618,44 +1618,44 @@ glory 19
 glossy 19
 gloved 5
 gloves 13
-glow 11 10
+glow 10 11
 glowering 19
 glowing 14 17
-glows 8 3
+glows 3 8
 glue 10
 gnawing 17
-go 4 17 19 5 6 3 20 16 13 10 1 15 12 14 9 18 8
-goat 2 13 4 6 5 1 3 10
+go 1 3 4 5 6 8 9 10 12 13 14 15 16 17 18 19 20
+goat 1 2 3 4 5 6 10 13
 gobble 20
 gobbled 3
-goes 15 17 19 16 20 14 1 12 6 3
-going 4 5 19 7 12 10 3 9 16 20 13 15 17 1
+goes 1 3 6 12 14 15 16 17 19 20
+going 1 3 4 5 7 9 10 12 13 15 16 17 19 20
 gold 5 9 10 14
-golden 11 10 15 8
-gone 11 5 3 15 13 10 12 17
-goner 15 7
-good 3 4 11 5 9 2 19 12 10 15 13 6 16 7 20 18 8
+golden 8 10 11 15
+gone 3 5 10 11 12 13 15 17
+goner 7 15
+good 2 3 4 5 6 7 8 9 10 11 12 13 15 16 18 19 20
 goodbye 5
-got 11 20 1 5 15 6 3 19 7 10 14
-gotten 17 5
+got 1 3 5 6 7 10 11 14 15 19 20
+gotten 5 17
 grab 2 14
-grabs 19 12 3
+grabs 3 12 19
 grade 15
 gradually 11 13
-grain 12 15 4 18 5 3 10
+grain 3 4 5 10 12 15 18
 gram 20
 grasp 3
 grass 3
 grasses 3
-grateful 14 13
+grateful 13 14
 gratified 16
 gratitude 1
 gravy 3
-gray 2 11 13 7 1
-greasy 11 4 20 12
-great 8 12 6 13
-green 20 10 3 13 19
-greens 13 11 9 4 20 12
+gray 1 2 7 11 13
+greasy 4 11 12 20
+great 6 8 12 13
+green 3 10 13 19 20
+greens 4 9 11 12 13 20
 greet 13
 greeting 11
 greetings 12
@@ -1664,9 +1664,9 @@ grime 12
 grimly 9 16
 grimness 2
 grimy 4
-grin 20 19
-grip 1 19 15 10
-gripping 17 5
+grin 19 20
+grip 1 10 15 19
+gripping 5 17
 grit 18
 gritty 6
 groan 20
@@ -1674,7 +1674,7 @@ grocers 6
 groosling 3 6
 grooslings 3
 grouchily 17
-ground 17 19 12 9 16 13 6 1 15 14 8 10
+ground 1 6 8 9 10 12 13 14 15 16 17 19
 grounds 3
 group 4
 groups 8
@@ -1687,13 +1687,13 @@ grubbiness 12
 gruesome 1
 gruffly 8 16
 grumbling 7
-guarantee 20 6 1 12
+guarantee 1 6 12 20
 guaranteed 12
 guaranteeing 9
-guard 15 13
+guard 13 15
 guarding 11
 guards 18
-guess 6 3 7 10 20 5 8 13 11 4
+guess 3 4 5 6 7 8 10 11 13 20
 guessing 5 13
 guest 5
 guides 13
@@ -1703,68 +1703,68 @@ gushes 19
 gym 13
 h 6
 ha 19
-had 1 11 3 20 5 15 9 18 17 8 19 6 7 12 2 10 13 16 14
-hadnt 18 8 5 6 20 16
+had 1 2 3 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+hadnt 5 6 8 16 18 20
 haggard 13
 haggling 4
-hair 11 4 20 17 19 5 7 12 1 8 13 18
+hair 1 4 5 7 8 11 12 13 17 18 19 20
 hairband 3 11
 hairs 3
-half 11 4 3 10 20 14 17 1
+half 1 3 4 10 11 14 17 20
 halfway 15
-hall 12 13 8 10
+hall 8 10 12 13
 hallucinations 14
 hallway 12
 haltingly 7
 halves 4
 hammers 12
 hampered 14
-hand 5 17 19 12 2 16 9 13 3 7 10 14 8 20 4
+hand 2 3 4 5 7 8 9 10 12 13 14 16 17 19 20
 handcuffed 4
 handedly 15
-handful 20 3 10 6 1 7 18
+handful 1 3 6 7 10 18 20
 handfuls 20
 handing 10
 handkerchief 5
-handle 4 3 6
+handle 3 4 6
 handouts 20
-hands 12 11 2 8 14 5 19 3 20 13 10 6 17 18 1
-handsome 20 10
+hands 1 2 3 5 6 8 10 11 12 13 14 17 18 19 20
+handsome 10 20
 handwriting 20
-hang 20 10 5
+hang 5 10 20
 hanging 2
 hangs 8 19
-happen 4 5 6 19 7 9
-happened 19 10 12 6 7 20 1
-happening 18 15
-happens 19 3 7 10 17 1
-happy 11 17 7 10 15 18
-hard 11 9 19 6 1 3 5 15 16 10 20 13 7 17
+happen 4 5 6 7 9 19
+happened 1 6 7 10 12 19 20
+happening 15 18
+happens 1 3 7 10 17 19
+happy 7 10 11 15 17 18
+hard 1 3 5 6 7 9 10 11 13 15 16 17 19 20
 harder 1
 hardest 6
-hardly 4 3 9 10 16
+hardly 3 4 9 10 16
 harm 8
-harmless 9 3
+harmless 3 9
 harmony 14
 harshly 19
 harvest 3 14
-has 11 2 15 4 5 17 8 19 6 3 16 20 12 9 13 7 10 1 14 18
-hasnt 2 8 5 16 7
-hate 12 3 19
-hated 5 3
+has 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+hasnt 2 5 7 8 16
+hate 3 12 19
+hated 3 5
 hates 11 16
-hating 16 18 4
-hatred 9 7 19
+hating 4 16 18
+hatred 7 9 19
 haul 15
 hauling 20
 hauntingly 20
-have 1 2 3 12 11 13 4 5 15 9 18 17 8 19 14 7 6 20 10 16
-havent 19 3 6 1 15
-having 4 11 20 3 9 15 16 19 17
-haymitch 18 17 19 14 3 20 6 16 2 7 10 15 13 11 8 5
-haymitchs 3 10 16 13 11 8
-he 11 15 3 20 12 13 4 9 18 17 8 19 14 7 5 2 16 6 10 1
-head 4 2 19 5 12 3 16 13 6 17 10 7 15 20 18 11
+have 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+havent 1 3 6 15 19
+having 3 4 9 11 15 16 17 19 20
+haymitch 2 3 5 6 7 8 10 11 13 14 15 16 17 18 19 20
+haymitchs 3 8 10 11 13 16
+he 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+head 2 3 4 5 6 7 10 11 12 13 15 16 17 18 19 20
 headed 12 13
 heading 2 17
 headlock 15
@@ -1775,126 +1775,126 @@ healers 11
 health 1
 healthy 16
 heaping 3
-hear 9 17 8 5 20 13 7 10 6 14 19 11 1 4
+hear 1 4 5 6 7 8 9 10 11 13 14 17 19 20
 heard 7 9 16 20
 hearing 3
-heart 3 5 12 7
+heart 3 5 7 12
 heartless 1
 heartlessly 11
 hearty 12
-heat 11 19 1
+heat 1 11 19
 heavens 15
-heavy 15 8 18
-hed 5 6 10 15 3 4
-heels 14 3
+heavy 8 15 18
+hed 3 4 5 6 10 15
+heels 3 14
 height 19
-held 11 7 17 12 3
-hell 5 16 17 20 10 3 1 15 9
+held 3 7 11 12 17
+hell 1 3 5 9 10 15 16 17 20
 hello 20
-help 4 19 7 6 1 10 20 3 17 16 14 5 11
-helped 16 6
-helping 4 15 6 19 14
-helps 6 3
+help 1 3 4 5 6 7 10 11 14 16 17 19 20
+helped 6 16
+helping 4 6 14 15 19
+helps 3 6
 hem 3
-her 1 11 13 4 5 15 20 17 18 8 19 6 7 3 16 12 9 10
-herbs 11 5
+her 1 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 19 20
+herbs 5 11
 herd 20
 herded 2
-here 15 3 4 17 7 5 20 9 6 10 1 13 12 8 11
-heres 15 10
-herself 4 8 5 3
-hes 11 4 15 17 8 19 14 5 3 20 9 16 2 10 13 6 7 12 1
+here 1 3 4 5 6 7 8 9 10 11 12 13 15 17 20
+heres 10 15
+herself 3 4 5 8
+hes 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20
 hesitate 5
 hesitating 13
 hesitation 13
-hey 20 13 3 10
+hey 3 10 13 20
 hidden 3 9 13
 hide 10 12 13
-hiding 10 13 20 14
-high 2 11 20 3 17 19 15
+hiding 10 13 14 20
+high 2 3 11 15 17 19 20
 higher 15
-highlights 16 7 1
+highlights 1 7 16
 highly 3
 hike 15
-hills 20 14
-him 11 3 20 13 4 5 15 9 17 14 19 7 12 1 2 16 6 10 8
-himself 14 20 10 16 1
+hills 14 20
+him 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20
+himself 1 10 14 16 20
 hind 14
 hindquarters 8
 hips 8
-his 11 20 12 4 5 15 9 17 8 19 14 7 3 2 16 6 10 13 1 18
+his 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 hissing 11
-history 20 10 12
-hit 19 8 9 5
-hits 16 20 14 19 8
+history 10 12 20
+hit 5 8 9 19
+hits 8 14 16 19 20
 hm 3
-hob 20 11 4 19 6 3 13
+hob 3 4 6 11 13 19 20
 hobbled 2
 hobbling 14
-hold 20 12 2 5 14 9 11
-holding 2 19 9 16 10 15 11 4 3
-holds 20 2 19 5 13 12 4
+hold 2 5 9 11 12 14 20
+holding 2 3 4 9 10 11 15 16 19
+holds 2 4 5 12 13 19 20
 holdup 12
-hole 12 15 10
+hole 10 12 15
 holes 6
-holiday 13 2 3
+holiday 2 3 13
 hollering 17
 hollers 19
-hollow 15 6 7 12 3
+hollow 3 6 7 12 15
 hollowly 10
-home 11 15 20 13 4 18 5 6 7 19 12 1 3 10 16 14 17 8
-homecoming 17 4
+home 1 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20
+homecoming 4 17
 homing 10
 honest 13
 honestly 5
-honor 17 8 3
-hood 10 1
-hope 6 12 16 17 10
-hopefully 12 11
+honor 3 8 17
+hood 1 10
+hope 6 10 12 16 17
+hopefully 11 12
 hopelessly 6 12
 hopelessness 5
 hopes 1
-hoping 17 19 10
+hoping 10 17 19
 hopped 12
-hori 15 8
-horn 14 7 19 8 15 9 1 10
-horrible 5 19 9
+hori 8 15
+horn 1 7 8 9 10 14 15 19
+horrible 5 9 19
 hospital 13
-hot 11 10 15 7 12 14
-hour 2 5 20 10 14 8 1
-hours 2 15 4 12 17 13 6 10 1 7 8
+hot 7 10 11 12 14 15
+hour 1 2 5 8 10 14 20
+hours 1 2 4 6 7 8 10 12 13 15 17
 house 2 4 5 13 16
 houses 2 16
-hovercraft 9 1 20 10 7 5 12
-how 11 15 13 4 9 18 17 7 12 1 10 6 16 19 20 8 3
+hovercraft 1 5 7 9 10 12 20
+how 1 3 4 6 7 8 9 10 11 12 13 15 16 17 18 19 20
 howls 9
-huddled 8 5 9 17
+huddled 5 8 9 17
 huff 5
-hug 4 17 11 10
-huge 3 10 14 19 16
+hug 4 10 11 17
+huge 3 10 14 16 19
 hugging 3 10
 hugs 13
 huh 6 10
 hum 15
-human 10 3 7 19 9
+human 3 7 9 10 19
 humiliating 18
 humoring 12
 hunched 2 6
 hundred 1
 hundreds 20
-hunger 20 11 2 18 17 9 16 13 12 6 1 8
+hunger 1 2 6 8 9 11 12 13 16 17 18 20
 hungrily 8
 hungry 2 3 20
 hunk 10
-hunt 3 4 11 1 5 10 15
-hunted 3 13 6 11
+hunt 1 3 4 5 10 11 15
+hunted 3 6 11 13
 hunter 9
-hunting 2 13 4 11 6 19 9 3 10 20 12 17 1
+hunting 1 2 3 4 6 9 10 11 12 13 17 19 20
 hunts 11 13
 hurl 15
 hurling 12
 hurray 10
-hurt 10 5
+hurt 5 10
 hurting 19
 hurts 3 13
 hushed 4
@@ -1902,48 +1902,48 @@ hushing 1
 husk 15
 hypodermic 13
 hysterically 8
-i 1 11 2 15 3 20 12 13 4 5 9 17 18 8 19 14 6 7 16 10
+i 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 ice 1
-icy 6 11 8 12
-id 20 18 5 6 7 12 3 17 16 10 13 15
-idea 3 13 11 19 20 6 15 4 5
+icy 6 8 11 12
+id 3 5 6 7 10 12 13 15 16 17 18 20
+idea 3 4 5 6 11 13 15 19 20
 ideally 10
 identity 6
 idle 10
-if 2 15 3 13 4 9 18 17 8 5 19 12 1 16 10 20 6 7 14 11
+if 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 iftheyre 5
 ignorance 7
 ignore 11 20
 ignores 12
 ii 16
-ill 4 19 14 3 5 2 16 13 6 17 20 7 12 15 9 8
+ill 2 3 4 5 6 7 8 9 12 13 14 15 16 17 19 20
 illegal 3
 illuminating 6
-illusion 8 3
-im 15 13 4 5 9 17 14 19 12 6 3 20 16 11 7 10 1 8 18
+illusion 3 8
+im 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 image 16
 images 20
-imagine 19 3 20 17 11
+imagine 3 11 17 19 20
 immediacy 17
-immediately 8 16 10 13 12 17 18
+immediately 8 10 12 13 16 17 18
 immobile 5
 immobili 3
-impact 17 9
+impact 9 17
 imperfect 14
 importance 10
 important 6 15
 impossible 9 14
 impression 10
 impressive 10
-imprisoned 2 20 9 8
+imprisoned 2 8 9 20
 improvement 10
-impulse 17 7
-in 1 11 2 15 3 20 12 13 4 5 9 18 17 8 19 14 6 7 16 10
+impulse 7 17
+in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 inactivity 15
 inadvertently 14
 inaudible 3
 inch 10
-inches 14 8 12 4
+inches 4 8 12 14
 incident 10
 inciting 3
 incline 9
@@ -1952,14 +1952,14 @@ incredible 10
 incredibly 19
 indeterminate 17
 indication 15
-indifferent 20 1
+indifferent 1 20
 inexplicably 9 14
 infection 13
 informers 2
-inhale 17 10
+inhale 10 17
 inhaling 12
 initial 13
-initially 20 8
+initially 8 20
 injured 5
 injuries 17
 inlaid 19
@@ -1968,19 +1968,19 @@ insane 3 15 16
 insect 9
 insectlike 2
 insert 1
-inside 15 17 6 20 11 10 1
+inside 1 6 10 11 15 17 20
 insides 19
 insidious 8
-insist 11 5
+insist 5 11
 insisting 11 15
 installed 3
 instant 16
-instead 13 4 19 5 3 16 7 9
+instead 3 4 5 7 9 13 16 19
 instigator 4
 instinct 16
 instincts 17
 instruction 10
-instructions 1 15 14
+instructions 1 14 15
 insurmountable 3
 intended 12
 intensity 1 19
@@ -1993,13 +1993,13 @@ interfered 11
 interference 8
 interrupts 16
 intersperse 14
-interview 17 3 8 10 5 13
-interviews 16 17 1 8
-into 2 3 20 12 11 13 15 17 14 5 6 7 19 4 10 9 16 1 8 18
+interview 3 5 8 10 13 17
+interviews 1 8 16 17
+into 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 intones 18
 intoxicated 8
 introduced 11
-introducing 17 8
+introducing 8 17
 invisible 13
 inviting 20
 iodine 14
@@ -2009,20 +2009,20 @@ ironic 4
 irreverent 3
 irritated 4
 irritation 13
-is 1 11 2 15 3 20 12 13 4 5 9 18 17 8 19 14 6 16 10 7
-isnt 2 3 17 13 10 14 16
-it 11 2 15 3 20 12 13 4 5 9 18 17 8 19 6 7 1 16 10 14
+is 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+isnt 2 3 10 13 14 16 17
+it 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 itching 12
 itd 3
 itll 15
-its 2 15 20 4 5 9 17 8 19 6 11 7 12 3 10 16 13 14 1 18
-itself 12 15 5
-ive 9 19 6 3 2 20 10 16 13 17 1 7 14 12 11 8 5 4
-jabber 10 3
+its 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+itself 5 12 15
+ive 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 19 20
+jabber 3 10
 jabs 8
-jacker 15 1
+jacker 1 15
 jackers 14
-jacket 6 19 5 12 11 1 10
+jacket 1 5 6 10 11 12 19
 jackets 1
 jagged 14
 jam 13
@@ -2033,10 +2033,10 @@ jealous 4
 jerked 15
 jet 7
 jewels 19
-job 11 20 13
+job 11 13 20
 johanna 16
-join 19 17 7 13
-joke 11 10
+join 7 13 17 19
+joke 10 11
 jokes 7
 joking 5
 jolt 13
@@ -2046,35 +2046,35 @@ judgment 7
 juice 5 12
 jump 9 10 15
 jumps 6
-just 3 12 4 5 9 20 18 17 8 14 6 10 15 16 13 19 2 11 7 1
+just 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 justice 2 6 10
-katniss 20 5 2 8 19 3 9 13 10 6 1 15 7 14 12 11 4
+katniss 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 19 20
 keel 6
 keen 16
-keep 3 11 4 5 2 19 20 16 17 10 15 12 18 8 13
-keeping 15 4 7 12 16 5
-keeps 4 3 10 8 13 16
+keep 2 3 4 5 8 10 11 12 13 15 16 17 18 19 20
+keeping 4 5 7 12 15 16
+keeps 3 4 8 10 13 16
 kept 5 6
 kettle 11
 kicking 16
-kids 13 4 2 18 8 5 7 3 20 6
-kill 11 20 18 4 3 9 6 16 1 15 10 12
-killed 19 16 6 20
+kids 2 3 4 5 6 7 8 13 18 20
+kill 1 3 4 6 9 10 11 12 15 16 18 20
+killed 6 16 19 20
 killing 7 9
-kills 16 10
-kind 4 1 16 19 2 10 13 20 14 15
+kills 10 16
+kind 1 2 4 10 13 14 15 16 19 20
 kindness 12
 kinds 5
-kiss 4 5 12 16 19 2 11 17 13 3 15
-kisses 20 11 1 5
+kiss 2 3 4 5 11 12 13 15 16 17 19
+kisses 1 5 11 20
 kissing 16
-kitchen 11 19 12
+kitchen 11 12 19
 kitten 11
 knee 1
 kneels 16
-knees 11 7 12 3
-knew 15 19 5 12 7 16 4
-knife 3 11 5 13 10 14 9 12
+knees 3 7 11 12
+knew 4 5 7 12 15 16 19
+knife 3 5 9 10 11 12 13 14
 knob 8
 knock 19
 knocked 17
@@ -2082,166 +2082,166 @@ knocking 11
 knocks 14
 knot 1
 knots 13
-know 15 11 13 4 8 19 14 7 12 6 1 3 5 9 2 10 16 20 18
+know 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 18 19 20
 knowing 4 12 15
-known 5 20 10 1
-knows 9 17 3 16 20 1 13 6
+known 1 5 10 20
+knows 1 3 6 9 13 16 17 20
 knuckles 2
 labor 12
 lack 17
 lacking 7
 ladder 5
 ladders 5
-ladies 17 11
+ladies 11 17
 lady 4
 lag 17
-laid 4 6 5
-lake 11 12 15 14 1 10 7 5
+laid 4 5 6
+lake 1 5 7 10 11 12 14 15
 lamb 3 10 20
-land 5 20 15
-landed 14 12
-landing 17 13
+land 5 15 20
+landed 12 14
+landing 13 17
 lands 14 19
 landscape 3
 lane 6
 lap 5 13 16
 lard 4
-large 11 2 7 16
-largely 18 3
+large 2 7 11 16
+largely 3 18
 lashes 14
-last 11 18 5 10 3 20 12 15 13 6 16 17 9 7 1 8 4
+last 1 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 20
 lasting 10
-late 11 4 13 12 14 9 20
+late 4 9 11 12 13 14 20
 latecomers 2
 lately 5
-later 3 13 10 4
+later 3 4 10 13
 latter 17
-laugh 20 4 3 11 5
+laugh 3 4 5 11 20
 laughed 11
-laughing 7 16 3 10 9 8
+laughing 3 7 8 9 10 16
 laughingstock 17
-laughs 20 6 15
+laughs 6 15 20
 launch 8 13
 law 2 3
 laws 20
-lay 17 12 1
-layer 5 6 12 1
+lay 1 12 17
+layer 1 5 6 12
 lays 13
 lead 20
-leads 6 13 11 4
-leaf 13 11
-lean 5 10 1 16
+leads 4 6 11 13
+leaf 11 13
+lean 1 5 10 16
 leaned 7
 leans 4 5 10 12 20
 leap 17
 leaping 11
 leaps 19
 learn 1 20
-learned 20 1
-least 11 17 19 3 6 16 10
-leather 2 20 3
-leave 13 4 11 5 1 3 15 12
-leaves 2 6 13 3 10 20 15 8
-leaving 9 19 6 3 15 12 5
+learned 1 20
+least 3 6 10 11 16 17 19
+leather 2 3 20
+leave 1 3 4 5 11 12 13 15
+leaves 2 3 6 8 10 13 15 20
+leaving 3 5 6 9 12 15 19
 lecture 10
 ledge 20
-left 12 19 5 6 20 3 13 10 1 15 8 18 11 4
-leg 4 13 9 15 12 14 1 5 3
-legs 2 10 14 7 19 17
+left 1 3 4 5 6 8 10 11 12 13 15 18 19 20
+leg 1 3 4 5 9 12 13 14 15
+legs 2 7 10 14 17 19
 leisurely 15
-less 20 12 10 8 13 16
+less 8 10 12 13 16 20
 lessens 15
 lesser 15
-let 11 9 4 18 8 19 5 7 2 12 16 6 20 10 14 15 1 3
-lets 11 4 19 12 16 3 7 20 15 14
-letting 10 5
+let 1 2 3 4 5 6 7 8 9 10 11 12 14 15 16 18 19 20
+lets 3 4 7 11 12 14 15 16 19 20
+letting 5 10
 level 3
 licks 3
 lid 11
-lie 16 11 17 1
-lies 10 16 6 14 15
-life 13 18 11 19 3 15 10 6 14 8 1 12
-lift 18 13 20 8
-lifted 19 11 1
+lie 1 11 16 17
+lies 6 10 14 15 16
+life 1 3 6 8 10 11 12 13 14 15 18 19
+lift 8 13 18 20
+lifted 1 11 19
 lifting 16
-light 1 11 4 13 6 7 10 8
+light 1 4 6 7 8 10 11 13
 lighten 5
 lightly 17
 lightning 6
 lights 7 12 16
-like 15 20 12 4 2 18 8 19 5 1 3 16 10 9 13 6 17 7 14 11
+like 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 liked 3
 likely 11
 likes 16
 likethat 19
 liking 10
-limbs 15 7
+limbs 7 15
 limps 12
 line 2 7 15
 lines 2 14
 linger 1
 link 2
-lip 12 15 10 3 4
-lips 4 19 6 20 12 15 13 11 10 9 7 5 8
+lip 3 4 10 12 15
+lips 4 5 6 7 8 9 10 11 12 13 15 19 20
 liquid 17
 liquids 12
 liquor 19
 list 18
 listed 19
-listen 15 1 5 3 7 14 12 11
+listen 1 3 5 7 11 12 14 15
 listened 9
-listening 19 1 14 20 5
+listening 1 5 14 19 20
 lists 20
-lit 10 3
+lit 3 10
 literally 3
-little 1 2 20 12 4 18 19 6 5 10 3 9 16 13 7 15 14 17 8
-live 2 15 13 4 9 6 16 20 10 12 5 1
+little 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19 20
+live 1 2 4 5 6 9 10 12 13 15 16 20
 lived 6 16
-lives 8 3 6 13
+lives 3 6 8 13
 living 13
 load 13 14
-loaded 15 12
-loaf 20 19 12 9
-loaves 12 9 7 19 13
+loaded 12 15
+loaf 9 12 19 20
+loaves 7 9 12 13 19
 lobby 13 18
 local 20
 location 15
 lock 11
-locked 5 15 20 8
+locked 5 8 15 20
 log 15
 lone 2
-long 2 4 19 12 13 16 17 10 20 3 6 15 7 9 8 1 11
+long 1 2 3 4 6 7 8 9 10 11 12 13 15 16 17 19 20
 longer 2 5 11 13
 longingly 10
-look 20 11 4 5 18 19 3 10 6 1 7 14 12 16 13
-looked 4 11 5
-looking 20 4 17 8 5 10 14 3 7
+look 1 3 4 5 6 7 10 11 12 13 14 16 18 19 20
+looked 4 5 11
+looking 3 4 5 7 8 10 14 17 20
 lookout 6
-looks 1 17 12 16 3 15 7
+looks 1 3 7 12 15 16 17
 looming 15
 loops 2
-loose 15 7 10 3
+loose 3 7 10 15
 loosely 3
 loosen 20
-lose 19 3 1 7 12 17
+lose 1 3 7 12 17 19
 loses 9
-losing 19 1 16 3
-loss 19 12
-lost 5 3 9
-lot 11 4 17 2 20 10 6 16 19 15 5 13
+losing 1 3 16 19
+loss 12 19
+lost 3 5 9
+lot 2 4 5 6 10 11 13 15 16 17 19 20
 lots 19
-loud 3 10 6 20 15 8 11
+loud 3 6 8 10 11 15 20
 louder 15
-love 2 4 19 3 7 6 11 16 1 10 5 13
-loved 13 5 12 10
+love 1 2 3 4 5 6 7 10 11 13 16 19
+loved 5 10 12 13
 lovely 1 4 8 14
 lover 12
 loves 12
-loving 19 4
-low 15 7
+loving 4 19
+low 7 15
 lowers 16
-luck 12 5 7 11
-lucky 15 6
+luck 5 7 11 12
+lucky 6 15
 lulling 17
 lunch 4
 lunge 12
@@ -2249,24 +2249,24 @@ lunges 20
 lungs 17
 luscious 11
 luxury 5 6
-lying 5 15 13 17
+lying 5 13 15 17
 lynx 20
 maces 5
-mad 10 1 12
-made 3 9 4 7 19 6 5 20 17 10 16 14 8
-madge 4 15 9 5 3
-madges 5 9 20 10
+mad 1 10 12
+made 3 4 5 6 7 8 9 10 14 16 17 19 20
+madge 3 4 5 9 15
+madges 5 9 10 20
 madly 11
 main 3
-mainly 20 16
-make 20 12 13 11 9 4 18 8 19 5 3 10 6 15 14 1 7
-makes 12 4 19 1 3 20 6 11 10 9 8 17 7 13
+mainly 16 20
+make 1 3 4 5 6 7 8 9 10 11 12 13 14 15 18 19 20
+makes 1 3 4 6 7 8 9 10 11 12 13 17 19 20
 makeshift 11
-makeup 18 3 10 13
-making 19 7 10 3
+makeup 3 10 13 18
+making 3 7 10 19
 male 10
-man 12 4 20 17 8 5
-manage 19 10 3
+man 4 5 8 12 17 20
+manage 3 10 19
 manages 17
 mandatory 4
 maneuver 8
@@ -2275,15 +2275,15 @@ maniacally 12
 manners 3 20
 mans 3 17
 mansion 8
-many 2 13 5 3 1
+many 1 2 3 5 13
 marches 6
 marked 2 19
-market 20 11 4 2 5 6
+market 2 4 5 6 11 20
 markets 11
 marks 5
 married 4
-marry 7 6
-mashed 11 3
+marry 6 7
+mashed 3 11
 mask 20
 masked 5
 mason 16
@@ -2296,46 +2296,46 @@ mated 3
 material 16
 materiali 5
 math 10
-matter 8 19 3 5 11 13 4
+matter 3 4 5 8 11 13 19
 mattered 8
 matterpeeta 3
 mattress 1
-may 2 11 4 15 17 5 12 1 10 8
-maybe 17 18 12 6 3 5 16 13 19 10 20 7 14 8 11
-mayor 20 18 17 8 19 12
+may 1 2 4 5 8 10 11 12 15 17
+maybe 3 5 6 7 8 10 11 12 13 14 16 17 18 19 20
+mayor 8 12 17 18 19 20
 mayors 4
-me 1 11 2 15 20 12 4 9 17 18 8 19 14 6 7 5 3 10 16 13
+me 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 meadow 2 3 5
 meager 15
-meal 4 3 12 17 18
+meal 3 4 12 17 18
 meals 20
-mean 5 19 4 15 6 16 3 7 20 10 12 13 18
-means 15 19 10 13 20 9 1
-meant 13 12
-meat 3 4 20 6 10
+mean 3 4 5 6 7 10 12 13 15 16 18 19 20
+means 1 9 10 13 15 19 20
+meant 12 13
+meat 3 4 6 10 20
 medal 8
 medical 1
 medicinal 11
 medicine 1 3
 medium 19
-mellark 19 6 12 16 20 3 11
+mellark 3 6 11 12 16 19 20
 mellarks 3
 melodies 3 14
 melody 6 14
 member 19
-members 15 2
+members 2 15
 memori 10
-memories 19 1
-memory 16 6 7
+memories 1 19
+memory 6 7 16
 men 2
 menacing 14
 mention 3
-mentor 20 3
+mentor 3 20
 mentors 16
-merchant 11 2 17
+merchant 2 11 17
 merchants 6
 mercifully 20
-mercy 18 10
+mercy 10 18
 mere 19
 merely 13
 mesh 11 15
@@ -2343,31 +2343,31 @@ mesmeri 11 14
 mess 17
 message 18 19
 messing 5
-met 4 12 1
-metal 14 19 9 8 3 11 16
+met 1 4 12
+metal 3 8 9 11 14 16 19
 mice 20
-middle 3 9 18 19 17 13
+middle 3 9 13 17 18 19
 midway 14
-might 3 20 4 11 9 8 14 6 12 1 7 13 10 15 18 5
+might 1 3 4 5 6 7 8 9 10 11 12 13 14 15 18 20
 mile 10
-miles 20 17
-milk 4 5 1
-million 17 8
+miles 17 20
+milk 1 4 5
+million 8 17
 mimic 3
 mimicking 6
 mimics 12
-mind 11 6 5 20 19 17 12 1 18 3 13
+mind 1 3 5 6 11 12 13 17 18 19 20
 minds 3 7
-mine 15 9 19 13 1 12 7 4
+mine 1 4 7 9 12 13 15 19
 mined 20
 miner 7
 miners 2 10
-mines 11 4 8 5
+mines 4 5 8 11
 minor 15
-mint 6 3
-minute 10 19 5 13
-minutes 5 20 13 3 16 10
-mirror 4 5 18 3 13
+mint 3 6
+minute 5 10 13 19
+minutes 3 5 10 13 16 20
+mirror 3 4 5 13 18
 mischievously 19
 misdirected 9
 misery 9
@@ -2375,104 +2375,104 @@ misguided 16
 mishmash 3
 misjudged 15
 misled 1
-miss 20 13 3 7 1 4
+miss 1 3 4 7 13 20
 missed 20
-missing 11 1
+missing 1 11
 mistake 18
-mm 12 10
+mm 10 12
 moan 15
-moaning 16 1
+moaning 1 16
 moans 8
 mocking 10
 mockingbirds 3
-mockingjay 3 14 7
+mockingjay 3 7 14
 mockingjays 3 14
 models 20
 molded 2
 moldy 11
 molest 17
-moment 15 17 14 19 4 12 16 3 2 7 1 9 10 20 5 13
+moment 1 2 3 4 5 7 9 10 12 13 14 15 16 17 19 20
 momentarily 10
-moments 5 10 6 15
-money 3 20 5 9 11 17 6
+moments 5 6 10 15
+money 3 5 6 9 11 17 20
 monitored 8
 monitoring 8
 monstrous 20
 month 11
-months 5 19 13
+months 5 13 19
 mood 3
 moon 13 15
 moonlight 1
-more 3 20 4 11 15 2 19 14 12 5 9 10 16 17 13 7 8 18
-morning 2 12 11 14 5 13 15 17 4
-most 3 20 11 2 19 10 16 17 13 6 15 12 18 7
-mostly 10 17 1
+more 2 3 4 5 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+morning 2 4 5 11 12 13 14 15 17
+most 2 3 6 7 10 11 12 13 15 16 17 18 19 20
+mostly 1 10 17
 moth 13
-mother 1 11 20 15 4 8 19 5 6 7 3 13 17 12 16
-mothers 1 11 4 5 7 10 13
+mother 1 3 4 5 6 7 8 11 12 13 15 16 17 19 20
+mothers 1 4 5 7 10 11 13
 motion 12
-motionless 17 5
+motionless 5 17
 motions 12
 motivation 3
 mount 8 20
 mountains 13
 mounts 20
 mouser 11
-mouth 11 12 14 3 10 7 20 1
+mouth 1 3 7 10 11 12 14 20
 mouthful 12
-mouths 13 4 5
-move 8 11 20 13 3 10 15 14 7 17
-moved 5 3 7 10
+mouths 4 5 13
+move 3 7 8 10 11 13 14 15 17 20
+moved 3 5 7 10
 movement 3
-moves 5 2 15 8
-moving 12 5 13
-much 4 2 20 8 7 3 5 9 10 12 16 13 6 19 17 15 11 1
+moves 2 5 8 15
+moving 5 12 13
+much 1 2 3 4 5 6 7 8 9 10 11 12 13 15 16 17 19 20
 muck 6
-mud 6 7 13 16 1
+mud 1 6 7 13 16
 muddled 10
-muddy 11 6
+muddy 6 11
 multiple 3
 murder 10
 murdered 19
 murmur 20
 murmuring 8
 muscled 5
-muscles 20 8 9 5
+muscles 5 8 9 20
 music 7 14
-must 1 12 13 20 18 17 7 19 5 3 10 11 16 15 9 8
+must 1 3 5 7 8 9 10 11 12 13 15 16 17 18 19 20
 musty 11
-mutt 14 19 8 15 9
+mutt 8 9 14 15 19
 muttations 10 14
 mutter 3 9
-mutts 10 14 7 19 15 9 8 1 12 5
-my 1 11 2 15 3 20 12 13 4 5 17 8 19 14 6 7 10 9 16 18
-myself 1 20 15 4 2 8 19 14 5 6 3 12 9 17 10 13 11 16
+mutts 1 5 7 8 9 10 12 14 15 19
+my 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+myself 1 2 3 4 5 6 8 9 10 11 12 13 14 15 16 17 19 20
 nagging 15
-nails 2 19 12 8 18 3
+nails 2 3 8 12 18 19
 naked 8 18
-name 20 15 17 8 19 7 12 9 13 1 5
+name 1 5 7 8 9 12 13 15 17 19 20
 named 1 11
-names 11 13 2 17 19 20 6
+names 2 6 11 13 17 19 20
 nap 3 17
 narrow 3
 nation 17
-natural 14 5
+natural 5 14
 naturally 9
 nature 3 12
 natured 6 16
 nauseous 17
 navigate 17
 navigating 9
-near 15 10
+near 10 15
 nearby 9 20
 nearer 16
 nearly 18
 neat 6
-neck 5 13 19 9 11
-need 8 16 6 3 10 13
+neck 5 9 11 13 19
+need 3 6 8 10 13 16
 needed 11 15
 needing 15
-needle 13 8
+needle 8 13
 needles 9 10
 needless 10
 needs 13
@@ -2480,140 +2480,140 @@ negative 16
 neglected 15
 neighbor 16
 neighbors 19
-neither 4 20 2 11
+neither 2 4 11 20
 nerve 7
-nervous 12 17 10
+nervous 10 12 17
 nest 15
 nests 1
 nets 11
-never 3 20 4 15 9 14 19 11 5 6 7 12 2 10 16 13 17 1 18 8
-new 20 3 16 13 8
+never 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+new 3 8 13 16 20
 newest 19
-next 4 12 5 3 13 7 10 15 1
-nice 11 5 17 16 6 15 13
-nicer 11 3
+next 1 3 4 5 7 10 12 13 15
+nice 5 6 11 13 15 16 17
+nicer 3 11
 nickname 20
 nicknamed 2
-night 5 9 6 17 10 15 7 12 14 8 1 11 13 4
+night 1 4 5 6 7 8 9 10 11 12 13 14 15 17
 nightlock 1 20
 nightmare 1
-nights 4 19 11 16
-no 11 15 20 4 5 9 2 8 19 6 7 3 16 17 10 13 1 12 14 18
+nights 4 11 16 19
+no 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 nobody 3
-nod 16 20 15 8 4
-nods 2 1 5
+nod 4 8 15 16 20
+nods 1 2 5
 noise 10
 noiselessly 8
 noncommittal 10
-none 20 9 10
+none 9 10 20
 nones 4
 nook 13
 nor 1
 north 20
-nose 11 12 4 5 16
-not 1 15 3 20 12 11 13 4 5 9 2 17 18 19 6 7 16 10 14 8
-note 19 6 14 1
+nose 4 5 11 12 16
+not 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+note 1 6 14 19
 notes 3 14
-nothing 3 4 18 6 7 5 17 10 12 1 8 11 13
+nothing 1 3 4 5 6 7 8 10 11 12 13 17 18
 nothings 20
-notice 4 1 20 19 13 18 11
-noticed 11 10
-now 15 5 17 19 12 3 2 20 16 11 7 13 10 6 14 8 1
-nowhere 3 19 13
+notice 1 4 11 13 18 19 20
+noticed 10 11
+now 1 2 3 5 6 7 8 10 11 12 13 14 15 16 17 19 20
+nowhere 3 13 19
 nows 14
 nudges 10
 nudging 10
-numb 9 1
+numb 1 9
 number 19
 numbness 19
 nursing 1
 nuts 12
 oak 6 15
 obediently 14
-object 11 14 3
+object 3 11 14
 objectively 1
 oblige 15
 obliterated 20
 obstacles 15
-obviously 16 6 8
-occasion 8 9 5
+obviously 6 8 16
+occasion 5 8 9
 occasional 11
-occasionally 19 8
-occasions 12 6
+occasionally 8 19
+occasions 6 12
 occupied 16
 occur 12
-occurred 19 18
-oclock 13 4
-octavia 18 11
-odd 20 11
-odds 11 2 17 18 19 12 4
-of 1 11 2 15 3 20 12 13 4 9 18 17 8 19 14 5 6 7 10 16
-off 2 20 13 11 5 15 9 4 17 8 19 14 7 12 10 3 6 16 1
+occurred 18 19
+oclock 4 13
+octavia 11 18
+odd 11 20
+odds 2 4 11 12 17 18 19
+of 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+off 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20
 offer 10
 offers 4 10 12
 official 20
 officially 6 20
-officials 3 11 4 8
-often 19 11 20 12
-oh 19 7 12 3 10 16 1 13 18 5
-oil 15 18 5
-okay 11 16 10 3 13
-old 12 4 11 5 8 19 6 7 20 3 16 10 15 17
-older 4 19 5
+officials 3 4 8 11
+often 11 12 19 20
+oh 1 3 5 7 10 12 13 16 18 19
+oil 5 15 18
+okay 3 10 11 13 16
+old 3 4 5 6 7 8 10 11 12 15 16 17 19 20
+older 4 5 19
 oldest 2 8
 olds 2
 olive 11
 omit 1
-on 1 2 15 20 11 13 4 5 9 17 8 19 14 6 7 12 3 16 10 18
-once 1 12 11 4 15 20 8 5 6 10 13 3
-one 1 11 15 20 4 9 2 18 17 8 19 5 6 7 3 16 10 12 13 14
-ones 5 2 19 3 20 12
+on 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+once 1 3 4 5 6 8 10 11 12 13 15 20
+one 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+ones 2 3 5 12 19 20
 onions 13
-only 1 2 20 4 18 19 11 5 12 10 3 16 13 6 17 14 7 15 9 8
-onto 17 19 3 9 15 12 4
-open 11 5 12 13 17 10 1 15 7 14 8 18
+only 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+onto 3 4 9 12 15 17 19
+open 1 5 7 8 10 11 12 13 14 15 17 18
 opened 12
-opening 14 6
+opening 6 14
 opens 4 5 10
 operate 5
 operated 7
 operates 11
-opponents 10 7
-opportunity 2 12 19 20 11
+opponents 7 10
+opportunity 2 11 12 19 20
 opposed 6
 opt 15
 option 5 10
-or 1 11 15 20 4 5 2 8 19 14 6 7 3 9 10 13 17 12 18 16
-orange 13 12
+or 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+orange 12 13
 orchard 14
 orchestrated 6
-order 15 11
+order 11 15
 orders 3
 ordinarily 4
 ordinary 20
 organi 17
 ornate 16
-other 1 15 4 11 9 20 8 19 5 3 16 6 17 10 12 13 7
-others 3 2 18 16 20 6 7 19 5 13
+other 1 3 4 5 6 7 8 9 10 11 12 13 15 16 17 19 20
+others 2 3 5 6 7 13 16 18 19 20
 otherwise 13
-our 1 2 15 3 20 12 11 13 4 9 18 19 5 10 16 17 7 14
+our 1 2 3 4 5 7 9 10 11 12 13 14 15 16 17 18 19 20
 ours 16
-ourselves 9 3 20 15
-out 1 11 2 15 3 20 12 13 4 17 8 19 5 6 7 16 9 10 14 18
+ourselves 3 9 15 20
+out 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 outburst 6
 outdoor 20
-outfit 4 17 16
+outfit 4 16 17
 outfoxed 20
 outline 12
 outlines 6
 outrun 14
 outscored 7
-outside 2 7 10 13 3 8
+outside 2 3 7 8 10 13
 outsmarted 20
 outsmarting 6
 ovals 8
-ovens 11 8
-over 3 4 11 9 18 8 19 5 6 20 16 17 7 10 13 1 15 14
+ovens 8 11
+over 1 3 4 5 6 7 8 9 10 11 13 14 15 16 17 18 19 20
 overcome 7
 overestimate 7
 overflowing 13
@@ -2627,42 +2627,42 @@ overpowered 8
 overrun 3
 overwhelmed 16
 overwhelming 11
-owe 12 10 6
+owe 6 10 12
 owed 16
-owing 12 16 6
-own 4 3 5 10 12 7 13 19 15 20 8
+owing 6 12 16
+own 3 4 5 7 8 10 12 13 15 19 20
 owner 19
-pace 20 15
-pack 6 1 15 14 19 9 12
+pace 15 20
+pack 1 6 9 12 14 15 19
 package 5
-packed 16 3
-packs 2 12 1
+packed 3 16
+packs 1 2 12
 pact 5
-padding 18 3
+padding 3 18
 paid 5
-pain 4 19 16 2 10 9
+pain 2 4 9 10 16 19
 pained 8
-painful 11 6 17
+painful 6 11 17
 painfully 12 20
 paint 3
-pair 3 14 8 16
+pair 3 8 14 16
 pal 16
-pale 13 1 10 5
+pale 1 5 10 13
 palm 20
 palpable 4
 paneled 3
-panem 20 15 17 12 10 3 19 6 11 7
+panem 3 6 7 10 11 12 15 17 19 20
 panic 2 6 8
 panting 14
-pants 10 16 3 13
-paper 2 17 18 5
+pants 3 10 13 16
+paper 2 5 17 18
 parachute 10
-paraffin 11 9
-parents 11 19 10
-part 2 11 19 3 7 10 16 1 14 12 6 4
+paraffin 9 11
+parents 10 11 19
+part 1 2 3 4 6 7 10 11 12 14 16 19
 participate 20
 particular 4
-particularly 3 20 19 18 8
+particularly 3 8 18 19 20
 partner 16
 partnering 4
 partners 11
@@ -2670,16 +2670,16 @@ parts 7
 pass 2 13
 passage 15
 passages 13
-passed 19 11 12 20 6
+passed 6 11 12 19 20
 passes 3 13
 passing 8
-past 4 18 6 7 13
-pat 12 10
+past 4 6 7 13 18
+pat 10 12
 patch 11
 patches 3
 path 8
 pathetic 12
-paths 15 3
+paths 3 15
 patience 3
 patient 12
 patiently 10
@@ -2692,92 +2692,92 @@ pawing 11
 paws 14 19
 pay 6
 paying 6 7
-peace 20 17 6
+peace 6 17 20
 peaceful 7
 peacekeeper 3
-peacekeepers 3 11 4 5 7 2
+peacekeepers 2 3 4 5 7 11
 peacemaker 5
 pearls 13
 peas 18
 pebbles 9
 peeking 8
-peel 10 3
+peel 3 10
 peering 7
 peers 10
-peeta 19 6 12 3 16 20 15 13 2 11 17 7 10 1 14 8 9 5 4
-peetas 3 20 13 11 17 7 10 16 6 15 14 19 9 1 5 4 8
+peeta 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20
+peetas 1 3 4 5 6 7 8 9 10 11 13 14 15 16 17 19 20
 peevishly 10
 pelt 20
 pen 6 7
 penalties 3
-people 3 20 4 11 2 8 19 5 12 9 10 16 6 1 13
+people 1 2 3 4 5 6 8 9 10 11 12 13 16 19 20
 per 20
 perched 2 14
-perfect 2 13 19 8 3
+perfect 2 3 8 13 19
 perfection 17
 performance 17
-perhaps 6 3 20
+perhaps 3 6 20
 perimeter 2
-period 18 12
+period 12 18
 periodic 6
 periodically 7
 perplexing 6
-person 20 4 15 19 16 12 17
-personal 17 8
+person 4 12 15 16 17 19 20
+personal 8 17
 personally 8 10
 petrified 12
 pets 18
-physical 17 20 13 8
-pick 6 10 12 1
+physical 8 13 17 20
+pick 1 6 10 12
 picked 1
 picnics 16
-picture 10 8
+picture 8 10
 piece 3 7 15
 pieces 3
 piercing 9
 pig 7 19 20
 pigs 7
-pile 6 20 12
+pile 6 12 20
 piles 3
 pillow 17
 pillows 3 8
-pin 5 9 17 10 3 14
+pin 3 5 9 10 14 17
 pine 9
-pink 4 17 19 12 10 13
+pink 4 10 12 13 17 19
 pinkish 20
 pins 4
 pitched 3 19
 pitting 18
 pity 10
-place 20 11 13 4 8 19 6 17 10 7 14 5 12 18
+place 4 5 6 7 8 10 11 12 13 14 17 18 19 20
 placed 5 16
-places 2 14 11 4
+places 2 4 11 14
 placing 13
 plaid 7
-plain 16 15 14 17 8 10 13
+plain 8 10 13 14 15 16 17
 plaintively 16
 plaited 5
 plan 9
-plant 9 4
+plant 4 9
 planted 6 16
-plants 19 10
+plants 10 19
 plaques 13
 plastering 12
-plastic 6 16 20 3
-plate 10 3 16
-plates 10 3
+plastic 3 6 16 20
+plate 3 10 16
+plates 3 10
 platforms 4
-play 19 16 20 6 1
-played 20 11
+play 1 6 16 19 20
+played 11 20
 players 9
 playful 15
-playing 7 5 16 1
-plays 12 8
+playing 1 5 7 16
+plays 8 12
 pleading 5
-pleasant 20 2
+pleasant 2 20
 please 7 10 12
-pleased 19 15 11 13
-plenty 6 7 14 8
+pleased 11 13 15 19
+plenty 6 7 8 14
 plow 3
 plucked 9
 plucks 11
@@ -2793,131 +2793,131 @@ plush 8 16
 pneumonia 6 12
 poaching 3
 pocket 2 5
-podium 2 20 17 19
-point 19 5 12 3 15 7 14 9 1 10 13
-pointed 7 14 12
+podium 2 17 19 20
+point 1 3 5 7 9 10 12 13 14 15 19
+pointed 7 12 14
 pointing 14 15
 pointless 9 11 17
-points 16 10
+points 10 16
 poised 14
 poles 11
-polish 18 3
-polished 5 3
-polite 20 3
+polish 3 18
+polished 3 5
+polite 3 20
 pond 12
 ponds 12
-pool 15 13 16
-poor 15 3
+pool 13 15 16
+poor 3 15
 poorly 3
 pop 3
 population 2
-portia 17 13 16 8
+portia 8 13 16 17
 portias 16
 portion 8
 portions 18
 pose 5
-position 15 8
+position 8 15
 positions 3
 possibility 13
-possible 3 1 18 16 5
-possibly 19 5 13 20
+possible 1 3 5 16 18
+possibly 5 13 19 20
 post 6
 pot 16 19
 potatoes 3
 potential 3
 pouch 20
 pound 12
-pounding 9 7 1
+pounding 1 7 9
 pounds 3
 pour 20
-poured 19 6
-pouring 16 20 14
+poured 6 19
+pouring 14 16 20
 power 3 7
-powerful 9 17 10 7 19 8
+powerful 7 8 9 10 17 19
 powerless 4
-practically 16 10
-practice 9 2 3
+practically 10 16
+practice 2 3 9
 practiced 13
 practicing 17
 pre 1
-precious 4 19 5
+precious 4 5 19
 predators 2 11
 predicament 5
 preoccupation 3
 preoccupied 14
-prep 18 3 11 10
+prep 3 10 11 18
 preparation 13
 prepare 6
-preparing 20 3
+preparing 3 20
 preposterous 13
 prepped 5
-present 12 1 11
+present 1 11 12
 presentable 5
-presentation 20 17
+presentation 17 20
 presented 8 11
 presents 5 13
 president 1 4 8 10
 presidents 8
-press 13 1 10 5
+press 1 5 10 13
 pressed 1 20
-presses 4 20 8
+presses 4 8 20
 pressure 5 8 13
-pretend 7 6 10 13
-pretty 4 8 5 20 13 12 3
+pretend 6 7 10 13
+pretty 3 4 5 8 12 13 20
 preventing 5
-previous 12 20 7
-prey 11 19 3
+previous 7 12 20
+prey 3 11 19
 pri 18
-price 20 4
-prim 1 11 20 12 4 15 2 18 8 19 5 3 7 10 13 6 17
+price 4 20
+prim 1 2 3 4 5 6 7 8 10 11 12 13 15 17 18 19 20
 primand 5
 primrose 1 17
-prims 1 11 2 4 19 6 5 17
+prims 1 2 4 5 6 11 17 19
 privacy 10
 private 10
 privately 8
 pro 20
-probably 19 5 3 12 2 17 10 20 15 7 9
+probably 2 3 5 7 9 10 12 15 17 19 20
 probe 1
-problem 19 9 10
+problem 9 10 19
 process 12
 profile 7
 programmed 19
 progress 10
 projection 3 13
 prominent 8
-promise 3 5 16 17 10
+promise 3 5 10 16 17
 prop 1
 proper 17
 properly 3
 propped 11
 prosperity 20
-protect 2 4 3 14
+protect 2 3 4 14
 protecting 3 9
 protective 13
 protects 20
 protest 16
-protocol 8 1
+protocol 1 8
 proved 3
 provide 20
 provided 16
 provides 15
 provokes 13
 prying 19
-public 20 2 6 17
+public 2 6 17 20
 publicly 3
 puckered 8
 puddle 6
 puffy 5
-pull 2 12 11 17 13 19 6 14 15 8 3
-pulled 4 8 19 3
-pulling 19 20 10 3 8 1 12 4
-pulls 11 17 3 5 13 10 1
+pull 2 3 6 8 11 12 13 14 15 17 19
+pulled 3 4 8 19
+pulling 1 3 4 8 10 12 19 20
+pulls 1 3 5 10 11 13 17
 pulp 15
-pumping 15 12 7
+pumping 7 12 15
 puncture 12
 punishable 6
-punished 12 6 4
+punished 4 6 12
 punishment 20
 purchase 19
 pure 14
@@ -2925,56 +2925,56 @@ purplish 14
 purpose 4 5 12 20
 purrs 12
 purse 20
-push 8 9 13 10 6
+push 6 8 9 10 13
 pushes 16
 pushing 1
-put 2 4 14 5 12 3 11 20 19 17 16 13
-puts 5 3 6 1
+put 2 3 4 5 11 12 13 14 16 17 19 20
+puts 1 3 5 6
 quack 4
 quality 7
 quart 9
-question 3 6 20 14 8 1 4
+question 1 3 4 6 8 14 20
 questioning 3
-questions 3 20 8 17 6 5
+questions 3 5 6 8 17 20
 quick 4 12
 quickening 20
 quicker 2
-quickly 3 4 17 19 12 15 9 18 10
+quickly 3 4 9 10 12 15 17 18 19
 quicksand 3
-quiet 5 9 6
+quiet 5 6 9
 quieter 10 15
-quietly 20 13 10 11
-quite 2 10 20 15 3 7 13
+quietly 10 11 13 20
+quite 2 3 7 10 13 15 20
 quitting 14
 quiver 3 10
 ra 14
-rabbit 10 15 12
-rabbits 6 20 15 12
-rabid 15 3 12
+rabbit 10 12 15
+rabbits 6 12 15 20
+rabid 3 12 15
 racketeers 2
 racking 19
 radiate 10
 radical 19
 radius 10
 rag 9
-rage 12 9
+rage 9 12
 rages 9
 rags 7
-rain 6 11 7 10 13 16 20 3
+rain 3 6 7 10 11 13 16 20
 raindrop 1
 rains 15
 rainy 10
-raise 19 7
+raise 7 19
 raised 15
-raises 1 9 12 8
-raisins 12 6
+raises 1 8 9 12
+raisins 6 12
 ramp 17
-ran 11 5 7
-range 3 1
+ran 5 7 11
+range 1 3
 rant 9
 rapid 15
 rapport 5
-rarely 4 19 2
+rarely 2 4 19
 rarity 3
 rat 11
 ration 3
@@ -2986,40 +2986,40 @@ rattling 18
 raw 10
 rays 14
 re 3
-reach 2 15 8 5 16 13 19 10 6 1 12 14 3
-reached 19 14 9
-reaches 17 16 14
-reaching 20 3
+reach 1 2 3 5 6 8 10 12 13 14 15 16 19
+reached 9 14 19
+reaches 14 16 17
+reaching 3 20
 reaction 7
-read 20 11 8 19
-reading 19 10
-reads 18 17 19
-ready 4 10 6 16 1 20 13 18 5
+read 8 11 19 20
+reading 10 19
+reads 17 18 19
+ready 1 4 5 6 10 13 16 18 20
 readyto 10
-real 15 20 12 5 18 19 3 9 16 7 10 13 1 4
-reali 7 10 16 3 19 20 9 6 12 11 5
-really 13 4 2 8 19 3 5 9 20 6 17 7 16 10 1 12 15
-reaping 1 2 20 11 4 15 9 17 8 19 7 16 6 13
+real 1 3 4 5 7 9 10 12 13 15 16 18 19 20
+reali 3 5 6 7 9 10 11 12 16 19 20
+really 1 2 3 4 5 6 7 8 9 10 12 13 15 16 17 19 20
+reaping 1 2 4 6 7 8 9 11 13 15 16 17 19 20
 reapings 17 19 20
-reason 4 5 13 10 11
+reason 4 5 10 11 13
 reassure 16
 reassured 6
-reassuring 12 8 10
-rebellion 3 18 10 1
+reassuring 8 10 12
+rebellion 1 3 10 18
 rebellious 13
 rebels 10
 recall 9
 recap 20
 receive 16
-receives 18 6
+receives 6 18
 recently 20
-recogni 4 19 10 20 14 16
+recogni 4 10 14 16 19 20
 recognition 8 19
 record 10
 recorded 10
 recover 3
-recovered 20 15
-red 19 5 20 7 1 11 16 10
+recovered 15 20
+red 1 5 7 10 11 16 19 20
 redheaded 8 17
 redirect 5
 reeks 19
@@ -3042,53 +3042,53 @@ regretted 20
 reinforces 19
 rejecting 4
 rejoin 8
-related 11 10
+related 10 11
 relaxing 20
 release 14
-released 10 9
-releases 14 9
+released 9 10
+releases 9 14
 relent 1
 relentless 6
-relief 11 9 15 7 13 5
+relief 5 7 9 11 13 15
 relieved 3 15
 relive 6
 reluctance 7
-remain 19 1
+remain 1 19
 remained 20
 remaining 1 10
-remains 7 10 5
+remains 5 7 10
 remarkable 7 8
 remedies 11
-remember 13 17 8 19 6 5 2 10 9 7 14 3
+remember 2 3 5 6 7 8 9 10 13 14 17 19
 remembering 5
 remembers 11
-remind 5 3 10 13
+remind 3 5 10 13
 reminded 12
-reminder 20 3
-reminding 18 3 8 13
+reminder 3 20
+reminding 3 8 13 18
 reminds 7 8
 remote 18
 remove 1
 removed 17
 reopen 17
-repeat 20 10 14
+repeat 10 14 20
 repeated 20
 repeatedly 6 16
 repeats 8 20
 repellent 20
 repentance 18
-replaced 4 11 3
-replay 19 13
+replaced 3 4 11
+replay 13 19
 replenish 3
-replicate 3 1
-reply 5 18 3
+replicate 1 3
+reply 3 5 18
 reporters 2
 repositioned 16
 request 11
-required 19 7
+required 7 19
 requires 18
-rescue 12 1
-resemble 11 1 14
+rescue 1 12
+resemble 1 11 14
 resent 9
 reserve 12
 reserved 16
@@ -3097,24 +3097,24 @@ resist 17
 resists 15
 resources 19
 respect 3
-respite 16 3
-respond 13 6
+respite 3 16
+respond 6 13
 responds 17
 response 6 10 12 13
-responsible 11 5 3
-rest 18 3 10 20 13 12 15 14 1 11
+responsible 3 5 11
+rest 1 3 10 11 12 13 14 15 18 20
 rested 16
 restraining 8
-restraint 17 13
+restraint 13 17
 restsprotectively 17
-result 20 19
+result 19 20
 resulted 12
 results 3
 retelling 16
 rethought 3
-retrieve 15 6
-return 3 13 12 18
-returned 17 3
+retrieve 6 15
+return 3 12 13 18
+returned 3 17
 returns 6
 reunion 13
 revealed 14
@@ -3126,27 +3126,27 @@ revive 1
 revoked 12
 rhythmic 17
 ribbon 4
-ribs 18 3
-rice 10 20 3
-rich 3 20 10
+ribs 3 18
+rice 3 10 20
+rich 3 10 20
 richest 6
 rid 11 20
 ridden 2
-ride 2 5 18 1
+ride 1 2 5 18
 ridges 14
 ridiculous 7 11
-right 15 4 17 19 7 12 3 5 2 13 6 11 10 16 1 20 14 8
+right 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 19 20
 rights 16
-ring 10 7 8
-ringed 20 12
-rip 10 1
+ring 7 8 10
+ringed 12 20
+rip 1 10
 ripple 3
 rips 12
-rise 15 13 14 19 7 3 1 4
+rise 1 3 4 7 13 14 15 19
 risen 3
 rises 5 6
-rising 10 8
-risk 3 15 8 6 13
+rising 8 10
+risk 3 6 8 13 15
 risky 1
 riveting 17
 roam 15
@@ -3154,23 +3154,23 @@ roaming 13
 roar 5 16
 roast 18
 roasting 20
-rock 20 15 16 6
+rock 6 15 16 20
 rockets 14
 rockies 20
 rocking 3
-rocks 13 6 10 20 3 7 12
+rocks 3 6 7 10 12 13 20
 rocky 9
 rodents 15
-roll 12 10 20 18
-rolling 19 1
-rolls 10 6 1 12 18
-romance 19 17 16 15 1
+roll 10 12 18 20
+rolling 1 19
+rolls 1 6 10 12 18
+romance 1 15 16 17 19
 romantic 4 5
-roof 13 12 8
+roof 8 12 13
 rooftops 2
-room 6 5 3 10 16 19 12 8 18 4
+room 3 4 5 6 8 10 12 16 18 19
 root 10
-roots 13 7 3 6 20 12
+roots 3 6 7 12 13 20
 roped 2
 rose 20
 roses 10
@@ -3180,45 +3180,45 @@ rotten 17
 rotting 11
 rough 1 4 6 20
 rougher 17
-round 19 16 13
+round 13 16 19
 rounds 3
 rouse 17
 rub 10
 rubble 11
 rubs 6
-rue 12 15 16 10 1 14 19
-rues 13 6 10 1 14
+rue 1 10 12 14 15 16 19
+rues 1 6 10 13 14
 ruffle 8
 ruffled 4
-rule 20 8 12
-rules 9 20 16
+rule 8 12 20
+rules 9 16 20
 rumble 4
 rumbling 11
-run 3 13 6 15 16 10 20 12 14 7 5
-rung 7 5
-running 19 11 6 10 20 13 17 8
-runs 5 14 1
+run 3 5 6 7 10 12 13 14 15 16 20
+rung 5 7
+running 6 8 10 11 13 17 19 20
+runs 1 5 14
 rush 13
 rustle 6 15
 rusty 8
-s 2 20 1
+s 1 2 20
 sacrifice 18
 sacrificed 3
 sad 16
 sadistic 16
-sadness 5 3
-sae 11 4
+sadness 3 5
+sae 4 11
 saes 20
-safe 15 4 13 17 10 12 11
+safe 4 10 11 12 13 15 17
 safest 14
-safety 3 19 6 20 15
-said 20 5 3 9 6 2 17 7 16 14 13
+safety 3 6 15 19 20
+said 2 3 5 6 7 9 13 14 16 17 20
 sake 13
 salad 3
 saliva 12
-salt 11 9
+salt 9 11
 salute 20
-same 11 2 20 17 18 3 13 15 12 16 1
+same 1 2 3 11 12 13 15 16 17 18 20
 sanctioned 20
 sand 3
 sandals 3 16
@@ -3230,26 +3230,26 @@ satin 17
 satisfaction 19
 satisfied 3
 savages 3
-save 4 3 15 20 6 14 8
-saved 16 6
+save 3 4 6 8 14 15 20
+saved 6 16
 savoring 10
-saw 12 3 6 1 20 7
+saw 1 3 6 7 12 20
 sawdust 3
-say 12 4 5 15 9 19 1 3 20 16 13 6 2 17 7 10 14 8 11
-saying 3 16 10 1 18 11 4
-says 20 12 13 4 11 5 17 8 19 3 9 2 16 6 7 10 1 15 14 18
+say 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 19 20
+saying 1 3 4 10 11 16 18
+says 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 scaling 14
 scan 17
 scar 8
-scared 20 11 13
-scares 9 6
+scared 11 13 20
+scares 6 9
 scars 8 12 17
-scary 20 13 10
+scary 10 13 20
 scavenge 17
 scavenged 6
 scenario 6
 scent 11
-school 20 4 5 7 12 1 10
+school 1 4 5 7 10 12 20
 scoop 1 7
 scoot 10 13
 scorched 7
@@ -3261,10 +3261,10 @@ scraped 19
 scraping 19
 scrawny 11
 scream 9
-screaming 3 8 11 7 12 15 1
+screaming 1 3 7 8 11 12 15
 screeches 9
 screeching 19
-screen 3 2 20 7 1
+screen 1 2 3 7 20
 screens 2
 scrub 2 4 12
 scrubbed 8
@@ -3273,38 +3273,38 @@ scruffy 2 3 17
 scurrying 15
 seal 7
 seals 12
-seam 2 3 11 13 4 15 9 18 5 6 17 10 12
+seam 2 3 4 5 6 9 10 11 12 13 15 17 18
 seams 14
 seas 20
-seat 20 16 7 10 5
-second 5 19 12 11 6 1 9 7 4 13
+seat 5 7 10 16 20
+second 1 4 5 6 7 9 11 12 13 19
 seconds 10 18
 secret 5
 secretive 8
-secretly 20 14 18
+secretly 14 18 20
 securing 20
 security 13
-see 1 13 4 15 9 8 19 14 11 3 5 10 20 12 6 17 7 18 16
+see 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 seeing 5 9 13
 seeking 1 9
-seem 4 9 12 3 16 13 6 17 20 8 7 1 10
-seemed 5 12 16 1 13
-seems 19 20 9 11 17 16 15 3 10
-seen 19 5 7 6 3 16 10 1 20 14 12
+seem 1 3 4 6 7 8 9 10 12 13 16 17 20
+seemed 1 5 12 13 16
+seems 3 9 10 11 15 16 17 19 20
+seen 1 3 5 6 7 10 12 14 16 19 20
 seeping 13 17
 sees 9 16 20
 segue 5
 sei 13
-sell 11 4
+sell 4 11
 selling 3 5
-sells 11 3
-send 19 6 15 14 12
-sending 16 15
-sends 10 3 8
-sense 13 3 7 12
+sells 3 11
+send 6 12 14 15 19
+sending 15 16
+sends 3 8 10
+sense 3 7 12 13
 sensed 7
 sensible 10
-sent 9 16 3 19 10 7 14
+sent 3 7 9 10 14 16 19
 sentence 3
 sentencing 10
 sentiment 18
@@ -3317,256 +3317,256 @@ serious 3
 serve 6
 serving 10 17
 servings 20
-set 15 9 2 16 3 6 13
+set 2 3 6 9 13 15 16
 sets 1 8
 setting 7
 settings 18
-settle 13 17 10
+settle 10 13 17
 settled 5
 settles 4
-seven 15 5 3
-seventy 18 12 11
-several 15 18 5 6 17 3 10 8 7
+seven 3 5 15
+seventy 11 12 18
+several 3 5 6 7 8 10 15 17 18
 severely 19
 severest 3
 shaft 15
-shake 12 20 6 17 13 7 10 3
-shakes 7 19 5
-shaking 6 13 1 11
+shake 3 6 7 10 12 13 17 20
+shakes 5 7 19
+shaking 1 6 11 13
 shame 12
 share 3
 sharing 1
-sharp 14 8 3
+sharp 3 8 14
 shaving 5
-she 1 11 4 5 9 17 8 19 3 16 20 12 15 6 7 10 14 13 18
+she 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 sheath 15
-shed 5 1 7
+shed 1 5 7
 sheer 3
 sheet 6 20
 sheets 6
 shelter 15
 sheltered 3
-shes 4 17 8 19 7 5 3 20 12 15 10 1 18 11 16
-shift 2 19 13 15 11
+shes 1 3 4 5 7 8 10 11 12 15 16 17 18 19 20
+shift 2 11 13 15 19
 shifted 17
 shifts 3
 shine 7
 shining 20
-shirt 2 19 10 3 14 1 5 16 13
+shirt 1 2 3 5 10 13 14 16 19
 shiver 5
 shivering 11
-shock 19 3
+shock 3 19
 shocked 9
 shocking 3
 shoelaces 4
-shoes 4 3 10
+shoes 3 4 10
 shoos 10
-shoot 13 14 15 9 10 12
+shoot 9 10 12 13 14 15
 shoots 4
 shop 11
 shopkeepers 10
 shops 2 6
-short 2 10 6 1
+short 1 2 6 10
 shortages 20
 shortly 13
-shot 20 2 1 13 7 10
+shot 1 2 7 10 13 20
 shots 1
-should 1 5 3 20 10 13 15 7 12
-shoulder 3 5 10 13 7 19 11 16
+should 1 3 5 7 10 12 13 15 20
+shoulder 3 5 7 10 11 13 16 19
 shouldered 8 20
-shoulders 2 19 5 3 6 13 1
+shoulders 1 2 3 5 6 13 19
 shouldnt 17
-shout 3 6 14 10 1
+shout 1 3 6 10 14
 shouted 5
 shouting 15
-shouts 14 9 11
-shove 8 20 16
+shouts 9 11 14
+shove 8 16 20
 shoved 19
 shoving 12
-show 18 19 20 10 6 9 1 13 16 7
+show 1 6 7 9 10 13 16 18 19 20
 showdown 12
 shower 10 18
 showered 18
 showing 11
 shriek 19
-shrieking 14 12
+shrieking 12 14
 shrinking 14
-shrug 10 7 3
+shrug 3 7 10
 shrugs 5
 shrunk 17
 shuddering 3
 shut 10
 shuts 1
-shutters 2 11 19 7
-si 3 20 9 10 6 19 17
-sick 11 7 6 3 10
-sickness 3 2
-side 1 7 12 3 14 19 8 15 18 16 10
+shutters 2 7 11 19
+si 3 6 9 10 17 19 20
+sick 3 6 7 10 11
+sickness 2 3
+side 1 3 7 8 10 12 14 15 16 18 19
 sides 8
-sigh 3 6 15 5
-sight 3 20 14 8 17 5
-sign 9 2 5 20 7 14
+sigh 3 5 6 15
+sight 3 5 8 14 17 20
+sign 2 5 7 9 14 20
 signal 6 20
 signaling 3
 signals 6
 signature 17
 signs 3 13
-silence 15 19 5 10 14 13
-silent 15 3 20 7 12 9
-silently 2 10 4
+silence 5 10 13 14 15 19
+silent 3 7 9 12 15 20
+silently 2 4 10
 silken 8
 silky 19
-silver 13 10 5
+silver 5 10 13
 silverware 10
 similar 16
-simple 20 13 19 10 6 3
-simply 2 7 8 3 6
+simple 3 6 10 13 19 20
+simply 2 3 6 7 8
 simultaneously 6
-since 2 15 11 4 17 19 3 9 20 10 13 7 5 18 16 8
+since 2 3 4 5 7 8 9 10 11 13 15 16 17 18 19 20
 sincere 12
-sing 3 7 14 1
-single 15 6 16
+sing 1 3 7 14
+single 6 15 16
 sings 7
 sinister 3
 sinks 12
-sister 1 4 8 19 6 5
-sit 11 19 6 5 13 16 7 14 8 17
-sits 2 5 8 3 13 15
-sitting 1 4 5 17 8 10
-situation 19 20 6
-six 11 5
+sister 1 4 5 6 8 19
+sit 5 6 7 8 11 13 14 16 17 19
+sits 2 3 5 8 13 15
+sitting 1 4 5 8 10 17
+situation 6 19 20
+six 5 11
 sixteen 15
 sixteens 2
 skill 8
-skin 11 13 19 20 17 12 8 18
+skin 8 11 12 13 17 18 19 20
 skinny 4 8 18
 skins 17
 skintight 15
 skirt 4 8 11
-skull 17 15 16 6 10
-sky 13 6 3 20 10 7 8
+skull 6 10 15 16 17
+sky 3 6 7 8 10 13 20
 slam 2
 slams 9
 slanting 14
 slap 10
-sleek 20 7
-sleep 1 2 12 16 13 17 10 7
+sleek 7 20
+sleep 1 2 7 10 12 13 16 17
 sleepily 13
-sleeping 6 17 10 13
-sleeve 12 1
+sleeping 6 10 13 17
+sleeve 1 12
 sleeveless 3
 slept 7 12
 slice 12
 sliced 19
-slices 11 13 12 10
-slick 13 9
+slices 10 11 12 13
+slick 9 13
 slid 7
 slide 2 15 19
-slides 13 8
-slight 17 6 3
-slightly 17 10
-slim 15 9 13 16
-slip 2 17 18 19 8
-slippery 7 1
-slipping 6 3
-slips 2 17 19 3 8 18
+slides 8 13
+slight 3 6 17
+slightly 10 17
+slim 9 13 15 16
+slip 2 8 17 18 19
+slippery 1 7
+slipping 3 6
+slips 2 3 8 17 18 19
 slit 12
 slope 15
 sloshed 7 19
-slow 16 13 10 19 12
+slow 10 12 13 16 19
 slowing 15
-slowly 5 13 3 1 20
+slowly 1 3 5 13 20
 slump 10 12
 slumps 5
 smacks 1
-small 20 11 5 4 8 14 10 12 9 16 3 19 17
+small 3 4 5 8 9 10 11 12 14 16 17 19 20
 smallest 19
-smart 7 4
+smart 4 7
 smartest 7
 smash 16
 smashes 14
-smell 11 5 13 10 12 3
+smell 3 5 10 11 12 13
 smells 3 8
-smile 20 17 9 16 4 5
+smile 4 5 9 16 17 20
 smiles 4
 smiling 4 8
 smirking 20
 smoke 5 15
 smoky 6
 smoldering 9
-smooth 19 10 17
+smooth 10 17 19
 smoothes 17
 smoothing 4
 smug 10
-snakes 15 3 4
-snap 17 10 6 13 9
+snakes 3 4 15
+snap 6 9 10 13 17
 snaps 4 19
 snares 3 6
 snarl 19
 snarls 9
 sneak 3
 sniffing 19
-sniveling 16 10
+sniveling 10 16
 snob 4
 snoring 10
 snouts 19
 snow 1 4 8 10
 snuffling 14
-so 1 11 15 20 13 4 9 17 18 19 14 5 6 7 3 10 16 8 12
-soaked 6 13 17 12
+so 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+soaked 6 12 13 17
 sober 16
 sobered 20
 sobs 19
-socks 13 6 11 10
+socks 6 10 11 13
 sodden 6
-soft 13 4 3 10 7 8 18
-softly 19 12 3
+soft 3 4 7 8 10 13 18
+softly 3 12 19
 solid 12
 solidly 16
 solution 10
-some 15 18 8 5 6 12 1 3 9 16 19 17 13 10 7 14 4
-somehow 12 10 13 19 2 20 7
-someone 3 15 17 19 12 10 14 5 13
+some 1 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19
+somehow 2 7 10 12 13 19 20
+someone 3 5 10 12 13 14 15 17 19
 someones 1
-something 11 9 4 17 19 6 12 1 10 3 16 13 20 14 7 8
-sometimes 11 3 10 16
-somewhat 19 20 13 5
-somewhere 8 6 13 10 17 5
-son 3 8 5 20
-song 7 14 1
+something 1 3 4 6 7 8 9 10 11 12 13 14 16 17 19 20
+sometimes 3 10 11 16
+somewhat 5 13 19 20
+somewhere 5 6 8 10 13 17
+son 3 5 8 20
+song 1 7 14
 songs 3
-soon 15 1 3 2 6 17 18 5
+soon 1 2 3 5 6 15 17 18
 sooner 4
 soothing 8
 sophisticated 3
 sorrow 10
 sorry 3 10 20
-sort 6 3 19 17 16 7 8 1 10 5
-sorts 6 3
+sort 1 3 5 6 7 8 10 16 17 19
+sorts 3 6
 souls 3
-sound 14 7 5 20 12 16 13 10 6 9
-sounds 11 3 6 20 19 1
+sound 5 6 7 9 10 12 13 14 16 20
+sounds 1 3 6 11 19 20
 soundtrack 1
-soup 11 4 3
+soup 3 4 11
 source 3
-space 11 2 3 6 10
+space 2 3 6 10 11
 spare 17
 spared 11
 spasm 12
-speak 17 19 9 10 5
+speak 5 9 10 17 19
 speakers 5
-spear 16 13 10 14
+spear 10 13 14 16
 spearing 1
 spears 10 13
-special 12 4 10 7
+special 4 7 10 12
 specialty 20
 species 3
 specific 18
 spectacular 17
 speech 3
-speed 20 14
-spend 10 15 12
-spent 12 9 7 1 13
+speed 14 20
+spend 10 12 15
+spent 1 7 9 12 13
 spew 11
 spiked 5
 spilled 11
@@ -3576,11 +3576,11 @@ spit 12
 splashes 12
 splatter 17
 splatters 15
-split 20 10 8
+split 8 10 20
 spoiled 3
 spoils 9
-spoken 8 19 6
-sponsors 19 20 17 8
+spoken 6 8 19
+sponsors 8 17 19 20
 spoon 8
 spoonfuls 10 20
 sporting 18
@@ -3590,73 +3590,73 @@ spotlessly 11
 spots 15
 spread 10 12 20
 spreads 13
-spring 20 6 12 16 11
+spring 6 11 12 16 20
 springing 5
 spunk 19
-square 13 9 4 2 6
+square 2 4 6 9 13
 squares 2
 squash 11
 squat 2
 squee 12 13 14 20
 squint 10
-squirrel 12 5 6 20
+squirrel 5 6 12 20
 stabbed 15
-stage 2 17 8 19 14 20 16 18 3 11 1
+stage 1 2 3 8 11 14 16 17 18 19 20
 stagger 20
 staggering 19
-staggers 17 16
+staggers 16 17
 stake 2
 stale 10 13
 stalemate 9
 stammer 4
-stand 18 19 20 1 15 7 9 11 4
+stand 1 4 7 9 11 15 18 19 20
 standard 19
-standing 13 2 18 3
+standing 2 3 13 18
 stands 15
-stare 2 14 12 10 13
+stare 2 10 12 13 14
 stared 19
 staring 12 20
 stark 11
 stars 10
-start 5 2 12 19 7 10 14 17
-started 20 18 12 3
+start 2 5 7 10 12 14 17 19
+started 3 12 18 20
 starting 16
 startle 12
-startled 19 11
+startled 11 19
 startles 13
-starts 14 7
-starvation 18 6
+starts 7 14
+starvation 6 18
 starvations 5
-starve 3 2 10
-starving 15 9 5 17 10
+starve 2 3 10
+starving 5 9 10 15 17
 state 2 20
 static 12
-station 5 2 4
+station 2 4 5
 statues 9
 stature 3
-staunch 13 1
-stay 11 4 16 13 3 1 20 15 12
+staunch 1 13
+stay 1 3 4 11 12 13 15 16 20
 stayed 1
 staying 1 3
 stays 10
-steadily 19 15
-steady 19 10 17
+steadily 15 19
+steady 10 17 19
 steal 19
 stealing 6
 steel 19
 steer 2
 stem 15
-step 8 10 20 12 13 4
+step 4 8 10 12 13 20
 stepped 19
 stepping 20
-steps 20 8 19 16
+steps 8 16 19 20
 sterile 5
-stew 4 10 20 3
-stick 7 1 12
+stew 3 4 10 20
+stick 1 7 12
 sticks 6
 stiff 8
 stiffness 10
-still 1 11 3 12 4 9 18 17 5 19 15 13 6 10 8
+still 1 3 4 5 6 8 9 10 11 12 13 15 17 18 19
 stillness 5
 stings 5
 stir 5
@@ -3664,59 +3664,59 @@ stirring 11
 stocky 19
 stole 20
 stolen 18
-stomach 3 10 1 17 13
-stomachs 4 9 20 17 3
+stomach 1 3 10 13 17
+stomachs 3 4 9 17 20
 stomping 10 16
-stone 15 9
+stone 9 15
 stony 9
-stood 8 11 19 7
+stood 7 8 11 19
 stool 7
 stoop 12
-stop 4 7 10 3 1 15 14 11 8 13
-stopped 11 2 13 17 9 20
-stops 10 13 5 12 3
+stop 1 3 4 7 8 10 11 13 14 15
+stopped 2 9 11 13 17 20
+stops 3 5 10 12 13
 storm 6 16 17
 storms 20
-story 20 7 11 1
+story 1 7 11 20
 straggle 8
 straggling 5
-straight 11 8 5 14 7 12
+straight 5 7 8 11 12 14
 straightaway 15
-straighten 19 11
+straighten 11 19
 strained 9
 strand 7
 strange 15 17
 strangely 15
 strangers 1 4
 strangled 8
-strategy 16 20 4
-straw 19 12
-strawberries 11 4 9 8
-stream 13 3 10 6 1 15 12
+strategy 4 16 20
+straw 12 19
+strawberries 4 8 9 11
+stream 1 3 6 10 12 13 15
 streams 16
-streets 2 15 5 8 3
-strength 10 15 8
+streets 2 3 5 8 15
+strength 8 10 15
 stress 16
-stretch 1 15 13 7
+stretch 1 7 13 15
 stretcher 19
 strict 6
 strictly 18
-strikes 20 7
+strikes 7 20
 string 11
 strings 20
-strip 13 10
+strip 10 13
 strokes 13
-strong 4 19 20 10 17 7
+strong 4 7 10 17 19 20
 stronger 13
 struck 17
 struggle 19
 struggled 19
-struggling 17 12
-stuck 20 7
-stuff 4 19 6 17 7 10 3
+struggling 12 17
+stuck 7 20
+stuff 3 4 6 7 10 17 19
 stuffing 3
 stumbling 6 17
-stunned 17 12 7
+stunned 7 12 17
 stunt 13
 stupid 7
 sturdily 20
@@ -3725,10 +3725,10 @@ stylist 3
 subtle 15
 success 7
 successful 15
-such 8 19 16 3 20 2 17 11
-suddenly 12 17 11 10 1 13
+such 2 3 8 11 16 17 19 20
+suddenly 1 10 11 12 13 17
 suffer 6
-suffering 3 1
+suffering 1 3
 sugar 18
 suggest 10 15
 suggested 6
@@ -3737,33 +3737,33 @@ suggestion 10
 suicide 6
 suit 20
 suits 4
-summer 13 10
+summer 10 13
 summons 5
-sun 10 6 15 12 14 20 8
+sun 6 8 10 12 14 15 20
 sunk 7
 sunken 2
-sunlight 13 1 15
+sunlight 1 13 15
 sunny 3
-superior 10 7
+superior 7 10
 superiority 13
-supper 13 9 4 10 3
+supper 3 4 9 10 13
 supple 2
-supplies 15 10 7 1
-supply 15 20 19
-support 10 3
+supplies 1 7 10 15
+supply 15 19 20
+support 3 10
 supports 1
-suppose 5 1
-supposed 2 11 12 7 6
-sure 9 4 5 20 12 13 17 10 3 15 7 14 1 8 18
-surely 12 3
-surface 20 14 19
+suppose 1 5
+supposed 2 6 7 11 12
+sure 1 3 4 5 7 8 9 10 12 13 14 15 17 18 20
+surely 3 12
+surface 14 19 20
 surgically 3
 surly 20
 surprise 4 13
 surprised 3
 surprises 5
 surprising 3 12
-surprisingly 19 7 6
+surprisingly 6 7 19
 surreal 13
 surrounded 2 10
 surrounds 14
@@ -3771,56 +3771,56 @@ surveys 12
 survival 1
 survive 11 12 20
 survived 19
-surviving 18 9
-suspect 16 8
+surviving 9 18
+suspect 8 16
 sustained 15
 sustenance 20
-swallow 19 10 5
+swallow 5 10 19
 swallowed 20
 swapped 4
 swarming 2
-swear 3 7 6 10 18
-sweat 4 14 11
+swear 3 6 7 10 18
+sweat 4 11 14
 sweep 8 18
-sweeps 7 1
-sweet 11 5 12 10
-sweetheart 10 13 11
+sweeps 1 7
+sweet 5 10 11 12
+sweetheart 10 11 13
 swelled 12
 swelling 13
 swells 14
-swiftly 19 1
+swiftly 1 19
 swing 2 11
 swinging 7
 swiping 16
 switch 7
-swollen 11 2
+swollen 2 11
 sword 9
 sympathies 19
 synonymous 8
 syrup 16
 system 11 15
-table 2 19 10 3 5 12 18
+table 2 3 5 10 12 18 19
 tablecloth 3
 tabs 2
 tactic 6
 tad 11
-tail 4 14 8 10
+tail 4 8 10 14
 tainted 13
-take 15 12 4 18 8 19 7 5 3 20 10 6 17 13 14 1 11 16
-taken 18 5 4 16 20 15 8
+take 1 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20
+taken 4 5 8 15 16 18 20
 takers 6
-takes 11 19 20 10 15 9 12 1 3 4
-taking 2 18 11 10 6 19 15 20 12 3
+takes 1 3 4 9 10 11 12 15 19 20
+taking 2 3 6 10 11 12 15 18 19 20
 tales 16
-talk 20 4 1 7 8 5
+talk 1 4 5 7 8 20
 talkative 5 18
-talking 4 19 17 13 18 11 10
+talking 4 10 11 13 17 18 19
 tall 20
 tangled 12
 tape 13
 tapped 15
 taps 16
-target 19 6
+target 6 19
 tart 10
 tartness 11
 task 10
@@ -3828,158 +3828,158 @@ tasted 3
 tastes 10
 tastier 11
 tasting 19
-taught 15 3
+taught 3 15
 taunting 14
 tea 19
 teach 1 6
 teacher 7
-team 14 13 18 3 10
+team 3 10 13 14 18
 teamed 15
 teaming 20
 teams 11
 tear 7 19
-tears 19 16 7 5
+tears 5 7 16 19
 teary 1 13
 teasing 5
 teasingly 12
 teeming 13
-teeth 11 12 19 8 9 1 13 18
+teeth 1 8 9 11 12 13 18 19
 televise 19
 televised 2 17 20
 television 2 13
-tell 1 4 3 20 9 16 13 6 17 10 14 18 11
-telling 5 11 10 7 16
-tells 20 10 16
+tell 1 3 4 6 9 10 11 13 14 16 17 18 20
+telling 5 7 10 11 16
+tells 10 16 20
 temper 1 7
 temperature 1
-temple 15 5
+temple 5 15
 templesmith 11
 templesmiths 12
 temporary 2
-ten 17 10 19 11 16
+ten 10 11 16 17 19
 tend 2
 tension 16
 tentatively 8
 tenuous 19
 term 10
 terminal 16
-terms 4 17 1
-terrain 9 7
+terms 1 4 17
+terrain 7 9
 terrible 4
-terrified 5 1
-terrifying 14 8
+terrified 1 5
+terrifying 8 14
 territory 10
 terror 13
 terse 2
-tessera 15 4
-tesserae 15 9 4 18 5
+tessera 4 15
+tesserae 4 5 9 15 18
 test 7
 tethered 6
 th 5
-than 20 9 19 14 12 3 10 15 7 1 8 13 11 16
-thank 12 1 5 16 10
+than 1 3 7 8 9 10 11 12 13 14 15 16 19 20
+thank 1 5 10 12 16
 thanked 12
 thankfully 10
 thanking 8
-thanks 18 19 16 14
-that 11 2 15 3 20 12 13 4 5 9 17 18 8 19 6 7 1 16 10 14
+thanks 14 16 18 19
+that 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 thatll 16
-thats 15 11 5 17 19 12 2 20 16 6 3 7 10 1 14 13 4
-the 1 11 2 15 3 20 12 13 4 5 9 18 17 8 19 14 6 7 16 10
-their 1 2 11 13 4 18 8 19 5 6 7 3 12 14
-them 1 3 11 4 2 18 19 5 7 12 9 10 20 13 6 16 14 17 8
+thats 1 2 3 4 5 6 7 10 11 12 13 14 15 16 17 19 20
+the 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+their 1 2 3 4 5 6 7 8 11 12 13 14 18 19
+them 1 2 3 4 5 6 7 8 9 10 11 12 13 14 16 17 18 19 20
 themall 5
-themselves 20 16 8
-then 3 20 4 2 18 17 8 19 5 12 9 16 10 13 6 7 1 15 14 11
+themselves 8 16 20
+then 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 theory 2
-there 15 3 20 4 9 2 17 18 8 19 11 5 6 7 12 16 10 13 14 1
+there 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 thereby 9
 therell 3
-theres 1 15 4 2 18 8 5 3 9 20 13 6 19 17 10 7 12 14 16
-these 4 2 5 3 17 1 15 14 6
-they 1 15 3 11 4 2 20 18 17 8 19 5 9 10 16 7 13 6 12 14
-theyd 10 3 20
-theyll 20 6 16 10 7 8
-theyre 3 4 2 9 10 13 1 12 14 19 5 18 11
-theyve 8 6 16 1
-thick 6 3 7 4
+theres 1 2 3 4 5 6 7 8 9 10 12 13 14 15 16 17 18 19 20
+these 1 2 3 4 5 6 14 15 17
+they 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+theyd 3 10 20
+theyll 6 7 8 10 16 20
+theyre 1 2 3 4 5 9 10 11 12 13 14 18 19
+theyve 1 6 8 16
+thick 3 4 6 7
 thicket 20
 thighs 8
-thing 11 4 17 19 3 5 9 20 13 16 7 10 6 15 12 1 18 8
-things 20 9 5 3 6 19 15 14 17 16 1 4
-think 11 12 4 18 19 5 9 3 13 6 7 16 20 10 15 14 8 1 17
-thinking 17 5 10 6 7 16 13
-thinks 8 20 14
-third 17 12
+thing 1 3 4 5 6 7 8 9 10 11 12 13 15 16 17 18 19 20
+things 1 3 4 5 6 9 14 15 16 17 19 20
+think 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+thinking 5 6 7 10 13 16 17
+thinks 8 14 20
+third 12 17
 thirst 3
 thirstily 13
-thirteen 15 20 18
+thirteen 15 18 20
 thirteenth 20
 thirty 6 17
-this 1 11 2 15 20 12 13 4 18 17 8 19 14 5 3 16 9 6 7 10
+this 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 thoroughly 13
-those 4 15 9 2 5 6 11 12 20 7 19 8 17 3
-though 11 3 9 6 15 13 14 19 17 18 1 4 5
-thought 20 9 7 12 6 16 10 13 17 3 8
-thoughts 20 19 3
+those 2 3 4 5 6 7 8 9 11 12 15 17 19 20
+though 1 3 4 5 6 9 11 13 14 15 17 18 19
+thought 3 6 7 8 9 10 12 13 16 17 20
+thoughts 3 19 20
 thousand 2
 thousands 17 18
 thrashing 19 20
 threadbare 6
-threat 3 15 12
+threat 3 12 15
 threaten 15
 threatens 4 11
-three 15 2 20 19 6 3 17 13 16 7
-thresh 15 16 13 6 3 20 10 7
-threshs 9 16 13 10
+three 2 3 6 7 13 15 16 17 19 20
+thresh 3 6 7 10 13 15 16 20
+threshs 9 10 13 16
 threw 19
 thrill 10
 thrilled 18
-throat 8 14 12 5 19 1
-through 2 17 8 5 6 11 7 3 20 13 16 10 15 14 12 1 4
+throat 1 5 8 12 14 19
+through 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 20
 throughout 3 20
 throw 4 13
-throwing 19 12 13
+throwing 12 13 19
 thrown 12
-thrust 20 12
+thrust 12 20
 thrusts 12
 thud 19
 thunder 6 20
 thunders 17
 tie 1 11
 tied 6
-tight 20 13 18
+tight 13 18 20
 tightening 16
 tightens 19
 tighter 2 19
-tightly 2 19 20 9 1 10 5 4 3
+tightly 1 2 3 4 5 9 10 19 20
 tilting 12
-time 4 11 18 17 19 14 5 6 1 3 2 10 12 16 13 7 9 20 15 8
-times 15 12 1 3 5 17 10
+time 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+times 1 3 5 10 12 15 17
 timing 16
 tiny 5 10
-tip 12 11 15
+tip 11 12 15
 tipping 19
 tips 10 20
 tirades 3
-tired 7 16 10
-to 1 11 2 15 3 20 12 13 4 5 9 18 17 8 19 14 6 7 16 10
-today 2 12 4 19 5 3 17 15
+tired 7 10 16
+to 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+today 2 3 4 5 12 15 17 19
 todays 7
 toddler 5
-together 1 4 20 12 17 7 8 10
-token 17 5
-told 20 16 2 10 13 6 3
+together 1 4 7 8 10 12 17 20
+token 5 17
+told 2 3 6 10 13 16 20
 toll 15
-tomorrow 17 20 1 8
+tomorrow 1 8 17 20
 tomorrows 3
 tone 5 6
 tones 3
-tongue 20 11 3 12
-tonight 11 19 20 10 16
+tongue 3 11 12 20
+tonight 10 11 16 19 20
 tonights 13
-too 1 4 15 2 19 5 6 7 3 20 12 9 16 13 11 17 10 14 18
-took 4 11 15 5 19 10 7 12
+too 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20
+took 4 5 7 10 11 12 15 19
 tool 9
 top 4 12 14 15 20
 topic 19
@@ -3989,32 +3989,32 @@ tops 13
 torches 9
 torture 1
 torturous 18
-toss 7 20 15 8
+toss 7 8 15 20
 tossed 3
-tosses 11 3
-totally 18 17
-touch 15 13 8
+tosses 3 11
+totally 17 18
+touch 8 13 15
 touched 10
-touches 19 11
+touches 11 19
 tour 13
-tourniquet 1 10 12 3
-toward 11 15 2 8 19 7 13 1 17 12 16
+tourniquet 1 3 10 12
+toward 1 2 7 8 11 12 13 15 16 17 19
 towel 4
 towering 9
-town 20 6 7 16
+town 6 7 16 20
 townspeople 6
 trace 17
 traces 12
-track 3 19 13
-tracker 15 14 1
+track 3 13 19
+tracker 1 14 15
 tracks 3
-trade 12 4 11 6 1 3 5
-trades 20 13
+trade 1 3 4 5 6 11 12
+trades 13 20
 trading 1
-trails 8 13 6
-train 5 2 20 10 13 4
-trained 14 12 3 2 7
-training 1 7 12 13 8
+trails 6 8 13
+train 2 4 5 10 13 20
+trained 2 3 7 12 14
+training 1 7 8 12 13
 trains 11 13
 transform 6
 transforming 13
@@ -4022,103 +4022,103 @@ transmitted 10
 transport 3
 transported 11
 transporting 20
-trap 20 7
-trapped 15 20 11
+trap 7 20
+trapped 11 15 20
 trash 6 11
-travel 2 20 6
+travel 2 6 20
 tray 8
 trays 20
 tread 10
-treason 20 19 12
+treason 12 19 20
 treat 12 18
 treated 3
-treaty 20 19 12
-tree 17 7 20 6 1 15 14 5
-trees 15 3 12 16 17 14
+treaty 12 19 20
+tree 1 5 6 7 14 15 17 20
+trees 3 12 14 15 16 17
 trembling 6
 trespassing 3
-tribute 18 8 19 10 16
-tributes 20 8 6 5 16 7 15 19 11 17 13 18 1
+tribute 8 10 16 18 19
+tributes 1 5 6 7 8 11 13 15 16 17 18 19 20
 trick 13
 tricking 13
 tricky 20
-tried 11 5 6 1 3 15 7 20
+tried 1 3 5 6 7 11 15 20
 tries 17
-trills 19 14
-trinket 12 20 17 8 19 10 3
+trills 14 19
+trinket 3 8 10 12 17 19 20
 trinkets 3
 trio 18
 trip 12
-triumphant 9 7
+triumphant 7 9
 triumphantly 19
 trots 17
-trouble 3 20 4 1 12 19 17 11 16
+trouble 1 3 4 11 12 16 17 19 20
 troubles 17
 trough 7
 trousers 2
-true 15 3 9 16 7 10 11
-truly 19 13 18
+true 3 7 9 10 11 15 16
+truly 13 18 19
 trumpets 10 11
-trunk 7 6 15
+trunk 6 7 15
 trust 9 13 20
-trusting 17 12
+trusting 12 17
 trusts 13
-truth 10 7 12
-try 13 11 19 6 3 20 16 10 15 1 8 17 18 5
-trying 2 4 17 19 6 12 3 16 15 13 1 9 10 8
+truth 7 10 12
+try 1 3 5 6 8 10 11 13 15 16 17 18 19 20
+trying 1 2 3 4 6 8 9 10 12 13 15 16 17 19
 tub 4
-tubes 5 12 8 17
-tuck 2 4 16 5
+tubes 5 8 12 17
+tuck 2 4 5 16
 tucked 4
 tucking 6 7
 tug 11
-tune 14 18 8
+tune 8 14 18
 tunnel 13
 tureen 10
-turn 3 20 4 5 15 19 12 1 16 9 10 6 8 13 11
-turned 11 13 12 20 16 6
-turning 17 15 9 1
-turns 17 20 4
-twelfth 18 8
-twelve 3 4 5 15 2 20 8 16 10 11
-twenty 2 15 20 12 3 6 14 7
-twice 15 16 1 12
+turn 1 3 4 5 6 8 9 10 11 12 13 15 16 19 20
+turned 6 11 12 13 16 20
+turning 1 9 15 17
+turns 4 17 20
+twelfth 8 18
+twelve 2 3 4 5 8 10 11 15 16 20
+twenty 2 3 6 7 12 14 15 20
+twice 1 12 15 16
 twilight 17
-twist 7 14 4
+twist 4 7 14
 twisting 1
 twitches 19
-two 2 15 13 4 11 9 20 18 17 19 6 7 3 12 8 5 16 1
+two 1 2 3 4 5 6 7 8 9 11 12 13 15 16 17 18 19 20
 tying 10 13
-type 13 1
+type 1 13
 ugliest 11
 ugly 11
 um 8
 un 1 10
-unable 17 6 12 19 8
+unable 6 8 12 17 19
 unassuming 18
 unbearable 20
 uncommon 5
 uncomprehendingly 12
-unconscious 14 2 5
+unconscious 2 5 14
 unconsciousness 15
 undefeated 12
-under 2 15 5 19 16 10 1 18 3 11
+under 1 2 3 5 10 11 15 16 18 19
 underestimate 7
 underfed 15
 underground 13
 underneath 9
 undersee 20
-understand 16 6 10 7 9 3
+understand 3 6 7 9 10 16
 understood 20
 unearthly 14
-unexpected 19 5
+unexpected 5 19
 unexpectedly 20
 unfair 15
 unforgiving 4
 unfortunately 6
 unhappily 8
 unhinged 7
-unintelligible 17 14
+unintelligible 14 17
 unless 4 10 11
 unlike 19
 unmistakable 13
@@ -4129,36 +4129,36 @@ unprepared 7
 unraveled 6
 unreachable 13
 unsettled 19
-unsure 8 4
+unsure 4 8
 unthinkable 4
-until 2 15 5 11 12 16 20 9 7 8 13 1 4 10 3
+until 1 2 3 4 5 7 8 9 10 11 12 13 15 16 20
 untouched 1
 untucked 8
 unwanted 20
-up 1 2 3 20 11 4 9 17 8 19 5 6 12 16 15 13 7 10 14 18
-upbeat 12 1
-upon 5 14 6
+up 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+upbeat 1 12
+upon 5 6 14
 upper 6
 uprising 20
-upset 5 3 7
+upset 3 5 7
 upsets 6
 upsetting 19
 upward 3
 urgency 5
 urgent 5
 urges 5
-us 3 20 12 11 4 15 9 18 19 5 7 6 2 10 16 17 13 14 8 1
-use 18 12 17 6 9
-used 2 19 20 10 12 3
+us 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+use 6 9 12 17 18
+used 2 3 10 12 19 20
 useful 10
 useless 13
-using 13 8
+using 8 13
 usual 7 16
-usually 2 15 19 9 17 16
+usually 2 9 15 16 17 19
 utterly 7
 vague 17
 vaguely 7 13
-valley 20 13 7
+valley 7 13 20
 valor 8
 vanished 17
 vanishes 13
@@ -4171,30 +4171,30 @@ vast 20
 veers 9
 vegetables 6
 vein 17
-velvet 6 3 10 16
+velvet 3 6 10 16
 vengeance 10
-venia 18 3 11
-venomous 15 3
+venia 3 11 18
+venomous 3 15
 venture 3 6
 vermin 11
 verses 3
 verve 11
-very 1 15 4 17 5 9 16 20 13 3 10 6 14 18 11 8
+very 1 3 4 5 6 8 9 10 11 13 14 15 16 17 18 20
 vice 8
 viciously 20
 victims 5
-victor 16 6 12 20 17 13 3
-victors 18 17 16 13 11 3 7
-victory 1 10 8 13
-view 13 20 12 1
+victor 3 6 12 13 16 17 20
+victors 3 7 11 13 16 17 18
+victory 1 8 10 13
+view 1 12 13 20
 viewed 6
 viewer 1
 viewing 7
-village 16 13
+village 13 16
 visible 8
 visit 3
 vocal 3
-voice 4 17 19 11 3 20 16 13 6 10 1 14 12 8
+voice 1 3 4 6 8 10 11 12 13 14 16 17 19 20
 voices 14
 volunteer 8 19 20
 volunteered 19
@@ -4203,208 +4203,208 @@ volunteers 8 19 20
 vulnerable 16
 wagons 2
 wails 5
-waist 8 3
-wait 3 5 15 10 20
+waist 3 8
+wait 3 5 10 15 20
 waited 16
-waiting 20 13 17 3 16 7 15 14 19 9 12
-waits 20 4
-wake 1 3 16 7 8
+waiting 3 7 9 12 13 14 15 16 17 19 20
+waits 4 20
+wake 1 3 7 8 16
 wakefulness 13
-wakes 16 10 13
+wakes 10 13 16
 waking 6 10 17
-walk 15 9 6 3 10 1 13
-walked 19 12
-walking 8 15 13
+walk 1 3 6 9 10 13 15
+walked 12 19
+walking 8 13 15
 walks 4 5
-wall 4 5 2 10 12 8 13 11
+wall 2 4 5 8 10 11 12 13
 wallow 18
 walls 3 12
-wander 17 3
-want 4 11 5 19 3 10 12 6 16 7 13 1 15 14 20 8 17 18
-wanted 6 2 3 7 10 13 4
-wanting 13 20 14 11 1
-wants 4 17 10
+wander 3 17
+want 1 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20
+wanted 2 3 4 6 7 10 13
+wanting 1 11 13 14 20
+wants 4 10 17
 war 20
 warble 3
 warbles 19
 wardrobes 17
 warehouse 11
-warm 12 13 4 19 3 11 17 10 1 16
-warmer 10 15 1
+warm 1 3 4 10 11 12 13 16 17 19
+warmer 1 10 15
 warmth 1 6 10
 warned 16
 warning 3
 warnings 3
-was 1 11 15 3 20 12 13 4 5 9 17 18 19 6 7 2 10 16 14
+was 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20
 wash 4 12 13
 washed 7
 washing 17
-wasnt 20 9 7 6 10 16 1 15 8
+wasnt 1 6 7 8 9 10 15 16 20
 waste 7
 wasteland 18
-wasting 13 12
-watch 11 2 18 19 20 16 10 3 15 7 9 12 5 13
-watched 13 1 10
+wasting 12 13
+watch 2 3 5 7 9 10 11 12 13 15 16 18 19 20
+watched 1 10 13
 watches 10 16
-watching 7 9 17 10 13 6 1 5 3 4
-water 4 6 10 13 16 17 3 1 15 12 14 7 5
+watching 1 3 4 5 6 7 9 10 13 17
+water 1 3 4 5 6 7 10 12 13 14 15 16 17
 waterproof 3
-waters 17 6 15 12
-wave 9 1
-waves 19 14
-waving 14 8
-way 11 4 5 9 18 8 19 7 12 20 3 13 10 6 15 17
+waters 6 12 15 17
+wave 1 9
+waves 14 19
+waving 8 14
+way 3 4 5 6 7 8 9 10 11 12 13 15 17 18 19 20
 ways 3 5
-we 2 20 12 11 13 4 15 9 18 8 19 5 1 3 10 6 16 17 7 14
-weak 15 7 3 16 13 17
-weakling 19 6
-weakly 15 12
+we 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+weak 3 7 13 15 16 17
+weakling 6 19
+weakly 12 15
 weakness 16
 weal 19
 wealth 13
 wealthier 3
 wealthiest 6
-weapon 9 6
+weapon 6 9
 weapons 3 10 12
-wear 9 5 10 11 13 12
-wearing 4 5 3
+wear 5 9 10 11 12 13
+wearing 3 4 5
 wears 4 8
-weather 2 11 17 3
+weather 2 3 11 17
 weathers 6
-wed 6 3 19 17
+wed 3 6 17 19
 wedging 6
 weed 3
 weeds 13
 week 13
 weekly 10
-weeks 11 18 5 13 7
+weeks 5 7 11 13 18
 weep 2
 weeping 20
 weepy 5
 weigh 1
-weight 9 8 17
-well 2 3 12 4 11 15 18 19 5 1 16 7 6 9 10 20 14 13
+weight 8 9 17
+well 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 18 19 20
 wells 4
-went 7 12 3
-were 15 11 9 20 5 6 7 19 12 4 3 10 16 13 2 17 14 18 1
+went 3 7 12
+were 1 2 3 4 5 6 7 9 10 11 12 13 14 15 16 17 18 19 20
 werent 11
 west 15
 wet 12
-weve 6 15 9 12 4
-what 20 12 13 11 5 9 17 8 19 7 1 3 2 10 6 16 14 15 18 4
+weve 4 6 9 12 15
+what 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 whatd 9 15
-whatever 18 3 10 13 19 12
-whats 19 1 6 3 15 10 17 13 4
-when 1 11 20 13 4 5 15 17 8 19 12 6 3 9 16 7 10 14 18
+whatever 3 10 12 13 18 19
+whats 1 3 4 6 10 13 15 17 19
+when 1 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 whenever 1 3
-where 3 20 4 2 17 8 19 11 10 12 16 13 6 15 14 1 5 18
+where 1 2 3 4 5 6 8 10 11 12 13 14 15 16 17 18 19 20
 whereabouts 20
 whereas 3 16 20
 wheres 3 13
 whether 2 15 16
 whi 20
-which 1 20 13 4 17 8 19 11 10 12 6 3 7 15 5 18 16
-while 13 4 18 19 5 20 3 6 10 7 12 15 14 9 8 16 1
+which 1 3 4 5 6 7 8 10 11 12 13 15 16 17 18 19 20
+while 1 3 4 5 6 7 8 9 10 12 13 14 15 16 18 19 20
 whimpering 1
 whip 1 14
 whirls 15
-whisked 19 8
-whisper 4 17 16 6 1 10 20 3
-whispered 20 1
+whisked 8 19
+whisper 1 3 4 6 10 16 17 20
+whispered 1 20
 whispering 7
 whispers 10 13
 whistle 3 6 7
 whistled 6
 whistles 3 6
 whistling 20
-white 4 20 5 10 12 13
-who 2 3 20 12 11 13 4 15 9 17 8 19 5 16 7 10 6 14 1 18
+white 4 5 10 12 13 20
+who 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 whod 3
 whoever 1
-whole 3 10 20 6 7 14 19 5 18 11 1
+whole 1 3 5 6 7 10 11 14 18 19 20
 whom 20
 whoop 10
-whos 20 6 10
+whos 6 10 20
 whose 2 4
 whove 3
-why 11 4 15 19 7 12 8 10 13 6 3 1 17 5
+why 1 3 4 5 6 7 8 10 11 12 13 15 17 19
 wide 8 13
 wielding 14
-wife 4 11 3 6
+wife 3 4 6 11
 wig 17 19 20
-wild 2 4 3 9 13 10 12
+wild 2 3 4 9 10 12 13
 wilderness 15
 wildflowers 13
-will 2 11 15 9 4 20 18 19 7 12 5 3 16 10 13 6 17 14 1 8
-willing 20 11
-win 3 16 10 1
-wind 20 15 1
+will 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+willing 11 20
+win 1 3 10 16
+wind 1 15 20
 window 4
-windows 7 8 18 13
+windows 7 8 13 18
 wing 10 15
 wink 4
 winner 8 12
 winners 7
-winning 18 8 3 16
-wins 18 16
-winter 20 16
+winning 3 8 16 18
+wins 16 18
+winter 16 20
 wipe 3 16
 wiped 13
 wipes 12
 wiping 2 11
 wire 2
 wires 5
-wish 17 19 3 8 16
+wish 3 8 16 17 19
 wished 12
 wisp 17
 witch 3
-with 1 11 2 3 20 12 13 4 5 15 9 18 17 8 19 14 6 7 10 16
+with 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 withheld 16
-without 4 3 13 6 16 7 10 1 15 14 9 20 17
+without 1 3 4 6 7 9 10 13 14 15 16 17 20
 witness 19
 wits 11 20
 woke 13
 woken 7
 wolf 14 19
 wolves 14
-woman 12 13 11 7
+woman 7 11 12 13
 women 2
-won 20 10 3 1
-wonder 16 6 19 20 10 7 14 12 17
+won 1 3 10 20
+wonder 6 7 10 12 14 16 17 19 20
 wondered 7
-wonderful 13 5
-wondering 20 12
-wont 4 5 19 12 1 3 2 16 11 17 10 20 6
-wood 5 3 9 12 20 15
+wonderful 5 13
+wondering 12 20
+wont 1 2 3 4 5 6 10 11 12 16 17 19 20
+wood 3 5 9 12 15 20
 wooden 2
-woods 2 15 3 20 13 11 9 4 19 6 12 1 16 10 17
+woods 1 2 3 4 6 9 10 11 12 13 15 16 17 19 20
 wool 4
-word 8 19 10 15 1 11
-words 20 18 11 5 10 3 19 13
+word 1 8 10 11 15 19
+words 3 5 10 11 13 18 19 20
 wore 17
-work 20 11 4 5 12 3 7 10 6 15 1 17 18 13
-worked 16 4
+work 1 3 4 5 6 7 10 11 12 13 15 17 18 20
+worked 4 16
 workers 9 14
-working 17 10 12 3
-world 4 5 13 6 7 14 11
+working 3 10 12 17
+world 4 5 6 7 11 13 14
 worlds 11
 worms 11
 worn 1
 worried 4
 worries 19
 worry 3 18
-worse 18 11 5 4 3
-worst 15 19 16 1
+worse 3 4 5 11 18
+worst 1 15 16 19
 worth 15
-would 3 20 11 13 4 2 18 19 5 6 7 12 17 10 1 14 15 8 16
-wouldnt 4 13 6 20 15
+would 1 2 3 4 5 6 7 8 10 11 12 13 14 15 16 17 18 19 20
+wouldnt 4 6 13 15 20
 wouldve 20
-wound 12 13 11 1
-wounded 13 10 3 17
-wounds 17 5
+wound 1 11 12 13
+wounded 3 10 13 17
+wounds 5 17
 woven 14 19
-wrap 15 1
-wrapped 2 3 8 19 13 17 10 20
+wrap 1 15
+wrapped 2 3 8 10 13 17 19 20
 wraps 5 6
 wreck 19
 wrestle 9
@@ -4413,48 +4413,48 @@ wriggle 8
 wriggles 10
 wrist 13 14 20
 written 2
-wrong 4 19 13 20 12 6 10
+wrong 4 6 10 12 13 19 20
 x 9
 yank 2 8
 yanks 12
 yard 12
-yards 6 1 14 11 16
-yeah 19 10 6 7
-year 11 4 15 2 20 18 8 19 7 12 5 3 1
+yards 1 6 11 14 16
+yeah 6 7 10 19
+year 1 2 3 4 5 7 8 11 12 15 18 19 20
 yearly 20
 yearn 14
-years 11 15 3 4 5 18 8 19 16 20 7 17
+years 3 4 5 7 8 11 15 16 17 18 19 20
 yell 9 14
-yelling 9 7 15 17
-yellow 11 8 18 16
-yes 5 9 3 12 16 6 17 10 20
+yelling 7 9 15 17
+yellow 8 11 16 18
+yes 3 5 6 9 10 12 16 17 20
 yesterday 13
-yet 19 6 7 3 15 14 9 1
+yet 1 3 6 7 9 14 15 19
 yipping 19
-you 2 15 3 20 12 13 4 11 5 9 18 17 8 19 14 7 1 16 6 10
+you 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 youd 4 6 17 20
-youll 2 3 5 12 16 10 1
-young 2 10 1 3
+youll 1 2 3 5 10 12 16
+young 1 2 3 10
 younger 1 20
-your 11 15 4 18 17 19 5 3 20 12 16 13 6 7 10 1 14
-youre 4 3 9 13 7 10 6 20 12 11 8
+your 1 3 4 5 6 7 10 11 12 13 14 15 16 17 18 19 20
+youre 3 4 6 7 8 9 10 11 12 13 20
 yourself 4 10 12
-youve 5 9 6 10 3
-z 2 11 13 16 20 12
+youve 3 5 6 9 10
+z 2 11 12 13 16 20
 zable 17
 zards 2
 zation 7
-ze 13 4 19 12 3 9 10 20 16 6 14 1 8 17 11 7 5
-zed 17 8 11 13 3 19 20 10 14 1
+ze 1 3 4 5 6 7 8 9 10 11 12 13 14 16 17 19 20
+zed 1 3 8 10 11 13 14 17 19 20
 zel 19
-zen 11 15 18 16 17 10
+zen 10 11 15 16 17 18
 zens 20
-zes 18 14 19 9 5
-zing 3 13 10
+zes 5 9 14 18 19
+zing 3 10 13
 zip 1
 zipping 10
-zips 19 1
+zips 1 19
 zling 16
-zon 15 8
+zon 8 15
 zor 14
-zy 11 13 16 12 6 1 10 3
+zy 1 3 6 10 11 12 13 16

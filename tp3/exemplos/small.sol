@@ -1,15 +1,15 @@
-a 7 4 8 1 3 2
+a 1 2 3 4 7 8
 accent 2
 ago 3
 alike 3
 all 4
-almost 9 1
-and 3 7 2 1 5
+almost 1 9
+and 1 2 3 5 7
 another 6
 are 8 9
 arrives 1
-as 7 8 4 9 2
-at 9 2 5 3 1
+as 2 4 7 8 9
+at 1 2 3 5 9
 bad 3
 bag 3
 basil 4
@@ -32,7 +32,7 @@ brightens 3
 broken 7
 brought 4
 bucket 4
-but 2 7 6
+but 2 6 7
 buttercup 1 9
 can 9
 canvas 2
@@ -58,7 +58,7 @@ color 1
 come 2
 course 3
 cover 2
-crawling 5 4
+crawling 4 5
 cried 6
 curled 5
 dark 1
@@ -77,7 +77,7 @@ elbow 4
 empty 8
 enough 5
 entrails 9
-even 3 6 8 7 4
+even 3 4 6 7 8
 ever 2
 expression 3
 eyes 1 4
@@ -98,7 +98,7 @@ for 8
 forage 3
 forgot 1
 fresh 7
-from 3 1
+from 1 3
 gale 7
 games 1
 gift 4
@@ -113,8 +113,8 @@ happy 1
 hard 6
 has 9 10
 hates 2
-have 2 6 3
-he 2 3 9 1
+have 2 3 6
+he 1 2 3 9
 heading 5
 her 5 10
 hes 7
@@ -130,12 +130,12 @@ hunched 5
 hunger 1
 hungry 3
 hunting 10
-i 1 4 2 3 5 6 8 9
+i 1 2 3 4 5 6 8 9
 if 9
-in 3 5 6 10 4 9
+in 3 4 5 6 9 10
 insisting 1
-into 10 1 2
-is 1 3 7 10 9 4
+into 1 2 10
+is 1 3 4 7 9 10
 isnt 9
 it 3 7
 kill 8
@@ -152,7 +152,7 @@ legs 2
 let 6
 light 5
 lines 7
-little 5 4
+little 4 5
 long 1 6
 looks 6
 love 2
@@ -165,51 +165,51 @@ mashed 10
 matched 2
 mattress 2
 may 9
-me 9 2 3 4
+me 2 3 4 9
 men 5
 mimics 2
 miners 4
 missing 10
 molded 10
 morning 5 7
-mother 3 6 9 7
+mother 3 6 7 9
 mothers 6
 mouser 8
 mouth 6
 muddy 2
 must 2
-my 1 5 6 9 7 2 10 3 4
+my 1 2 3 4 5 6 7 9 10
 myself 4
 nails 7
-named 8 1
+named 1 8
 names 1
 needed 5
 nicknamed 4
 no 9
 nose 10
-not 7 4
+not 4 7
 occasional 8
-of 1 2 3 10 7 4
+of 1 2 3 4 7 10
 off 2
 okay 7
 old 7
-on 4 5 1 3 8
-once 9 1
+on 1 3 4 5 8
+once 1 9
 one 4 10
 only 2
-or 9 2
+or 2 9
 other 1
 our 3 4 9
-out 1 7 5 3
+out 1 3 5 7
 outside 4
 part 4
 perfect 4
 plucks 1
 pocket 4
 pressed 6
-prim 5 1 4 6 3
+prim 1 3 4 5 6
 primrose 8
-prims 2 7 9 4
+prims 2 4 7 9
 prop 4
 protect 3
 pull 1 4
@@ -246,14 +246,14 @@ sitting 9
 sleep 6 9
 slide 10
 slip 4
-so 7 9 6
+so 6 7 9
 sometimes 8
 squash 1
 squat 8
 squirrel 7
 stay 7
-still 7 3
-stopped 9 6
+still 3 7
+stopped 6 9
 streets 8
 stretch 1
 suddenly 3
@@ -265,17 +265,17 @@ table 3
 tell 9
 thank 3
 that 1 10
-the 1 2 3 5 8 10 7 9 4 6
+the 1 2 3 4 5 6 7 8 9 10
 their 6 7
 them 5
 theres 4
 they 9
 thing 5
 think 3 7
-this 3 9 5 7
+this 3 5 7 9
 though 3
-to 5 4 6 2 10 3 1
-today 7 4
+to 1 2 3 4 5 6 10
+today 4 7
 together 6
 too 9
 treat 3
@@ -297,15 +297,15 @@ vermin 7
 very 9
 wake 1
 warmth 2
-was 8 9 3 6 7
+was 3 6 7 8 9
 we 2 4
-well 9 4 3
+well 3 4 9
 when 1 4 8
 which 8
-who 6 2
+who 2 6
 will 2
 wished 7
-with 3 5 4
+with 3 4 5
 woman 2
 women 5
 wooden 3
@@ -316,5 +316,5 @@ wrapped 4
 year 1
 years 3
 yellow 2
-you 9 3
+you 3 9
 younger 7

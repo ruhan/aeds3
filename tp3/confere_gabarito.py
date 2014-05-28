@@ -130,6 +130,7 @@ def main():
 				max_inversoes = num_alunos_lista*(num_alunos_lista-1)/2;
 				num_inversoes, _ = sort_and_count(lista_alunos);
 				acertos_aux = (max_inversoes - num_inversoes)/float(max_inversoes);
+
 				acertos_ordem_alunos += acertos_aux;
 		#Normaliza os acertos pelo número de listas analisadas (para que a nota tenha valor máximo 1)
 		acertos_ordem_alunos /= float(len(dict_teste));

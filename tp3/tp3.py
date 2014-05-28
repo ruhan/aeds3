@@ -12,10 +12,10 @@ def create_index(path):
 
         for word in linewords:
             if word in words:
-                if not student in words[word]:
-                    words[word].append(student)
+                if int(student) not in words[word]:
+                    words[word].append(int(student))
             else:
-                words[word] = [student]
+                words[word] = [int(student)]
 
     return words
 
@@ -26,7 +26,7 @@ def write_file(path, data):
     result = []
 
     for word in sorted(data.keys()):
-        result.append('%s %s\n' % (word, " ".join(sorted(data[word]))))
+        result.append('%s %s\n' % (word, " ".join([str(i) for i in sorted(data[word])])))
 
     output = open(path, 'w')
     output.write("".join(result))
