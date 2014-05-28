@@ -33,7 +33,14 @@ def main():
 		except Exception, e:
 			output = e.output
 
-		output = output.split("\n");
+		output = output.strip(" \n\r\t\"").split("\n");
+		
+		memoria_tempos = output[-1].split(" ");
+		memoria_max = int(memoria_tempos[0])/1024.
+		tempo_exec = float(memoria_tempos[1])+float(memoria_tempos[2])
+		
+		print "Gasto máximo de memória: %.2f MB" % memoria_max;
+		print "Tempo de execução: %.2f s" % tempo_exec;
 
 		num_linhas = 0;
 		acertos = 0.;
@@ -60,34 +67,39 @@ def main():
 
 						#Um ponto para cada aluno na posição correta, normalizado pelo número de alunos na solução (essa nota vale metade do acerto para essa palavra)
 						acertos += sum(map(lambda (x,y):x==y, zip(alunos_gabarito, alunos_teste)))/len(alunos_gabarito)/2.;
-
+				
+				def zera_teste(num_linhas_gabarito):
+					pesos_instancias.append(num_linhas_gabarito);
+					resultados_instancias.append(0);
+				
 				try:
 					arq_gabarito.next();
 					#Se ainda há linhas no arquivo de gabarito, havia menos linhas no arquivo de testes
-					print "\nERRO: arquivo de gabarito com mais linhas que arquivo de testes\n"
-					sys.exit(0)
+					print "\nArquivo de gabarito com mais linhas que arquivo de testes, os resultados desse arquivo serão zerados\n"
+					num_linhas += 1;
+					for linha_gab in arq_gabarito:
+						num_linhas += 1;
+					zera_teste(num_linhas);
+					continue;
 				except StopIteration:
 					#Se não há mais linhas no arquivo de gabarito, nada a fazer
 					pass;
 
 				try:
 					arq_teste.next();
-					print "\nERRO: arquivo de testes com mais linhas que arquivo de gabarito\n"
-					sys.exit(0);
+					print "\nArquivo de testes com mais linhas que arquivo de gabarito, os resultados desse arquivo serão zerados\n"
+					zera_teste(num_linhas);
+					continue;
 				except StopIteration:
 					pass;
 
+		
 		pesos_instancias.append(num_linhas);
-		memoria_tempos = output[-1].split(" ");
-		memoria_max = int(memoria_tempos[0])/1024.
-		tempo_exec = float(memoria_tempos[1])+float(memoria_tempos[2])
 
 		porcentagem_acertos = acertos / float(num_linhas) * 100.;
 		resultados_instancias.append(porcentagem_acertos);
 
 		print "Porcentagem de acertos: %d" % porcentagem_acertos;
-		print "Gasto máximo de memória: %.2f MB" % memoria_max;
-		print "Tempo de execução: %.2f s" % tempo_exec;
 		print "\n"
 
 	print "Média ponderada dos acertos: %.2f (porcentagem)" % numpy.average(resultados_instancias, weights=pesos_instancias);
