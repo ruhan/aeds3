@@ -35,7 +35,7 @@ def main():
 
 		output = output.strip(" \n\r\t\"").split("\n");
 		
-		memoria_tempos = output[-1].split(" ");
+		memoria_tempos = output[-1].strip(" \n\r\t\"").split(" ");
 		memoria_max = int(memoria_tempos[0])/1024.
 		tempo_exec = float(memoria_tempos[1])+float(memoria_tempos[2])
 		
