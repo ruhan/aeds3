@@ -1,0 +1,3 @@
+Execute o programa com os argumentos na seguinte ordem:
+
+python tp4.py dicionario.txt respostas.txt output.txt
