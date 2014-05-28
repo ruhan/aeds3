@@ -17,7 +17,8 @@ def main():
 	instancias_heuristica = [];
 	resultados_exato = [];
 	resultados_heuristica = [];
-	resultados_gabarito = [];
+	resultados_gabarito_exato = [];
+	resultados_gabarito_heuristica = [];
 
 	for nome_instancia in instancias_teste_exato:
 
@@ -36,7 +37,7 @@ def main():
 			        aux_gabarito.append(int(linha.strip()));
 
 		num_linhas_gabarito = len(aux_gabarito);
-		resultados_gabarito.extend(aux_gabarito);
+		resultados_gabarito_exato.extend(aux_gabarito);
 	
 		pesos_instancias_exato.append(num_linhas_gabarito);
 
@@ -81,7 +82,7 @@ def main():
 		instancias_exato.append((memoria_max, tempo_exec));
 
 
-	resultados_gabarito = [];
+	resultados_gabarito_heuristica = [];
 
 	for nome_instancia in instancias_teste_heuristica:
 	
@@ -97,7 +98,7 @@ def main():
 			        aux_gabarito.append(int(linha.strip()));
 
 		num_linhas_gabarito = len(aux_gabarito);
-		resultados_gabarito.extend(aux_gabarito);
+		resultados_gabarito_heuristica.extend(aux_gabarito);
 	
 		pesos_instancias_heuristica.append(num_linhas_gabarito);
 
@@ -146,9 +147,8 @@ def main():
 	memorias_exato, tempos_exato = zip(*instancias_exato);
 	media_memoria_exato = np.mean(memorias_exato);
 	media_tempos_exato = np.mean(tempos_exato);
-
-	aux_gab_exat = zip(resultados_gabarito, resultados_exato);
-	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_exat))/len(resultados_gabarito)*100;
+	aux_gab_exat = zip(resultados_gabarito_exato, resultados_exato);
+	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_exat))/len(resultados_gabarito_exato)*100;
 
 	print "Algoritmo exato:";
 	print "Gasto médio de memória(alocação máxima): %.2f MB" % (media_memoria_exato);
@@ -160,17 +160,17 @@ def main():
 	media_memoria_heuristica = np.mean(memorias_heuristica);
 	media_tempos_heuristica = np.mean(tempos_heuristica);
 
-	aux_gab_heur = zip(resultados_gabarito, resultados_heuristica);
+	aux_gab_heur = zip(resultados_gabarito_heuristica, resultados_heuristica);
 	#porcentagem das respostas totalmente corretas:
-	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_heur))/len(resultados_gabarito)*100;
+	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_heur))/len(resultados_gabarito_heuristica)*100;
 	#erro das respostas da heurística:
 	erro = map(lambda (g,h):abs(g-h)/float(g), aux_gab_heur);
 	media_erro_porc = np.mean(erro)*100;
 	desvio_erro_porc = np.std(erro)*100;
 	#Pearson:
-	media_gabarito = np.mean(resultados_gabarito);
+	media_gabarito = np.mean(resultados_gabarito_heuristica);
 	media_heuristica = np.mean(resultados_heuristica);
-	gabarito_menos_media = map(lambda x:x-media_gabarito, resultados_gabarito);
+	gabarito_menos_media = map(lambda x:x-media_gabarito, resultados_gabarito_heuristica);
 	heuristica_menos_media = map(lambda x:x-media_heuristica, resultados_heuristica);
 	covariancia = sum(map(lambda (x,y):x*y, zip(gabarito_menos_media, heuristica_menos_media)));
 	variancia_gabarito = sum(map(lambda x:x**2, gabarito_menos_media));
