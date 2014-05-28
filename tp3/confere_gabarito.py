@@ -39,7 +39,7 @@ def main():
 		memoria_max = int(memoria_tempos[0])/1024.
 		tempo_exec = float(memoria_tempos[1])+float(memoria_tempos[2])
 		
-		print "Gasto máximo de memória: %.2f MB" % memoria_max;
+		print "Gasto máximo de memória: %.2f MB (restrição de memória: %.2f MB)" % (memoria_max, tam_memoria/1024/1024);
 		print "Tempo de execução: %.2f s" % tempo_exec;
 
 		num_linhas = 0;
@@ -93,6 +93,10 @@ def main():
 				except StopIteration:
 					pass;
 
+		if memoria_max > tam_memoria:
+			print "\nMemória utilizada ultrapassa a restrição estipulada inicialmente, os resultados desse arquivo serão zerados"
+			zera_teste(num_linhas);
+			continue;
 		
 		pesos_instancias.append(num_linhas);
 
