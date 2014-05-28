@@ -29,7 +29,7 @@ def parse_input(input_data):
 
     for instance in range(n_instances):
         end_instance = int(input_data[0].split(' ')[1])+1
-        instances.append(input_data[1:end_instance])
+        instances.append(input_data[0:end_instance])
         input_data = input_data[end_instance:]
 
     return instances
@@ -51,11 +51,20 @@ def create_graph(nodes_list):
 
     graph = networkx.Graph()
 
-    for nodes in nodes_list:
-        edges = combinations(nodes.split(' '), 2)
+
+    # XXX mesmo nos individuais devem ser adicionados ao grafo
+    students_number = int(nodes_list[0].split(' ')[0])
+    for n in range(1, students_number+1):
+        graph.add_node(n)
+
+    for nodes in nodes_list[1:]:
+        nodes = nodes.split(' ')
+        nodes = [ int(i) for i in nodes ]
+        edges = combinations(nodes, 2)
 
         graph.add_edges_from(edges)
 
+    #import pdb;pdb.set_trace()
     return graph
 
 def mis(graph):
@@ -74,7 +83,9 @@ def mis(graph):
     if len(cliques) == 0:
         resp = 1
     if len(cliques) > 0:
-         resp = max(cliques)
+        resp = max(cliques)
+
+    #import pdb;pdb.set_trace()
     return resp
 
 def main(finput, foutput):
