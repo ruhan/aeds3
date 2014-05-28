@@ -26,7 +26,7 @@ def main():
 
 		print "Testando instância %s" % (nome_instancia);
 
-		args_subp = ['/usr/bin/time', '-f\"%M %S %U\"', './tp1', "-o", nome_saida_teste, "-m", str(tam_memoria)] + [str(i) for i in nomes_entrada];
+		args_subp = ['/usr/bin/time', '-f\"%M %S %U\"', './tp3', "-o", nome_saida_teste, "-m", str(tam_memoria)] + [str(i) for i in nomes_entrada];
 
 		try:
 			output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
