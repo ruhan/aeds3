@@ -1,3 +1,6 @@
+"""
+Para testar os resultados mais facilmente: http://odur.let.rug.nl/kleiweg/lev/
+"""
 import sys
 
 def edit_distance(s,t, ins_cost=1.0, del_cost=1.0, sub_cost=1.5, swap_cost=2.0):
