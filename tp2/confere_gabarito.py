@@ -9,7 +9,7 @@ def main():
 	dir_gabarito = "exemplos/";
 
 	instancias_teste_exato = ["exato"];
-	instancias_teste_heuristica = ["heuristica"]
+	instancias_teste_heuristica = ["heuristica", "heuristica_200", "heuristica_400"]
 
 	pesos_instancias_exato = [];
 	pesos_instancias_heuristica = [];
@@ -162,7 +162,7 @@ def main():
 
 	aux_gab_heur = zip(resultados_gabarito_heuristica, resultados_heuristica);
 	#porcentagem das respostas totalmente corretas:
-	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_heur))/len(resultados_gabarito_heuristica)*100;
+	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_heur))/float(len(resultados_gabarito_heuristica))*100;
 	#erro das respostas da heurística:
 	erro = map(lambda (g,h):abs(g-h)/float(g), aux_gab_heur);
 	media_erro_porc = np.mean(erro)*100;
