@@ -32,13 +32,17 @@ def sort_and_count(L):
 def main():
 	dir_gabarito = "exemplos/";
 
-	instancias_teste = [("small", 1), ("medium", 1), ("big", 6)];
+	instancias_teste = [("small", 1, 1), ("medium", 1, 0.1), ("medium", 1, 0.5), ("big", 6, 0.1), ("big", 6, 0.5)];
 	#TODO: definir esses tamanhos de memória em função do tamanho das entradas (isso pode ser calculado offline)
-	tamanhos_memoria = [1.5*1024*1024, 1.5*1024*1024, 1.5*1024*1024]
+	min_memoria = 1.5*1024*1024;
+	num_palavras_prim_instancia = None;
+	#vamos considerar que a maior palavra possível tenha 50 caracteres
+	MAIOR_PALAVRA = 50;
+	INT_MAIS_APONTADOR = 12;
 
 	pesos_instancias = [];
 	resultados_instancias = [];
-	for (nome_instancia, num_entradas), tam_memoria in zip(instancias_teste, tamanhos_memoria):
+	for nome_instancia, num_entradas, porc_palavras_mem in instancias_teste:
 		nome_gabarito = dir_gabarito + nome_instancia + ".sol";
 		nome_saida_teste = nome_instancia + ".out";
 
@@ -46,16 +50,35 @@ def main():
 			nomes_entrada = [dir_gabarito + nome_instancia + str(i) + ".in" for i in range(1, num_entradas)];
 		else:
 			nomes_entrada = [dir_gabarito + nome_instancia + ".in"];
+		
+		dict_gabarito = {};
+		with open(nome_gabarito, 'r') as arq_gabarito:
+			for linha_gab in arq_gabarito:
+				linha_gab_split = linha_gab.split(" ");
+				
+				palavra_gabarito = linha_gab_split[0];
+				alunos_gabarito = [int(i) for i in linha_gab_split[1:]];
+				
+				dict_gabarito[palavra_gabarito] = alunos_gabarito;
 
+
+		#Calcula a memória que será fornecida para as instâncias a partir do gasto de memória da primeira instância
+		if num_palavras_prim_instancia != None:
+			#número de palavras que tem de ser levado em conta a mais, além do mínimo de memória definido pela primeria instância
+			num_palavras_mem = max(0, int(len(dict_gabarito)*porc_palavras_mem)-num_palavras_prim_instancia)
+			#espaço para palavras que se permitirá manter em memória (em uma implementação quase utopicamente eficiente: um char para cada caracter da maior palavra mais um char terminando a string)
+			espaco_mem_bytes = (MAIOR_PALAVRA+INT_MAIS_APONTADOR)*num_palavras_mem;
+			tam_memoria = min_memoria + espaco_mem_bytes;
+		else:
+			tam_memoria = min_memoria;
 
 
 		print "Testando instância %s" % (nome_instancia);
 
-		#args_subp = ['/usr/bin/time', '-f\"%M %S %U\"', './tp3', "-o", nome_saida_teste, "-m", str(tam_memoria)] + [str(i) for i in nomes_entrada];
+		args_subp = ['/usr/bin/time', '-f\"%M %S %U\"', './tp3', "-o", nome_saida_teste, "-m", str(int(tam_memoria))] + [str(i) for i in nomes_entrada];
 
 		try:
-			#output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
-			output = "460 0 0";
+			output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
 		except Exception, e:
 			output = e.output
 
@@ -68,15 +91,11 @@ def main():
 		print "Gasto máximo de memória: %.2f MB (restrição de memória: %.2f MB)" % (memoria_max, tam_memoria/1024/1024);
 		print "Tempo de execução: %.2f s" % tempo_exec;
 		
-		dict_gabarito = {};
-		with open(nome_gabarito, 'r') as arq_gabarito:
-			for linha_gab in arq_gabarito:
-				linha_gab_split = linha_gab.split(" ");
-				
-				palavra_gabarito = linha_gab_split[0];
-				alunos_gabarito = [int(i) for i in linha_gab_split[1:]];
-				
-				dict_gabarito[palavra_gabarito] = alunos_gabarito;
+		#a primeira instância (menor) fornece informações do mínimo de memória necessário para carregar o programa. A restrição de memória das entradas subsequentes utilizará essa informação
+		if num_palavras_prim_instancia == None:
+			num_palavras_prim_instancia = len(dict_gabarito);
+			min_memoria = min(tam_memoria, memoria_max*1024*1024);
+		
 		
 		dict_teste = {};
 		lista_teste = [];
@@ -134,14 +153,6 @@ def main():
 				acertos_ordem_alunos += acertos_aux;
 		#Normaliza os acertos pelo número de listas analisadas (para que a nota tenha valor máximo 1)
 		acertos_ordem_alunos /= float(len(dict_teste));
-
-		if memoria_max > tam_memoria:
-			print "\nMemória utilizada ultrapassa a restrição estipulada inicialmente, os resultados desse arquivo serão zerados"
-			acertos_presenca_palavras = 0.;
-			acertos_ordem_palavras = 0.
-			acertos_presenca_alunos = 0.;
-			acertos_ordem_alunos = 0.;
-			continue;
 		
 		pesos_instancias.append(len(dict_gabarito));
 		
@@ -154,6 +165,11 @@ def main():
 		#acertos = 8*a*b*c*d / (2*a*b*(c+d) + 2*c*d*(a+b));
 		
 		porcentagem_acertos = acertos * 100.;
+		
+		if memoria_max*1024*1024 > tam_memoria:
+			print "(Memória utilizada ultrapassa a restrição estipulada inicialmente, o acerto final desse arquivo será zerado)"
+			porcentagem_acertos = 0;
+		
 		resultados_instancias.append(porcentagem_acertos);
 		
 		print "Presença das palavras (porcentagem): %.2f" % (acertos_presenca_palavras*100);
