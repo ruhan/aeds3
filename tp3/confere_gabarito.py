@@ -36,7 +36,7 @@ def sort_and_count(L, verbose=False, inversoes = None):
 def main(verbose=False):
 	dir_gabarito = "exemplos/";
 
-	instancias_teste = [("small", 1, 1), ("medium", 1, 0.1), ("medium", 1, 0.5), ("big", 6, 0.1), ("big", 6, 0.5)];
+	instancias_teste = [("small", 1, 1), ("medium", 1, 0.1), ("medium", 1, 0.5), ("big", 6, 0.1), ("big", 6, 0.5), ("superbig", 1, 0.1), ("superbig", 1, 0.5)];
 	#TODO: definir esses tamanhos de memória em função do tamanho das entradas (isso pode ser calculado offline)
 	min_memoria = 1.5*1024*1024;
 	num_palavras_prim_instancia = None;
@@ -121,8 +121,8 @@ def main(verbose=False):
 		intersecao_teste_gabarito = set_palavras_gabarito.intersection(set_palavras_teste)
 		tam_intersecao = len(intersecao_teste_gabarito);
 		tam_xor = len(set_palavras_gabarito ^ set_palavras_teste);
-		#Marca um ponto para cada palavra em ambos arquivos e subtrai um ponto para cada palavra em apenas um dos arquivos, normalizando pelo número de palavras no gabarito
-		acertos_presenca_palavras = (tam_intersecao - tam_xor) / float(len(set_palavras_gabarito));
+		#Marca um ponto para cada palavra em ambos arquivos e subtrai um ponto para cada palavra em apenas um dos arquivos, normalizando pelo número de palavras no gabarito. Esse valor inicialmente pode ser negativo, por isso o max.
+		acertos_presenca_palavras = max(0, (tam_intersecao - tam_xor) / float(len(set_palavras_gabarito)));
 		if verbose and acertos_presenca_palavras < 1.:
 				print "Palavras faltantes no teste:", list(set_palavras_gabarito.difference(set_palavras_teste));
 				print "palavras presentes apenas no teste:", list(set_palavras_teste.difference(set_palavras_gabarito))
@@ -145,8 +145,8 @@ def main(verbose=False):
 			set_alunos_teste = set(dict_teste[palavra]);
 			tam_intersecao = len(set_alunos_gabarito.intersection(set_alunos_teste));
 			tam_xor = len(set_alunos_gabarito ^ set_alunos_teste);
-			#Marca um ponto para cada aluno em ambos arquivos e subtrai um ponto para cada aluno em apenas um dos arquivos, normalizando pelo número de alunos no gabarito
-			atual_acertos_presenca_alunos = (tam_intersecao - tam_xor) / float(len(set_alunos_gabarito));
+			#Marca um ponto para cada aluno em ambos arquivos e subtrai um ponto para cada aluno em apenas um dos arquivos, normalizando pelo número de alunos no gabarito. Esse valor inicialmente pode ser negativo, por isso o max.
+			atual_acertos_presenca_alunos = max(0, (tam_intersecao - tam_xor) / float(len(set_alunos_gabarito)));
 			if verbose and atual_acertos_presenca_alunos < 1.:
 				palavras_erros.append(palavra);
 			acertos_presenca_alunos += atual_acertos_presenca_alunos;
