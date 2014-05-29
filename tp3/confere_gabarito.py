@@ -4,21 +4,25 @@ import subprocess;
 import numpy;
 import sys;
 
-def merge_and_count(A, B):
-	num_inversoes = 0;
-	output = [];
-	while len(A) > 0 or len(B) > 0:
-		if len(B) == 0:
-			output.append(A.pop(0))
-		elif len(A) > 0 and A[0] < B[0]:
-			output.append(A.pop(0));
-		else:
-			num_inversoes += len(A);
-			output.append(B.pop(0));
-	return (num_inversoes, output);
-
 #Algoritmo utilizado para contar inversões (retirado do livro "Algorithm Design", por Jon Kleinberg e Éva Tardos, páginas 224-225)
-def sort_and_count(L):
+def sort_and_count(L, verbose=False, inversoes = None):
+
+	def merge_and_count(A, B):
+		num_inversoes = 0;
+		output = [];
+		while len(A) > 0 or len(B) > 0:
+			if len(B) == 0:
+				output.append(A.pop(0))
+			elif len(A) > 0 and A[0] < B[0]:
+				output.append(A.pop(0));
+			else:
+				if verbose:
+					for a in A:
+						inversoes.append((a,B[0]));
+				num_inversoes += len(A);
+				output.append(B.pop(0));
+		return (num_inversoes, output);	
+	
 	if len(L) <= 1:
 		return (0, L);
 	else:
@@ -29,7 +33,7 @@ def sort_and_count(L):
 		(r, L) = merge_and_count(A, B);
 	return (r_A + r_B + r, L);
 
-def main():
+def main(verbose=False):
 	dir_gabarito = "exemplos/";
 
 	instancias_teste = [("small", 1, 1), ("medium", 1, 0.1), ("medium", 1, 0.5), ("big", 6, 0.1), ("big", 6, 0.5)];
@@ -119,29 +123,42 @@ def main():
 		tam_xor = len(set_palavras_gabarito ^ set_palavras_teste);
 		#Marca um ponto para cada palavra em ambos arquivos e subtrai um ponto para cada palavra em apenas um dos arquivos, normalizando pelo número de palavras no gabarito
 		acertos_presenca_palavras = (tam_intersecao - tam_xor) / float(len(set_palavras_gabarito));
+		if verbose and acertos_presenca_palavras < 1.:
+				print "Palavras faltantes no teste:", list(set_palavras_gabarito.difference(set_palavras_teste));
+				print "palavras presentes apenas no teste:", list(set_palavras_teste.difference(set_palavras_gabarito))
 		
 		#O número de inversões na ordem das palavras
 		acertos_ordem_palavras = 0.
 		num_palavras_teste = len(lista_teste)
 		max_inversoes = num_palavras_teste*(num_palavras_teste-1)/2
-		num_inversoes, _ = sort_and_count(lista_teste);
+		inversoes = [];
+		num_inversoes, _ = sort_and_count(lista_teste, verbose, inversoes);
 		acertos_ordem_palavras = (max_inversoes - num_inversoes)/float(max_inversoes);
+		if verbose:
+			print "Inversões das palavras:", inversoes;
 		
 		#Analisa as listas de alunos presentes em ambos arquivos, sem analisar a ordem desses alunos nessas listas
 		acertos_presenca_alunos = 0.;
+		palavras_erros = [];
 		for palavra in intersecao_teste_gabarito:
 			set_alunos_gabarito = set(dict_gabarito[palavra]);
 			set_alunos_teste = set(dict_teste[palavra]);
 			tam_intersecao = len(set_alunos_gabarito.intersection(set_alunos_teste));
 			tam_xor = len(set_alunos_gabarito ^ set_alunos_teste);
 			#Marca um ponto para cada aluno em ambos arquivos e subtrai um ponto para cada aluno em apenas um dos arquivos, normalizando pelo número de alunos no gabarito
-			acertos_presenca_alunos += (tam_intersecao - tam_xor) / float(len(set_alunos_gabarito));
+			atual_acertos_presenca_alunos = (tam_intersecao - tam_xor) / float(len(set_alunos_gabarito));
+			if verbose and atual_acertos_presenca_alunos < 1.:
+				palavras_erros.append(palavra);
+			acertos_presenca_alunos += atual_acertos_presenca_alunos;
 		#Normaliza os acertos pelo número de listas comparadas (para que a nota tenha valor máximo 1)
 		acertos_presenca_alunos /= float(len(intersecao_teste_gabarito));
+		if verbose and acertos_presenca_alunos < 1.:
+			print "Palavras com alunos em excesso ou ausência:", palavras_erros;
 		
 		#O número de inversões nas listas de alunos
 		acertos_ordem_alunos = 0.;
-		for lista_alunos in dict_teste.itervalues():
+		palavras_erros = [];
+		for palavra, lista_alunos in dict_teste.iteritems():
 			num_alunos_lista = len(lista_alunos);
 			if num_alunos_lista <= 1:
 				acertos_ordem_alunos += 1.;
@@ -149,11 +166,13 @@ def main():
 				max_inversoes = num_alunos_lista*(num_alunos_lista-1)/2;
 				num_inversoes, _ = sort_and_count(lista_alunos);
 				acertos_aux = (max_inversoes - num_inversoes)/float(max_inversoes);
-
+				if verbose and acertos_aux < 1.:
+					palavras_erros.append(palavra);
 				acertos_ordem_alunos += acertos_aux;
 		#Normaliza os acertos pelo número de listas analisadas (para que a nota tenha valor máximo 1)
 		acertos_ordem_alunos /= float(len(dict_teste));
-		
+		if verbose and acertos_ordem_alunos < 1.:
+			print "Palavras com inversões na lista de alunos:", palavras_erros;
 		pesos_instancias.append(len(dict_gabarito));
 		
 		#Faz uma média harmônica dos acertos em cada quesito
@@ -185,4 +204,7 @@ def main():
 
 if __name__ == '__main__':
     import sys;
-    main();
+    verbose = False;
+    if len(sys.argv) > 1 and sys.argv[1] == "-v":
+    	verbose = True;
+    main(verbose);
