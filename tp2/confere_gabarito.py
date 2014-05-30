@@ -148,7 +148,7 @@ def main():
 	media_memoria_exato = np.mean(memorias_exato);
 	media_tempos_exato = np.mean(tempos_exato);
 	aux_gab_exat = zip(resultados_gabarito_exato, resultados_exato);
-	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_exat))/len(resultados_gabarito_exato)*100;
+	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_exat))/float(len(resultados_gabarito_exato))*100;
 
 	print "Algoritmo exato:";
 	print "Gasto médio de memória(alocação máxima): %.2f MB" % (media_memoria_exato);
