@@ -82,6 +82,21 @@ def main():
 		instancias_exato.append((memoria_max, tempo_exec));
 
 
+	def imprime_resultados_exato():
+		print "\n===Resultados finais===\n"
+
+		#calcula as estatísticas para o algoritmo exato
+		memorias_exato, tempos_exato = zip(*instancias_exato);
+		media_memoria_exato = np.mean(memorias_exato);
+		media_tempos_exato = np.mean(tempos_exato);
+		aux_gab_exat = zip(resultados_gabarito_exato, resultados_exato);
+		porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_exat))/float(len(resultados_gabarito_exato))*100;
+
+		print "Algoritmo exato:";
+		print "Gasto médio de memória(alocação máxima): %.2f MB" % (media_memoria_exato);
+		print "Tempo médio de execução: %.2f" % (media_tempos_exato);
+		print "porcentagem de acertos: %.2f" % (porcentagem_acertos);	
+	
 	resultados_gabarito_heuristica = [];
 
 	for nome_instancia in instancias_teste_heuristica:
@@ -128,7 +143,9 @@ def main():
 	
 		#Trata os valores lidos na heurística de forma análoga ao que foi feito para o algoritmo exato mais acima
 		if len(aux_resultados_heuristica) != num_linhas_gabarito:
-			print "Número de consultas do arquivo de teste diferente do gabarito! (%d/%d)" % (len(aux_resultados_heuristica), num_linhas_gabarito);
+			print "ERRO: Número de consultas do arquivo de teste diferente do gabarito! (%d/%d)" % (len(aux_resultados_heuristica), num_linhas_gabarito);
+			print "O teste da heurística será abortado\n";
+			imprime_resultados_exato();
 			sys.exit(1);
 		else:
 			resultados_heuristica.extend(aux_resultados_heuristica);
@@ -140,20 +157,7 @@ def main():
 	
 		instancias_heuristica.append((memoria_max, tempo_exec));
 	
-
-	print "\n===Resultados finais===\n"
-
-	#calcula as estatísticas para o algoritmo exato
-	memorias_exato, tempos_exato = zip(*instancias_exato);
-	media_memoria_exato = np.mean(memorias_exato);
-	media_tempos_exato = np.mean(tempos_exato);
-	aux_gab_exat = zip(resultados_gabarito_exato, resultados_exato);
-	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_exat))/float(len(resultados_gabarito_exato))*100;
-
-	print "Algoritmo exato:";
-	print "Gasto médio de memória(alocação máxima): %.2f MB" % (media_memoria_exato);
-	print "Tempo médio de execução: %.2f" % (media_tempos_exato);
-	print "porcentagem de acertos: %.2f" % (porcentagem_acertos);
+	imprime_resultados_exato();
 
 	#Calcula as estatísticas para a heurística
 	memorias_heuristica, tempos_heuristica = zip(*instancias_heuristica);
