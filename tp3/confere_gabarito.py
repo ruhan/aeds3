@@ -186,8 +186,8 @@ def main(verbose=False):
 		porcentagem_acertos = acertos * 100.;
 		
 		if memoria_max*1024*1024 > tam_memoria:
-			print "(Memória utilizada ultrapassa a restrição estipulada inicialmente, o acerto final desse arquivo será zerado)"
-			porcentagem_acertos = 0;
+			print "(Memória utilizada ultrapassa a restrição estipulada inicialmente, o acerto final desse arquivo será penalizado em 50%)"
+			porcentagem_acertos *= 0.5;
 		
 		resultados_instancias.append(porcentagem_acertos);
 		
