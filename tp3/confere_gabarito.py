@@ -133,7 +133,10 @@ def main(verbose=False):
 		max_inversoes = num_palavras_teste*(num_palavras_teste-1)/2
 		inversoes = [];
 		num_inversoes, _ = sort_and_count(lista_teste, verbose, inversoes);
-		acertos_ordem_palavras = (max_inversoes - num_inversoes)/float(max_inversoes);
+		if num_palavras_teste > 1:
+			acertos_ordem_palavras = (max_inversoes - num_inversoes)/float(max_inversoes);
+		else:
+			acertos_ordem_palavras = 0;
 		if verbose:
 			print "Inversões das palavras:", inversoes;
 		
@@ -151,7 +154,10 @@ def main(verbose=False):
 				palavras_erros.append(palavra);
 			acertos_presenca_alunos += atual_acertos_presenca_alunos;
 		#Normaliza os acertos pelo número de listas comparadas (para que a nota tenha valor máximo 1)
-		acertos_presenca_alunos /= float(len(intersecao_teste_gabarito));
+		if intersecao_teste_gabarito > 0:
+			acertos_presenca_alunos /= float(len(intersecao_teste_gabarito));
+		else:
+			acertos_presenca_alunos = 0;
 		if verbose and acertos_presenca_alunos < 1.:
 			print "Palavras com alunos em excesso ou ausência:", palavras_erros;
 		
@@ -170,7 +176,10 @@ def main(verbose=False):
 					palavras_erros.append(palavra);
 				acertos_ordem_alunos += acertos_aux;
 		#Normaliza os acertos pelo número de listas analisadas (para que a nota tenha valor máximo 1)
-		acertos_ordem_alunos /= float(len(dict_teste));
+		if len(dict_teste) > 0:
+			acertos_ordem_alunos /= float(len(dict_teste));
+		else:
+			acertos_ordem_alunos = 0;
 		if verbose and acertos_ordem_alunos < 1.:
 			print "Palavras com inversões na lista de alunos:", palavras_erros;
 		pesos_instancias.append(len(dict_gabarito));
@@ -180,8 +189,11 @@ def main(verbose=False):
 		b = acertos_ordem_palavras;
 		c = acertos_presenca_alunos;
 		d = acertos_ordem_alunos;
-		#acertos = 4./(1./a+1./b+1./c+1./d);
-		acertos = 8*a*b*c*d / (2*a*b*(c+d) + 2*c*d*(a+b));
+		if a>0 and b>0 and c>0 and d>0:
+			acertos = 4./(1./a+1./b+1./c+1./d);	
+		else:
+			acertos = 0;
+		#acertos = 8*a*b*c*d / (2*a*b*(c+d) + 2*c*d*(a+b));
 		
 		porcentagem_acertos = acertos * 100.;
 		
