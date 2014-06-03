@@ -180,8 +180,8 @@ def main(verbose=False):
 		b = acertos_ordem_palavras;
 		c = acertos_presenca_alunos;
 		d = acertos_ordem_alunos;
-		acertos = 4./(1./a+1./b+1./c+1./d);
-		#acertos = 8*a*b*c*d / (2*a*b*(c+d) + 2*c*d*(a+b));
+		#acertos = 4./(1./a+1./b+1./c+1./d);
+		acertos = 8*a*b*c*d / (2*a*b*(c+d) + 2*c*d*(a+b));
 		
 		porcentagem_acertos = acertos * 100.;
 		
