@@ -154,7 +154,7 @@ def main(verbose=False):
 				palavras_erros.append(palavra);
 			acertos_presenca_alunos += atual_acertos_presenca_alunos;
 		#Normaliza os acertos pelo número de listas comparadas (para que a nota tenha valor máximo 1)
-		if intersecao_teste_gabarito > 0:
+		if len(intersecao_teste_gabarito) > 0:
 			acertos_presenca_alunos /= float(len(intersecao_teste_gabarito));
 		else:
 			acertos_presenca_alunos = 0;
