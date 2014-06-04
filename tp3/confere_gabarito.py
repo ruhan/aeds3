@@ -105,7 +105,7 @@ def main(verbose=False):
 		lista_teste = [];
 		with open(nome_saida_teste) as arq_teste:
 			for linha_teste in arq_teste:
-				linha_teste_split = linha_teste.split(" ");
+				linha_teste_split = linha_teste.strip(" \n\r\t\"").split(" ");
 				
 				palavra_teste = linha_teste_split[0];
 				alunos_teste = [int(i) for i in linha_teste_split[1:]];
