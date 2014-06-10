@@ -24,8 +24,8 @@ def main(verbose=False):
 		
 		for num_algoritmo in range(1, 4):
 			
-			algoritmo = ["Sequencial", "paralelização de palavras", "paralelização interna"][num_algoritmo];
-			print "Testando instância %s (algoritmo %s)" % (nome_instancia, algoritmo);
+			algoritmo = ["Sequencial", "paralelização de palavras", "paralelização interna"][num_algoritmo-1];
+			print "\nTestando instância %s (algoritmo %s)" % (nome_instancia, algoritmo);
 
 			args_subp = ['/usr/bin/time', '-f\"%M %S %U\"', './tp4', "-a", str(num_algoritmo), "-t", str(NUM_THREADS), "-r", nome_entrada, "-d", nome_dicionario, "-o", nome_saida_teste];
 
@@ -40,12 +40,12 @@ def main(verbose=False):
 			memoria_max = int(memoria_tempos[0])/1024.
 			tempo_exec = float(memoria_tempos[1])+float(memoria_tempos[2]);
 			
-			print "Gasto máximo de memória: %.2f MB (restrição de memória: %.2f MB)" % (memoria_max, tam_memoria/1024/1024);
+			print "Gasto máximo de memória: %.2f MB" % (memoria_max);
 			print "Tempo de execução: %.2f s" % tempo_exec;
 			
 			acertos = []
 			with open(nome_gabarito) as arq_gabarito:
-				with open(nome_saida_teste as arq_teste:
+				with open(nome_saida_teste) as arq_teste:
 					for linha_gab, linha_teste in zip(arq_gabarito, arq_teste):
 						dist_total_split_gab = linha_gab.split(":");
 						dist_total_gab = float(dist_total_split_gab[0]);
@@ -56,6 +56,7 @@ def main(verbose=False):
 						
 						if dist_total_gab == dist_total_teste:
 							def le_par_gab(par):
+								par = par.split(",");
 								parte_palavra = par[0];
 								distancia = float(par[1]);
 								set_palavras = set();
@@ -65,36 +66,52 @@ def main(verbose=False):
 								else:
 									set_palavras.add(parte_palavra);
 								return (set_palavras, distancia);
-									
+							
+							def le_par_teste(par):
+								par = par.split(",");
+								return (par[0], float(par[1]));
 						
 							pares_gab = palavras_dist_gab.split(" ");
 							pares_gab = map(le_par_gab, pares_gab)
 							
 							pares_teste = palavras_dist_gab.split(" ");
-							pares_teste = map(lambda x:(x[0], float(x[1])), pares_teste).
+							pares_teste = map(le_par_teste, pares_teste);
 							
 							num_acertos = map(lambda ((a,b),(x,y)):x in a and b==y, zip(pares_gab, pares_teste));
 							acertos.append(reduce(lambda x,y:x and y, num_acertos));
 							
 						else:
 							acertos.append(False);
+					
+
+					try:
+						arq_teste.next();
+						print "ERRO: Arquivo de teste com mais linhas que gabarito"
+						acertos = [False];
+					except StopIteration:
+						try:
+							arq_gabarito.next();
+							print "ERRO: Arquivo de teste com menos linhas que gabarito"
+							acertos=[False];
+						except StopIteration:
+							pass;
 			
-			acertou_todas = reduce(lambda x,y x and y, acertos);
-			porc_acertos = sum(acertos)/float(len(acertos))*100.;
-			acertos_instancias.append(porc_acertos);
-			print "Porcentagem de acertos:", porc_acertos
+				acertou_todas = reduce(lambda x,y:x and y, acertos);
+				porc_acertos = sum(acertos)/float(len(acertos))*100.;
+				acertos_instancias.append(porc_acertos);
+				print "Porcentagem de acertos:", porc_acertos
 			
-			if acertou_todas:
-				if num_algoritmo == 1:
-					tempo_sequencial = tempo_exec;
-				elif num_algoritmo == 2 and tempo_sequencial != None:
-					speedup = tempo_sequencial/tempo_exec;
-					print "speedup:", speedup
-					max_speedup_palavras = max(max_speedup_palavras, speedup);
-				elif num_algoritmo == 3 and tempo_sequencial != None:
-					speedup = tempo_sequencial/tempo_exec;
-					print "speedup:", speedup
-					max_speedup_interna = max(max_speedup_interna, speedup);
+				if acertou_todas:
+					if num_algoritmo == 1:
+						tempo_sequencial = tempo_exec;
+					elif num_algoritmo == 2 and tempo_sequencial != None:
+						speedup = tempo_sequencial/tempo_exec;
+						print "SPEEDUP: %.2f" % (speedup);
+						max_speedup_palavras = max(max_speedup_palavras, speedup);
+					elif num_algoritmo == 3 and tempo_sequencial != None:
+						speedup = tempo_sequencial/tempo_exec;
+						print "SPEEDUP: %.2f" % (speedup);
+						max_speedup_interna = max(max_speedup_interna, speedup);
 		
 		
 		
