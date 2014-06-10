@@ -68,16 +68,24 @@ def main(dictionary, answers, output):
                 similarities.append((word, edit_distance(answer_word, word)))
 
             # Apanhando a palavra que mais se parece com a informada pelo aluno
-            min_similaritie = min(similarities, key=lambda x: x[1])
-            line_output.append(min_similaritie)
+            sims = sorted(similarities, cmp=lambda x, y: cmp(x[1], y[1]))
+            min_similarity = filter(lambda x: x[1] == sims[0][1], sims)
+
+            line_output.append(min_similarity)
 
         # Imprimindo o resultado do aluno
         result = []
-        total = sum([ sim[1] for sim in line_output ])
+        total = sum([ sim[0][1] for sim in line_output ])
 
         for sim in line_output:
-            # Soma com espaco necessaria para a formatacao
-            result.append("%s,%s" % sim)
+            # Formatacao quando varias palavras tem a mesma distancia
+            # no dicionario (fica algo assim 3.0:{when/the/thin})
+            if len(sim) > 1:
+                value = sim[0][1]
+                wds = [ s[0] for s in sim ]
+                result.append("{%s},%s" % ("/".join(sorted(wds)), value))
+            else:
+                result.append("%s,%s" % sim[0])
 
         foutput.write("%s:%s\n" % (total, " ".join(result)))
 
