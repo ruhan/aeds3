@@ -27,7 +27,7 @@ def main(verbose=False):
 		for num_algoritmo in range(1, 4):
 			
 			algoritmo = ["Sequencial", "paralelização de palavras", "paralelização interna"][num_algoritmo-1];
-			print "Algoritmo %s)" % (algoritmo);
+			print "Algoritmo %s" % (algoritmo);
 
 			args_subp = ['/usr/bin/time', '-f\"%M %S %U\"', './tp4', "-a", str(num_algoritmo), "-t", str(NUM_THREADS), "-r", nome_entrada, "-d", nome_dicionario, "-o", nome_saida_teste];
 
