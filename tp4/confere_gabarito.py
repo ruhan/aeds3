@@ -7,7 +7,7 @@ import sys;
 def main(verbose=False):
 	dir_gabarito = "exemplos/";
 
-	instancias_teste = ["small", "medium", "big"];
+	instancias_teste = ["small", "medium", "bigword"];
 	NUM_THREADS = 4;
 
 	pesos_instancias = [];
