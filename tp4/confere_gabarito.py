@@ -22,10 +22,12 @@ def main(verbose=False):
 		
 		tempo_sequencial = None;
 		
+		print "\n===Testando instância %s===" % (nome_instancia);
+		
 		for num_algoritmo in range(1, 4):
 			
 			algoritmo = ["Sequencial", "paralelização de palavras", "paralelização interna"][num_algoritmo-1];
-			print "\nTestando instância %s (algoritmo %s)" % (nome_instancia, algoritmo);
+			print "Algoritmo %s)" % (algoritmo);
 
 			args_subp = ['/usr/bin/time', '-f\"%M %S %U\"', './tp4', "-a", str(num_algoritmo), "-t", str(NUM_THREADS), "-r", nome_entrada, "-d", nome_dicionario, "-o", nome_saida_teste];
 
@@ -99,7 +101,7 @@ def main(verbose=False):
 				acertou_todas = reduce(lambda x,y:x and y, acertos);
 				porc_acertos = sum(acertos)/float(len(acertos))*100.;
 				acertos_instancias.append(porc_acertos);
-				print "Porcentagem de acertos:", porc_acertos
+				print "Porcentagem de acertos: %.2f" % (porc_acertos)
 			
 				if acertou_todas:
 					if num_algoritmo == 1:
@@ -112,6 +114,8 @@ def main(verbose=False):
 						speedup = tempo_sequencial/tempo_exec;
 						print "SPEEDUP: %.2f" % (speedup);
 						max_speedup_interna = max(max_speedup_interna, speedup);
+
+				print "\n";
 		
 		
 		
