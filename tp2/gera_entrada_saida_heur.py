@@ -8,7 +8,7 @@ def main(num_alunos, num_instancias, nome_arq_in, nome_arq_sol):
 			arq_in.write(str(num_instancias) + '\n');
 			
 			for inst in range(0, num_instancias):
-				tam_mis = random.randint(1, num_alunos);
+				tam_mis = 1;
 				arq_sol.write(str(tam_mis) + '\n');
 				
 				arq_in.write("%d %d\n" % (num_alunos, tam_mis));

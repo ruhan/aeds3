@@ -169,8 +169,8 @@ def main():
 	porcentagem_acertos = sum(map(lambda (x,y):x==y, aux_gab_heur))/float(len(resultados_gabarito_heuristica))*100;
 	#erro das respostas da heurística:
 	erro = map(lambda (g,h):abs(g-h)/float(g), aux_gab_heur);
-	media_erro_porc = np.mean(erro)*100;
-	desvio_erro_porc = np.std(erro)*100;
+	media_erro_porc = np.mean(erro)*100.;
+	desvio_erro_porc = np.std(erro)*100.;
 	#Pearson:
 	media_gabarito = np.mean(resultados_gabarito_heuristica);
 	media_heuristica = np.mean(resultados_heuristica);
