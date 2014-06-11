@@ -22,6 +22,12 @@ def main(verbose=False):
 		
 		tempo_sequencial = None;
 		
+		num_linhas_gab = 0;
+		with open(nome_gabarito) as arq_gabarito:
+			for i, _ in enumerate(arq_gabarito):
+				pass;
+			num_linhas_gab = i+1;
+		
 		print "\n===Testando instância %s===" % (nome_instancia);
 		
 		for num_algoritmo in range(1, 4):
@@ -46,6 +52,7 @@ def main(verbose=False):
 			print "Tempo de execução: %.2f s" % tempo_exec;
 			
 			acertos = []
+			num_linhas_gabarito = 0;
 			with open(nome_gabarito) as arq_gabarito:
 				with open(nome_saida_teste) as arq_teste:
 					for linha_gab, linha_teste in zip(arq_gabarito, arq_teste):
@@ -84,6 +91,8 @@ def main(verbose=False):
 							
 						else:
 							acertos.append(False);
+						
+						num_linhas_gabarito += 1;
 					
 
 					try:
@@ -101,6 +110,7 @@ def main(verbose=False):
 				acertou_todas = reduce(lambda x,y:x and y, acertos);
 				porc_acertos = sum(acertos)/float(len(acertos))*100.;
 				acertos_instancias.append(porc_acertos);
+				pesos_instancias.append(num_linhas_gab);
 				print "Porcentagem de acertos: %.2f" % (porc_acertos)
 			
 				if acertou_todas:
