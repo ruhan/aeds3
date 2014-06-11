@@ -87,7 +87,7 @@ def main(verbose=False):
 							pares_gab = palavras_dist_gab.strip(" \n\r\t\"").split(" ");
 							pares_gab = map(le_par_gab, pares_gab)
 							
-							pares_teste = palavras_dist_gab.strip(" \n\r\t\"").split(" ");
+							pares_teste = palavras_dist_teste.strip(" \n\r\t\"").split(" ");
 							pares_teste = map(le_par_teste, pares_teste);
 							
 							num_acertos = map(lambda ((a,b),(x,y)):x in a and b==y, zip(pares_gab, pares_teste));
