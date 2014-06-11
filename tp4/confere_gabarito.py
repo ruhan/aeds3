@@ -43,9 +43,16 @@ def main(verbose=False):
 
 			try:
 				output = subprocess.check_output(args_subp, stderr=subprocess.STDOUT)
+			except KeyboardInterrupt:
+				print "\nExecução cancelada. O teste dessa instância será zerado\n"
+				acertos_instancias[-1][num_algoritmo-1] = 0;
+				continue;
 			except Exception, e:
 				output = e.output
-
+				print "ERRO na execução! O teste dessa instância será zerado\n"
+				acertos_instancias[-1][num_algoritmo-1] = 0;
+				continue;
+			
 			output = output.strip(" \n\r\t\"").split("\n");
 		
 			memoria_tempos = output[-1].strip(" \n\r\t\"").split(" ");
