@@ -18,22 +18,26 @@ def main(verbose=False):
 		nome_gabarito = dir_gabarito + nome_instancia + ".sol";
 		nome_dicionario = dir_gabarito + nome_instancia + ".dic";
 		nome_entrada = dir_gabarito + nome_instancia + ".in";
-		nome_saida_teste = nome_instancia + ".out";
 		
 		tempo_sequencial = None;
 		
 		num_linhas_gab = 0;
+		maior_linha = 0;
 		with open(nome_gabarito) as arq_gabarito:
-			for i, _ in enumerate(arq_gabarito):
-				pass;
+			for i, l in enumerate(arq_gabarito):
+				maior_linha = max(maior_linha, len(l));
 			num_linhas_gab = i+1;
+		pesos_instancias.append(num_linhas_gab*maior_linha);
 		
 		print "\n===Testando instância %s===" % (nome_instancia);
 		
+		acertos_instancias.append([0, 0, 0]);
 		for num_algoritmo in range(1, 4):
 			
 			algoritmo = ["Sequencial", "paralelização de palavras", "paralelização interna"][num_algoritmo-1];
 			print "Algoritmo %s" % (algoritmo);
+			
+			nome_saida_teste = "%s_%s.out" % (nome_instancia, algoritmo);
 
 			args_subp = ['/usr/bin/time', '-f\"%M %S %U\"', './tp4', "-a", str(num_algoritmo), "-t", str(NUM_THREADS), "-r", nome_entrada, "-d", nome_dicionario, "-o", nome_saida_teste];
 
@@ -109,8 +113,7 @@ def main(verbose=False):
 			
 				acertou_todas = reduce(lambda x,y:x and y, acertos);
 				porc_acertos = sum(acertos)/float(len(acertos))*100.;
-				acertos_instancias.append(porc_acertos);
-				pesos_instancias.append(num_linhas_gab);
+				acertos_instancias[-1][num_algoritmo-1] = porc_acertos;
 				print "Porcentagem de acertos: %.2f" % (porc_acertos)
 			
 				if acertou_todas:
@@ -130,8 +133,11 @@ def main(verbose=False):
 		
 		
 	
-
-	print "Média ponderada dos acertos: %.2f (porcentagem)" % numpy.average(acertos_instancias, weights=pesos_instancias);
+	(acertos_sequencial, acertos_palavras, acertos_interna) = zip(*acertos_instancias);
+	
+	print "Média ponderada dos acertos (sequencial): %.2f (porcentagem)" % numpy.average(acertos_sequencial, weights=pesos_instancias);
+	print "Média ponderada dos acertos (paralelização por palavras): %.2f (porcentagem)" % numpy.average(acertos_palavras, weights=pesos_instancias);
+	print "Média ponderada dos acertos (paralelização interna): %.2f (porcentagem)" % numpy.average(acertos_interna, weights=pesos_instancias);
 	print "Speedup máximo da paralelização de palavras:", max_speedup_palavras;
 	print "Speedup máximo da paralelização interna:", max_speedup_interna;
 
