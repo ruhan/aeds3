@@ -60,16 +60,16 @@ def main(verbose=False):
 			with open(nome_gabarito) as arq_gabarito:
 				with open(nome_saida_teste) as arq_teste:
 					for linha_gab, linha_teste in zip(arq_gabarito, arq_teste):
-						dist_total_split_gab = linha_gab.split(":");
+						dist_total_split_gab = linha_gab.strip(" \n\r\t\"").split(":");
 						dist_total_gab = float(dist_total_split_gab[0]);
 						palavras_dist_gab = dist_total_split_gab[1];
-						dist_total_split_teste = linha_teste.split(":");
+						dist_total_split_teste = linha_teste.strip(" \n\r\t\"").split(":");
 						dist_total_teste = float(dist_total_split_teste[0]);
 						palavras_dist_teste = dist_total_split_teste[1];
 						
 						if dist_total_gab == dist_total_teste:
 							def le_par_gab(par):
-								par = par.split(",");
+								par = par.strip(" \n\r\t\"").split(",");
 								parte_palavra = par[0];
 								distancia = float(par[1]);
 								set_palavras = set();
@@ -81,13 +81,13 @@ def main(verbose=False):
 								return (set_palavras, distancia);
 							
 							def le_par_teste(par):
-								par = par.split(",");
+								par = par.strip(" \n\r\t\"").split(",");
 								return (par[0], float(par[1]));
 						
-							pares_gab = palavras_dist_gab.split(" ");
+							pares_gab = palavras_dist_gab.strip(" \n\r\t\"").split(" ");
 							pares_gab = map(le_par_gab, pares_gab)
 							
-							pares_teste = palavras_dist_gab.split(" ");
+							pares_teste = palavras_dist_gab.strip(" \n\r\t\"").split(" ");
 							pares_teste = map(le_par_teste, pares_teste);
 							
 							num_acertos = map(lambda ((a,b),(x,y)):x in a and b==y, zip(pares_gab, pares_teste));
